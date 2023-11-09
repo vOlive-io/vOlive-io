@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 h1 {
+  font-size: 25px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+h2 {
   font-size: 20px;
   font-family: 'Libre Baskerville', serif;
-
 }
 
 p {
-  font-size: 10px;
+  font-size: 13px;
   font-family: 'Libre Baskerville', serif;
 }
 
