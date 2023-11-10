@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+body {
+animation: blinking 30s infinite alternate none;
+}
 
 h1 {
   font-size: 25px;
@@ -18,4 +21,10 @@ p {
 #map {
   width: 150px;
   height: 150px;
+}
+
+
+@keyframes blinking {
+  0% {background: #ffb3c6;}
+  100% { background: #f6d4fc; }
 }
