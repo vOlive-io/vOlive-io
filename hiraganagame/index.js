@@ -60,7 +60,8 @@ var randomIndex;
 var hiracoins = 0;
 var correct = 0;
 var streak = 0;
-
+var setagounlocked = false;
+var setazounlocked = false;
 
 
 function newQu() {
@@ -83,9 +84,12 @@ function check() {
     streak = 0;
   }
   if (streak === 20) {
+    if (setagounlocked === false) {
     set = setago;
+    setagounlocked = true;
     alert("Congratulations! You have unlocked A-Go!");
     newQu();
+  }
   }
   update()
 }
