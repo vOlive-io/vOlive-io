@@ -23,13 +23,12 @@ p {
   height: 150px;
 }
 
-
 @keyframes blinking {
   0% {background: #fa5c5c;}
-  10% {background: #ff8640;}
+  10% {background: #fa5c5c;}
   25% {background: #ffe817;}
-  50% {background: #b5f27c;}
-  75% {background: #7cf2d1;}
-  100% { background: #ab7cf2; }
+  50% {background: #6bff84;}
+  75% {background: #91b0ff;}
+  100% { background: #efb1f2; }
   
 }
