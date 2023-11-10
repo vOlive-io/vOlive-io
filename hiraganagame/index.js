@@ -82,7 +82,7 @@ function check() {
     alert("Try again.");
     streak = 0;
   }
-  if (correct === 20) {
+  if (streak === 20) {
     set = setago;
     alert("Congratulations! You have unlocked A-Go!");
     newQu();
