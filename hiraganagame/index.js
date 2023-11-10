@@ -87,14 +87,18 @@ function check() {
     alert("Try again.");
     streak = 0;
   }
-  if (streak > 20) {
+  if (streak > 20 && !setagounlocked) { 
     set = setago;
     setagounlocked = true;
     alert("Congratulations! You have unlocked A-Go!");
+    if (streak > 50 && !setazounlocked) { 
+        set = setazo;
+        setazounlocked = true;
+        alert("Congratulations! You have unlocked A-Zo!");
+  }
   }
   update()
   newQu();
-  
 }
 
 function update() {
@@ -106,6 +110,8 @@ function update() {
 window.onload = function () {
   const savedData = JSON.parse(localStorage.getItem('savedData'));
   if (savedData) {
+    setagounlocked = savedData.setagounlocked || false;
+    setazounlocked = savedData.setazounlocked || false;
     hiracoins = savedData.hiracoins || 0;
     streak = savedData.streak || 0;
     correct = savedData.correct || 0;
