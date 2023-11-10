@@ -8,7 +8,12 @@ var quizone = [
   ["お", "o"]
 ];
 
-var randomIndex; // declare as global variable
+var randomIndex; 
+var hiracoins = 0;
+var corect = 0;
+var streak = 0;
+
+
 
 function newQu() {
   randomIndex = Math.floor(Math.random() * quizone.length);
