@@ -111,7 +111,7 @@ window.onload = function () {
     streak = savedData.streak || 0;
     correct = savedData.correct || 0;
   }
-};correct
+};
 
 setInterval(function () {
   const data = {
