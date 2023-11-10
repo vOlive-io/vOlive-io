@@ -88,7 +88,6 @@ function check() {
 function update() {
   hiracount.innerHTML = "Hiracoins: " + hiracoins;
   streakcount.innerHTML = "Answer streak: " + streak;
-
 }
 
 
