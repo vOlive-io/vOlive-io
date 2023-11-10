@@ -7,7 +7,6 @@ document.addEventListener('keydown', function(event) {
   }
 });
 
-
 var set = [
   ["あ", "a"],
   ["い", "i"],
@@ -102,13 +101,6 @@ function update() {
   hiracount.innerHTML = "Hiracoins: " + hiracoins;
   streakcount.innerHTML = "Answer streak: " + streak;
 }
-
-
-document.addEventListener("keydown", function(event) {
-  if (event.key === "Enter") {
-    check();
-  }
-});
 
 
 window.onload = function () {
