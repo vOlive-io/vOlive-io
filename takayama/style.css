@@ -25,6 +25,11 @@ p {
 
 
 @keyframes blinking {
-  0% {background: #ffb3c6;}
-  100% { background: #f6d4fc; }
+  0% {background: #fa5c5c;}
+  10% {background: #fa5c5c;}
+  25% {background: #ff8640;}
+  50% {background: #b5f27c;}
+  75% {background: #7cf2d1;}
+  100% { background: #ab7cf2; }
+  
 }
