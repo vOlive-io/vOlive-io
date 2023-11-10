@@ -96,3 +96,24 @@ document.addEventListener("keydown", function(event) {
     check();
   }
 });
+
+
+window.onload = function () {
+  const savedData = JSON.parse(localStorage.getItem('savedData'));
+  if (savedData) {
+    hiracoins = savedData.hiracoins || 0;
+    streak = savedData.streak || 0;
+    correct = savedData.correct || 0;
+  }
+};correct
+
+setInterval(function () {
+  const data = {
+    hiracoins: hiracoins,
+    streak: streak,
+    correct: correct,
+  };
+  localStorage.setItem('savedData', JSON.stringify(data));
+}, 1000);
+
+
