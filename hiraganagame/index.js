@@ -1,3 +1,5 @@
+object.addEventListener("load", newQu);
+
 var quizone = [
   ["あ", "a"],
   ["い", "i"],
