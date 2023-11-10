@@ -11,3 +11,13 @@ function new() {
   var question = quizone[randomIndex][0];
   document.getElementById("spot").innerHTML = question;
 }
+
+function check() {
+  var userAnswer = document.getElementById("answerInput").value;
+  var correctAnswer = quizone[randomIndex][1];
+  if (userAnswer === correctAnswer) {
+    alert("Correct!");
+  } else {
+    alert("Try again.");
+  }
+}
