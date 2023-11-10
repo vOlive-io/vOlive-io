@@ -92,12 +92,9 @@ function check() {
     streak = 0;
   }
   if (streak === 20) {
-    if (setagounlocked === false) {
     set = setago;
     setagounlocked = true;
     alert("Congratulations! You have unlocked A-Go!");
-    newQu();
-  }
   }
   update()
 }
