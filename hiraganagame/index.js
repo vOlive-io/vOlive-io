@@ -1,12 +1,10 @@
-window.addEventListener("load", function() {
-  newQu();
-  update();
-
-  document.addEventListener("keydown", function(event) {
-    if (event.key === "Enter") {
-      check();
-    }
-  });
+window.addEventListener("load", newQu);
+window.addEventListener("load", update);
+  
+document.addEventListener("keydown", function(event) {
+  if (event.key === "Enter") {
+    check();
+  }
 });
 
 
