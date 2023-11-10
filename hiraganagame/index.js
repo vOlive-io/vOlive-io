@@ -87,7 +87,7 @@ function check() {
     alert("Try again.");
     streak = 0;
   }
-  if (streak === 20) {
+  if (streak > 20) {
     set = setago;
     setagounlocked = true;
     alert("Congratulations! You have unlocked A-Go!");
