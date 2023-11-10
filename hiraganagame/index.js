@@ -6,8 +6,10 @@ var quizone = [
   ["お", "o"]
 ];
 
+var randomIndex; // declare as global variable
+
 function newQu() {
-  var randomIndex = Math.floor(Math.random() * quizone.length);
+  randomIndex = Math.floor(Math.random() * quizone.length);
   var question = quizone[randomIndex][0];
   document.getElementById("spot").innerHTML = question;
 }
@@ -17,8 +19,10 @@ function check() {
   var correctAnswer = quizone[randomIndex][1];
   if (userAnswer === correctAnswer) {
     alert("Correct!");
-    newQu()
+    newQu();
   } else {
     alert("Try again.");
   }
 }
+
+newQu();
