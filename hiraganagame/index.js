@@ -80,9 +80,9 @@ function check() {
   var correctAnswer = set[randomIndex][1];
   if (userAnswer === correctAnswer) {
     alert("Correct!");
-    hiracoins = hiracoins + 1;
-    correct = correct + 1;
-    streak = streak + 1;
+    hiracoins++;
+    correct++;
+    streak++;
   } else {
     alert("Try again.");
     streak = 0;
@@ -91,29 +91,20 @@ function check() {
     set = setago;
     setagounlocked = true;
     alert("Congratulations! You have unlocked A-Go!");
-    if (streak > 50 && !setazounlocked) { 
-        set = setazo;
-        setazounlocked = true;
-        alert("Congratulations! You have unlocked A-Zo!");
   }
+  if (streak > 50 && !setazounlocked) { 
+    set = setazo;
+    setazounlocked = true;
+    alert("Congratulations! You have unlocked A-Zo!");
   }
-  update()
+  update();
   newQu();
 }
 
 function update() {
   hiracount.innerHTML = "Hiracoins: " + hiracoins;
   streakcount.innerHTML = "Answer streak: " + streak;
-  if (streak > 20 && !setagounlocked) { 
-    set = setago;
-    setagounlocked = true;
-      if (streak > 50 && !setazounlocked) { 
-        set = setazo;
-        setazounlocked = true;
-      }
-   }
-}
-
+} 
 
 
 
