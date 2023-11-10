@@ -10,7 +10,7 @@ var quizone = [
 
 var randomIndex; 
 var hiracoins = 0;
-var corect = 0;
+var correct = 0;
 var streak = 0;
 
 
@@ -26,8 +26,12 @@ function check() {
   var correctAnswer = quizone[randomIndex][1];
   if (userAnswer === correctAnswer) {
     alert("Correct!");
+    hiracoins = hiracoins + 1;
+    correct = correct + 1;
+    streak = streak + 1;
     newQu();
   } else {
     alert("Try again.");
+    streak = 0;
   }
 }
