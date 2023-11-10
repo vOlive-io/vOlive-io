@@ -91,6 +91,14 @@ function check() {
     newQu();
   }
   }
+    if (streak === 50) {
+    if (setazounlocked === false) {
+    set = setazo;
+    setazounlocked = true;
+    alert("Congratulations! You have unlocked A-Zo!");
+    newQu();
+  }
+  }
   update()
 }
 
