@@ -6,7 +6,7 @@ var quizone = [
   ["お", "o"]
 ];
 
-function new() {
+function newQu() {
   var randomIndex = Math.floor(Math.random() * quizone.length);
   var question = quizone[randomIndex][0];
   document.getElementById("spot").innerHTML = question;
@@ -17,7 +17,7 @@ function check() {
   var correctAnswer = quizone[randomIndex][1];
   if (userAnswer === correctAnswer) {
     alert("Correct!");
-    new()
+    newQu()
   } else {
     alert("Try again.");
   }
