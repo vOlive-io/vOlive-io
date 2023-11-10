@@ -17,6 +17,7 @@ function check() {
   var correctAnswer = quizone[randomIndex][1];
   if (userAnswer === correctAnswer) {
     alert("Correct!");
+    new()
   } else {
     alert("Try again.");
   }
