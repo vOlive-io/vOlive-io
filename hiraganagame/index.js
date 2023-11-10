@@ -1,5 +1,13 @@
-addEventListener("load", newQu);
-addEventListener("load", update);
+window.addEventListener("load", function() {
+  newQu();
+  update();
+
+  document.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+      check();
+    }
+  });
+});
 
 
 var set = [
