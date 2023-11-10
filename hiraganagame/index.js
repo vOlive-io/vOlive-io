@@ -118,7 +118,6 @@ document.addEventListener("keydown", function(event) {
 window.onload = function () {
   const savedData = JSON.parse(localStorage.getItem('savedData'));
   if (savedData) {
-    set = savedData.set || 0;
     hiracoins = savedData.hiracoins || 0;
     streak = savedData.streak || 0;
     correct = savedData.correct || 0;
@@ -127,7 +126,6 @@ window.onload = function () {
 
 setInterval(function () {
   const data = {
-    set: set,
     hiracoins: hiracoins,
     streak: streak,
     correct: correct,
