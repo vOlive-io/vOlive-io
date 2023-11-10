@@ -1,9 +1,9 @@
 window.addEventListener("load", newQu);
 window.addEventListener("load", update);
   
-document.addEventListener("keydown", function(event) {
-  if (event.key === "Enter") {
-    check();
+document.addEventListener('keydown', function(event) {
+  if (event.code === 'Enter') {
+    document.getElementById('submitAnswer').click();
   }
 });
 
