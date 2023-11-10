@@ -24,5 +24,3 @@ function check() {
     alert("Try again.");
   }
 }
-
-newQu();
