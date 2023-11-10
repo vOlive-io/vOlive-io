@@ -82,6 +82,11 @@ function check() {
     alert("Try again.");
     streak = 0;
   }
+  if (correct === 20) {
+    set = setago;
+    alert("Congratulations! You have unlocked A-Go!");
+    newQu();
+  }
   update()
 }
 
@@ -89,7 +94,6 @@ function update() {
   hiracount.innerHTML = "Hiracoins: " + hiracoins;
   streakcount.innerHTML = "Answer streak: " + streak;
 }
-
 
 
 document.addEventListener("keydown", function(event) {
