@@ -104,7 +104,18 @@ function check() {
 function update() {
   hiracount.innerHTML = "Hiracoins: " + hiracoins;
   streakcount.innerHTML = "Answer streak: " + streak;
+  if (streak > 20 && !setagounlocked) { 
+    set = setago;
+    setagounlocked = true;
+      if (streak > 50 && !setazounlocked) { 
+        set = setazo;
+        setazounlocked = true;
+        alert("Congratulations! You have unlocked A-Zo!");
+      }
+   }
 }
+
+
 
 
 window.onload = function () {
