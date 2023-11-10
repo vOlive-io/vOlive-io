@@ -86,7 +86,6 @@ function check() {
     hiracoins = hiracoins + 1;
     correct = correct + 1;
     streak = streak + 1;
-    newQu();
   } else {
     alert("Try again.");
     streak = 0;
@@ -97,6 +96,8 @@ function check() {
     alert("Congratulations! You have unlocked A-Go!");
   }
   update()
+  newQu();
+  
 }
 
 function update() {
