@@ -1,6 +1,8 @@
 addEventListener("load", newQu);
+addEventListener("load", update);
 
-var quizone = [
+
+var set = [
   ["あ", "a"],
   ["い", "i"],
   ["う", "u"],
@@ -8,7 +10,7 @@ var quizone = [
   ["お", "o"]
 ];
 
-var quiztwo = [
+var setago = [
   ["あ", "a"],
   ["い", "i"],
   ["う", "u"],
@@ -26,7 +28,7 @@ var quiztwo = [
   ["ご", "go"],
 ];
 
-var quizthree = [
+var setazo = [
   ["あ", "a"],
   ["い", "i"],
   ["う", "u"],
@@ -62,14 +64,14 @@ var streak = 0;
 
 
 function newQu() {
-  randomIndex = Math.floor(Math.random() * quizone.length);
-  var question = quizone[randomIndex][0];
+  randomIndex = Math.floor(Math.random() * set.length);
+  var question = set[randomIndex][0];
   document.getElementById("spot").innerHTML = question;
 }
 
 function check() {
   var userAnswer = document.getElementById("answerInput").value;
-  var correctAnswer = quizone[randomIndex][1];
+  var correctAnswer = set[randomIndex][1];
   if (userAnswer === correctAnswer) {
     alert("Correct!");
     hiracoins = hiracoins + 1;
