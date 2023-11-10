@@ -80,7 +80,16 @@ function check() {
     alert("Try again.");
     streak = 0;
   }
+  update()
 }
+
+function update() {
+  hiracount.innerHTML = "Hiracoins: " + hiracoins";
+  streakcount.innerHTML = "Answer streak: " + streak";
+
+}
+
+
 
 document.addEventListener("keydown", function(event) {
   if (event.key === "Enter") {
