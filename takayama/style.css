@@ -18,6 +18,12 @@ p {
   font-family: 'Libre Baskerville', serif;
 }
 
+#text {
+  font-size: 18px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+
 #map {
   width: 150px;
   height: 150px;
