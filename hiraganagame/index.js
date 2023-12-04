@@ -73,6 +73,7 @@ function newQu() {
   randomIndex = Math.floor(Math.random() * set.length);
   var question = set[randomIndex][0];
   document.getElementById("spot").innerHTML = question;
+  update();
 }
 
 function check() {
