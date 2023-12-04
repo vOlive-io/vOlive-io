@@ -8,7 +8,7 @@ document.addEventListener('keydown', function(event) {
 });
 
 
-function classcode {
+function classcode() {
   const code = prompt("Enter code:");
   if (code === "classcode101") {
     enterclass1();
