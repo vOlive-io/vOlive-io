@@ -23,7 +23,20 @@ function classcode {
 }
 
 
+function enterclass1() {
+  set = set;
+  alert("Put you in A-O Level 1!")
+}
+
 var set = [
+  ["あ", "a"],
+  ["い", "i"],
+  ["う", "u"],
+  ["え", "e"],
+  ["お", "o"]
+];
+
+var setao = [
   ["あ", "a"],
   ["い", "i"],
   ["う", "u"],
