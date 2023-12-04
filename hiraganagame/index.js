@@ -1,7 +1,5 @@
 
 window.addEventListener("load", classcode);
-window.addEventListener("load", newQu);
-window.addEventListener("load", update);
   
 document.addEventListener('keydown', function(event) {
   if (event.code === 'Enter') {
@@ -18,7 +16,7 @@ function classcode {
      if (code === "classcode202") {
     enterclass2();
     } else {
-    alert("This class does not exsist!");
+    alert("This class does not exist!");
     classcode();
 }
 }
