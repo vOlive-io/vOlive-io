@@ -1,3 +1,5 @@
+
+window.addEventListener("load", classcode);
 window.addEventListener("load", newQu);
 window.addEventListener("load", update);
   
@@ -6,6 +8,21 @@ document.addEventListener('keydown', function(event) {
     document.getElementById('submitAnswer').click();
   }
 });
+
+
+function classcode {
+  const code = prompt("Enter code:");
+  if (code === "classcode101") {
+    enterclass1();
+  } else {
+     if (code === "classcode202") {
+       enterclass2();
+    } else {
+    alert("THis class does not exsist!");
+}
+}
+}
+
 
 var set = [
   ["あ", "a"],
