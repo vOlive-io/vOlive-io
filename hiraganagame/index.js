@@ -88,16 +88,6 @@ function check() {
     alert("Try again.");
     streak = 0;
   }
-  if (streak > 20 && !setagounlocked) { 
-    set = setago;
-    setagounlocked = true;
-    alert("Congratulations! You have unlocked A-Go!");
-  }
-  if (streak > 50 && !setazounlocked) { 
-    set = setazo;
-    setazounlocked = true;
-    alert("Congratulations! You have unlocked A-Zo!");
-  }
   update();
   newQu();
 }
@@ -129,4 +119,17 @@ setInterval(function () {
   localStorage.setItem('savedData', JSON.stringify(data));
 }, 1000);
 
+
+
+/*
+  if (streak > 20 && !setagounlocked) { 
+    set = setago;
+    setagounlocked = true;
+    alert("Congratulations! You have unlocked A-Go!");
+  }
+  if (streak > 50 && !setazounlocked) { 
+    set = setazo;
+    setazounlocked = true;
+    alert("Congratulations! You have unlocked A-Zo!");
+  }
 
