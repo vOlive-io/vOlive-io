@@ -9,7 +9,7 @@ document.addEventListener('keydown', function(event) {
 
 
 function classcode() {
-  const code = prompt("Enter code:");
+  const code = prompt("Enter class code:");
   if (code === "classcode101") {
     enterclass1();
   } else {
