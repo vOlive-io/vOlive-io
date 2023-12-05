@@ -159,6 +159,8 @@ setInterval(function () {
   if (streak > 50 && !setazounlocked) { 
     set = setazo;
     setazounlocked = true;
+
+*/    
     alert("Congratulations! You have unlocked A-Zo!");
   }
 
