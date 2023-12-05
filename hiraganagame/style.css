@@ -6,3 +6,7 @@
   background: url("back.jpeg");
   display: none;
 }
+
+#shop {
+  display: none;
+}
