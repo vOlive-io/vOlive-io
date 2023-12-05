@@ -1,4 +1,6 @@
-
+#erroralerts {
+  display: none;
+}
 
 #game{
   background: url("back.jpeg");
