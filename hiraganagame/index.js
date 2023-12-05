@@ -14,7 +14,7 @@ function classcode() {
     enterclass1();
   } else {
      if (code === "classcode202") {
-    enterclass2();3
+    enterclass2();
     } else {
     alert("This class does not exist!");
     classcode();
