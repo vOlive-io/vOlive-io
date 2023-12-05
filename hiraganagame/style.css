@@ -1,5 +1,6 @@
 
 
 #game{
-background: url("back.jpeg");
+  background: url("back.jpeg");
+  display: none;
 }
