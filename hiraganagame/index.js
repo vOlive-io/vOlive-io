@@ -26,6 +26,9 @@ function classcode() {
 function enterclass1() {
   set = set;
   alert("Put you in A-O Level 1!")
+  document.getElementById("game").style.display = "block";
+  document.getElementById("erroralerts").style.display = "none";
+  
 }
 
 var set = [
