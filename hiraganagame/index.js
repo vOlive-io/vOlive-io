@@ -17,7 +17,8 @@ function classcode() {
     enterclass2();
     } else {
     alert("This class does not exist!");
-    classcode();
+    document.getElementById("game").style.display = "none";
+    document.getElementById("erroralerts").style.display = "block";
 }
 }
 }
