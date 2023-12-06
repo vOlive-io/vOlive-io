@@ -3,10 +3,13 @@
 }
 
 #game{
-  background: url("back.jpeg");
+  background-color: #ffc4ec;
   display: none;
 }
 
 #shop {
   display: none;
 }
+
+
+
