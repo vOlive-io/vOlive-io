@@ -5,7 +5,7 @@
 #game{
   background-color: #ffc4ec;
   display: none;
-  border-image: url(test-border.png) 30 round;
+  border-color: #ff6be4 10px groove;
 } 
 
 #shop {
