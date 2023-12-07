@@ -7,7 +7,6 @@ document.addEventListener('keydown', function(event) {
   }
 });
 
-
 function classcode() {
   const code = prompt("Enter class code:");
   if (code === "classcode101") {
@@ -23,14 +22,18 @@ function classcode() {
 }
 }
 
-
 function enterclass1() {
   set = set;
   alert("Put you in A-O Level 1!")
   document.getElementById("game").style.display = "block";
   document.getElementById("erroralerts").style.display = "none";
-  
 }
+
+function openshop() {
+    document.getElementById("game").style.display = "none";
+    document.getElementById("shop").style.display = "block";
+}
+
 
 var set = [
   ["あ", "a"],
