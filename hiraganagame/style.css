@@ -5,7 +5,7 @@
 #game{
   background-color: #ffc4ec;
   display: none;
-  border-image: url("test-border");
+  border-image: url("test-border.png");
 }
 
 #shop {
