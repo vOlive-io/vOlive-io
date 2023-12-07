@@ -27,6 +27,7 @@ function enterclass1() {
   alert("Put you in A-O Level 1!")
   document.getElementById("game").style.display = "block";
   document.getElementById("erroralerts").style.display = "none";
+  newQu();
 }
 
 function openshop() {
