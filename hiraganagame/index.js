@@ -174,6 +174,22 @@ setInterval(function () {
 
 
 function blueWall() {
-     game.style.backgroundColor = "black";
+     game.style.backgroundColor = "blue";
 }
+
+function pinkWall() {
+     game.style.backgroundColor = "pink";
+}
+
+function blueBord() {
+     game.style.bored = "blue";
+}
+
+function pinkBord() {
+     game.style.border = "pink";
+}
+
+
+
+
 
