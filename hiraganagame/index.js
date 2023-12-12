@@ -169,6 +169,11 @@ setInterval(function () {
     setazounlocked = true;
     alert("Congratulations! You have unlocked A-Zo!");
   }
-
   */   
+
+
+
+function blueWall() {
+     game.style.backgroundColor = #000;
+}
 
