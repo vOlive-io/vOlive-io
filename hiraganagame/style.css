@@ -5,7 +5,7 @@
 #game{
   background-color: #ffc4ec;
   display: none;
-  border-color: #ff6be4 10px groove;
+  border: #ff6be4 10px groove;
 } 
 
 #shop {
