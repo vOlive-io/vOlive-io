@@ -170,5 +170,5 @@ setInterval(function () {
 
 function blueWall() {game.style.backgroundColor = "cyan";}
 function pinkWall() {game.style.backgroundColor = "pink";}
-function blueBord() {game.style.bored = "cyan 10px groove";}
+function blueBord() {game.style.border = "cyan 10px groove";}
 function pinkBord() {game.style.border = "pink 10px groove";}
