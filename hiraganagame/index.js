@@ -174,6 +174,6 @@ setInterval(function () {
 
 
 function blueWall() {
-     game.style.backgroundColor = #000;
+     game.style.backgroundColor = "black";
 }
 
