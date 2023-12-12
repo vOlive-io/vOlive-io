@@ -134,8 +134,6 @@ function update() {
   streakcount.innerHTML = "Answer streak: " + streak;
 } 
 
-
-
 window.onload = function () {
   const savedData = JSON.parse(localStorage.getItem('savedData'));
   if (savedData) {
@@ -156,8 +154,6 @@ setInterval(function () {
   localStorage.setItem('savedData', JSON.stringify(data));
 }, 1000);
 
-
-
 /*
   if (streak > 20 && !setagounlocked) { 
     set = setago;
@@ -176,8 +172,3 @@ function blueWall() {game.style.backgroundColor = "blue";}
 function pinkWall() {game.style.backgroundColor = "pink";}
 function blueBord() {game.style.bored = "blue";}
 function pinkBord() {game.style.border = "pink";}
-
-
-
-
-
