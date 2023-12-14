@@ -31,7 +31,7 @@ function enterclass1() {
 }
 
 function openshop() {
-    document.getElementById("game").style.display = "none";
+    document.getElementById("notshop").style.display = "none";
     document.getElementById("shop").style.display = "block";
 }
 
