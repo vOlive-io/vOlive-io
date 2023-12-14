@@ -35,6 +35,11 @@ function openshop() {
     document.getElementById("shop").style.display = "block";
 }
 
+function openshop() {
+    document.getElementById("notshop").style.display = "block";
+    document.getElementById("shop").style.display = "none";
+}
+
 
 var set = [
   ["あ", "a"],
