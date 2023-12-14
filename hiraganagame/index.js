@@ -35,7 +35,7 @@ function openshop() {
     document.getElementById("shop").style.display = "block";
 }
 
-function openshop() {
+function closeshop() {
     document.getElementById("notshop").style.display = "block";
     document.getElementById("shop").style.display = "none";
 }
