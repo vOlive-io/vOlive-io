@@ -40,6 +40,15 @@ function closeshop() {
     document.getElementById("shop").style.display = "none";
 }
 
+function openowned() {
+    document.getElementById("cosmeticsclick").style.display = "none";
+    document.getElementById("owned").style.display = "block";
+}
+
+function openowned() {
+    document.getElementById("cosmeticsclick").style.display = "block";
+    document.getElementById("owned").style.display = "none";
+}
 
 var set = [
   ["あ", "a"],
@@ -156,7 +165,7 @@ setInterval(function () {
     streak: streak,
     correct: correct,
   };
-  localStorage.setItem('savedData', JSON.stringify(data));
+  localStorage.setItem('savedData', JSON.stringify(data));closecosmeticsclick
 }, 1000);
 
 /*
