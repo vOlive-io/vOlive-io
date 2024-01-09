@@ -1,6 +1,7 @@
 
 window.addEventListener("load", classcode);
-  
+
+
 document.addEventListener('keydown', function(event) {
   if (event.code === 'Enter') {
     document.getElementById('submitAnswer').click();
@@ -11,6 +12,7 @@ function classcode() {
   const code = prompt("Enter class code:");
   if (code === "classcode101") {
     enterclass1();
+    asksave();
   } else {
      if (code === "classcode202") {
     enterclass2();
@@ -22,6 +24,19 @@ function classcode() {
 }
 }
 
+function asksave() {
+  if (hiracoins > 0) {
+   const wantsave = prompt("It looks like you have played HiraRush before! Do you want to resume from where you left off? (Type Yes or No):");
+  if (wantsave === "no") {
+    hiracoins = 0;
+    streak = 0;
+    correct = 0;
+      }
+ if (wantsave === "yes") {
+   
+    }
+  }
+}
 function enterclass1() {
   set = set;
   alert("Put you in A-O Level 1!")
