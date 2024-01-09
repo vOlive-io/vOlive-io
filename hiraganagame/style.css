@@ -15,3 +15,7 @@
 #yellowwall, #yellowborder {
   display: none;
 }
+
+#owned {
+  display: none;
+}
