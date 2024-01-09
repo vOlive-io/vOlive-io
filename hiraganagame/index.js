@@ -45,7 +45,7 @@ function openowned() {
     document.getElementById("owned").style.display = "block";
 }
 
-function openowned() {
+function closeowned() {
     document.getElementById("cosmeticsclick").style.display = "block";
     document.getElementById("owned").style.display = "none";
 }
