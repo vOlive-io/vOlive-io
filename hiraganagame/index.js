@@ -8,63 +8,6 @@ document.addEventListener('keydown', function(event) {
   }
 });
 
-function classcode() {
-  const code = prompt("Enter class code:");
-  if (code === "classcode101") {
-    enterclass1();
-    asksave();
-  } else {
-     if (code === "classcode202") {
-    enterclass2();
-    } else {
-    alert("This class does not exist!");
-    document.getElementById("game").style.display = "none";
-    document.getElementById("erroralerts").style.display = "block";
-}
-}
-}
-
-function asksave() {
-  if (hiracoins > 0) {
-   const wantsave = prompt("It looks like you have played HiraRush before! Do you want to resume from where you left off? (Type Yes or No):");
-  if (wantsave === "no") {
-    hiracoins = 0;
-    streak = 0;
-    correct = 0;
-      }
- if (wantsave === "yes") {
-   cookies();
-    }
-  }
-}
-function enterclass1() {
-  set = set;
-  alert("Put you in A-O Level 1!")
-  document.getElementById("game").style.display = "block";
-  document.getElementById("erroralerts").style.display = "none";
-  newQu();
-}
-
-function openshop() {
-    document.getElementById("notshop").style.display = "none";
-    document.getElementById("shop").style.display = "block";
-}
-
-function closeshop() {
-    document.getElementById("notshop").style.display = "block";
-    document.getElementById("shop").style.display = "none";
-}
-
-function openowned() {
-    document.getElementById("cosmeticsclick").style.display = "none";
-    document.getElementById("owned").style.display = "block";
-}
-
-function closeowned() {
-    document.getElementById("cosmeticsclick").style.display = "block";
-    document.getElementById("owned").style.display = "none";
-}
-
 var set = [
   ["あ", "a"],
   ["い", "i"],
@@ -134,6 +77,64 @@ var streak = 0;
 var setagounlocked = false;
 var setazounlocked = false;
 
+
+function classcode() {
+  const code = prompt("Enter class code:");
+  if (code === "classcode101") {
+    enterclass1();
+    asksave();
+  } else {
+     if (code === "classcode202") {
+    enterclass2();
+    } else {
+    alert("This class does not exist!");
+    document.getElementById("game").style.display = "none";
+    document.getElementById("erroralerts").style.display = "block";
+}
+}
+}
+
+function asksave() {
+    cookies();
+  if (hiracoins > 0) {
+   const wantsave = prompt("It looks like you have played HiraRush before! Do you want to resume from where you left off? (Type Yes or No):");
+  if (wantsave === "no") {
+    hiracoins = 0;
+    streak = 0;
+    correct = 0;
+      }
+ if (wantsave === "yes") {
+   cookies();
+    }
+  }
+}
+function enterclass1() {
+  set = set;
+  alert("Put you in A-O Level 1!")
+  document.getElementById("game").style.display = "block";
+  document.getElementById("erroralerts").style.display = "none";
+  newQu();
+}
+
+function openshop() {
+    document.getElementById("notshop").style.display = "none";
+    document.getElementById("shop").style.display = "block";
+}
+
+function closeshop() {
+    document.getElementById("notshop").style.display = "block";
+    document.getElementById("shop").style.display = "none";
+}
+
+function openowned() {
+    document.getElementById("cosmeticsclick").style.display = "none";
+    document.getElementById("owned").style.display = "block";
+}
+
+function closeowned() {
+    document.getElementById("cosmeticsclick").style.display = "block";
+    document.getElementById("owned").style.display = "none";
+}
 
 function newQu() {
   randomIndex = Math.floor(Math.random() * set.length);
