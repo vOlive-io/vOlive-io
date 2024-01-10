@@ -194,6 +194,10 @@ setInterval(function () {
   */   
 
 
+//////////////////////////////////////
+//       EQUIPPING COSMETICS        //
+//////////////////////////////////////
+
 function blueWall() {game.style.backgroundColor = "#759aff";}
 function pinkWall() {game.style.backgroundColor = " #ffc4ec";}
 function blueBord() {game.style.border = "#759aff 10px groove";}
