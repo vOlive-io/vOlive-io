@@ -90,7 +90,6 @@ function classcode() {
   const code = prompt("Enter class code:");
   if (code === "classcode101") {
     enterclass1();
-    cookies();
   } else {
      if (code === "classcode202") {
     enterclass2();
@@ -111,7 +110,6 @@ function asksave() {
     correct = 0;
       }
  if (wantsave === "yes") {
-   cookies();
     }
   }
 }
