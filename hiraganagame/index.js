@@ -8,6 +8,8 @@ document.addEventListener('keydown', function(event) {
   }
 });
 
+
+
 //////////////////////////////////////
 //            VARIABLES             //
 //////////////////////////////////////
@@ -81,6 +83,7 @@ var setagounlocked = false;
 var setazounlocked = false;
 
 
+
 //////////////////////////////////////
 //           CLASS CODE             //
 //////////////////////////////////////
@@ -107,6 +110,8 @@ function enterclass1() {
   asksave();
   newQu();
 }
+
+
 
 //////////////////////////////////////
 //            QUESTIONS             //
@@ -165,6 +170,7 @@ function closeowned() {
 
 
 
+
 //////////////////////////////////////
 //       EQUIPPING COSMETICS        //
 //////////////////////////////////////
@@ -172,6 +178,8 @@ function blueWall() {game.style.backgroundColor = "#759aff";}
 function pinkWall() {game.style.backgroundColor = " #ffc4ec";}
 function blueBord() {game.style.border = "#759aff 10px groove";}
 function pinkBord() {game.style.border = "#ff6be4 10px groove";}
+
+
 
 
 //////////////////////////////////////
