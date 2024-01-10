@@ -1,6 +1,15 @@
+window.onload = function cookies() {
+  const savedData = JSON.parse(localStorage.getItem('savedData'));
+  if (savedData) {
+    setagounlocked = savedData.setagounlocked || false;
+    setazounlocked = savedData.setazounlocked || false;
+    hiracoins = savedData.hiracoins || 0;
+    streak = savedData.streak || 0;
+    correct = savedData.correct || 0;
+  }
+};
 
 window.addEventListener("load", classcode);
-
 
 document.addEventListener('keydown', function(event) {
   if (event.code === 'Enter') {
@@ -76,7 +85,6 @@ var correct = 0;
 var streak = 0;
 var setagounlocked = false;
 var setazounlocked = false;
-
 
 function classcode() {
   const code = prompt("Enter class code:");
@@ -163,17 +171,6 @@ function update() {
   hiracount.innerHTML = "Hiracoins: " + hiracoins;
   streakcount.innerHTML = "Answer streak: " + streak;
 } 
-
-window.onload = function cookies() {
-  const savedData = JSON.parse(localStorage.getItem('savedData'));
-  if (savedData) {
-    setagounlocked = savedData.setagounlocked || false;
-    setazounlocked = savedData.setazounlocked || false;
-    hiracoins = savedData.hiracoins || 0;
-    streak = savedData.streak || 0;
-    correct = savedData.correct || 0;
-  }
-};
 
 setInterval(function () {
   const data = {
