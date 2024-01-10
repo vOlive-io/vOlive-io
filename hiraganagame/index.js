@@ -1,22 +1,16 @@
-window.onload = function cookies() {
-  const savedData = JSON.parse(localStorage.getItem('savedData'));
-  if (savedData) {
-    setagounlocked = savedData.setagounlocked || false;
-    setazounlocked = savedData.setazounlocked || false;
-    hiracoins = savedData.hiracoins || 0;
-    streak = savedData.streak || 0;
-    correct = savedData.correct || 0;
-  }
-};
-
+//////////////////////////////////////
+//         EVENT LISTENERS          //
+//////////////////////////////////////
 window.addEventListener("load", classcode);
-
 document.addEventListener('keydown', function(event) {
   if (event.code === 'Enter') {
     document.getElementById('submitAnswer').click();
   }
 });
 
+//////////////////////////////////////
+//            VARIABLES             //
+//////////////////////////////////////
 var set = [
   ["あ", "a"],
   ["い", "i"],
@@ -86,6 +80,10 @@ var streak = 0;
 var setagounlocked = false;
 var setazounlocked = false;
 
+
+//////////////////////////////////////
+//           CLASS CODE             //
+//////////////////////////////////////
 function classcode() {
   const code = prompt("Enter class code:");
   if (code === "classcode101") {
@@ -101,18 +99,6 @@ function classcode() {
 }
 }
 
-function asksave() {
-  if (hiracoins > 0) {
-   const wantsave = prompt("It looks like you have played HiraRush before! Do you want to resume from where you left off? (Type Yes or No):");
-  if (wantsave === "no") {
-    hiracoins = 0;
-    streak = 0;
-    correct = 0;
-      }
- if (wantsave === "yes") {
-    }
-  }
-}
 
 function enterclass1() {
   set = set;
@@ -123,6 +109,9 @@ function enterclass1() {
   newQu();
 }
 
+//////////////////////////////////////
+//        OPEN/CLOSE MENUS          //
+//////////////////////////////////////
 function openshop() {
     document.getElementById("notshop").style.display = "none";
     document.getElementById("shop").style.display = "block";
@@ -171,6 +160,35 @@ function update() {
   streakcount.innerHTML = "Answer streak: " + streak;
 } 
 
+
+
+function asksave() {
+  if (hiracoins > 0) {
+   const wantsave = prompt("It looks like you have played HiraRush before! Do you want to resume from where you left off? (Type Yes or No):");
+  if (wantsave === "no") {
+    hiracoins = 0;
+    streak = 0;
+    correct = 0;
+      }
+ if (wantsave === "yes") {
+    }
+  }
+}
+
+//////////////////////////////////////
+//            COOKIES               //
+//////////////////////////////////////
+window.onload = function cookies() {
+  const savedData = JSON.parse(localStorage.getItem('savedData'));
+  if (savedData) {
+    setagounlocked = savedData.setagounlocked || false;
+    setazounlocked = savedData.setazounlocked || false;
+    hiracoins = savedData.hiracoins || 0;
+    streak = savedData.streak || 0;
+    correct = savedData.correct || 0;
+  }
+};
+
 setInterval(function () {
   const data = {
     hiracoins: hiracoins,
@@ -180,6 +198,19 @@ setInterval(function () {
   localStorage.setItem('savedData', JSON.stringify(data));closecosmeticsclick
 }, 1000);
 
+//////////////////////////////////////
+//       EQUIPPING COSMETICS        //
+//////////////////////////////////////
+function blueWall() {game.style.backgroundColor = "#759aff";}
+function pinkWall() {game.style.backgroundColor = " #ffc4ec";}
+function blueBord() {game.style.border = "#759aff 10px groove";}
+function pinkBord() {game.style.border = "#ff6be4 10px groove";}
+
+
+
+//////////////////////////////////////
+//          OLD FUNCTIONS           //
+//////////////////////////////////////
 /*
   if (streak > 20 && !setagounlocked) { 
     set = setago;
@@ -192,13 +223,3 @@ setInterval(function () {
     alert("Congratulations! You have unlocked A-Zo!");
   }
   */   
-
-
-//////////////////////////////////////
-//       EQUIPPING COSMETICS        //
-//////////////////////////////////////
-
-function blueWall() {game.style.backgroundColor = "#759aff";}
-function pinkWall() {game.style.backgroundColor = " #ffc4ec";}
-function blueBord() {game.style.border = "#759aff 10px groove";}
-function pinkBord() {game.style.border = "#ff6be4 10px groove";}
