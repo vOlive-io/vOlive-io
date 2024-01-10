@@ -33,7 +33,7 @@ function asksave() {
     correct = 0;
       }
  if (wantsave === "yes") {
-   
+   cookies();
     }
   }
 }
@@ -163,7 +163,7 @@ function update() {
   streakcount.innerHTML = "Answer streak: " + streak;
 } 
 
-window.onload = function () {
+window.onload = function cookies() {
   const savedData = JSON.parse(localStorage.getItem('savedData'));
   if (savedData) {
     setagounlocked = savedData.setagounlocked || false;
