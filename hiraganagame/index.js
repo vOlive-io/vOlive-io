@@ -99,7 +99,6 @@ function classcode() {
 }
 }
 
-
 function enterclass1() {
   set = set;
   alert("Put you in A-O Level 1!")
@@ -110,28 +109,8 @@ function enterclass1() {
 }
 
 //////////////////////////////////////
-//        OPEN/CLOSE MENUS          //
+//            QUESTIONS             //
 //////////////////////////////////////
-function openshop() {
-    document.getElementById("notshop").style.display = "none";
-    document.getElementById("shop").style.display = "block";
-}
-
-function closeshop() {
-    document.getElementById("notshop").style.display = "block";
-    document.getElementById("shop").style.display = "none";
-}
-
-function openowned() {
-    document.getElementById("cosmeticsclick").style.display = "none";
-    document.getElementById("owned").style.display = "block";
-}
-
-function closeowned() {
-    document.getElementById("cosmeticsclick").style.display = "block";
-    document.getElementById("owned").style.display = "none";
-}
-
 function newQu() {
   randomIndex = Math.floor(Math.random() * set.length);
   var question = set[randomIndex][0];
@@ -161,19 +140,39 @@ function update() {
 } 
 
 
-
-function asksave() {
-  if (hiracoins > 0) {
-   const wantsave = prompt("It looks like you have played HiraRush before! Do you want to resume from where you left off? (Type Yes or No):");
-  if (wantsave === "no") {
-    hiracoins = 0;
-    streak = 0;
-    correct = 0;
-      }
- if (wantsave === "yes") {
-    }
-  }
+//////////////////////////////////////
+//        OPEN/CLOSE MENUS          //
+//////////////////////////////////////
+function openshop() {
+    document.getElementById("notshop").style.display = "none";
+    document.getElementById("shop").style.display = "block";
 }
+
+function closeshop() {
+    document.getElementById("notshop").style.display = "block";
+    document.getElementById("shop").style.display = "none";
+}
+
+function openowned() {
+    document.getElementById("cosmeticsclick").style.display = "none";
+    document.getElementById("owned").style.display = "block";
+}
+
+function closeowned() {
+    document.getElementById("cosmeticsclick").style.display = "block";
+    document.getElementById("owned").style.display = "none";
+}
+
+
+
+//////////////////////////////////////
+//       EQUIPPING COSMETICS        //
+//////////////////////////////////////
+function blueWall() {game.style.backgroundColor = "#759aff";}
+function pinkWall() {game.style.backgroundColor = " #ffc4ec";}
+function blueBord() {game.style.border = "#759aff 10px groove";}
+function pinkBord() {game.style.border = "#ff6be4 10px groove";}
+
 
 //////////////////////////////////////
 //            COOKIES               //
@@ -198,13 +197,18 @@ setInterval(function () {
   localStorage.setItem('savedData', JSON.stringify(data));closecosmeticsclick
 }, 1000);
 
-//////////////////////////////////////
-//       EQUIPPING COSMETICS        //
-//////////////////////////////////////
-function blueWall() {game.style.backgroundColor = "#759aff";}
-function pinkWall() {game.style.backgroundColor = " #ffc4ec";}
-function blueBord() {game.style.border = "#759aff 10px groove";}
-function pinkBord() {game.style.border = "#ff6be4 10px groove";}
+function asksave() {
+  if (hiracoins > 0) {
+   const wantsave = prompt("It looks like you have played HiraRush before! Do you want to resume from where you left off? (Type Yes or No):");
+  if (wantsave === "no") {
+    hiracoins = 0;
+    streak = 0;
+    correct = 0;
+      }
+ if (wantsave === "yes") {
+    }
+  }
+}
 
 
 
