@@ -10,7 +10,7 @@ document.addEventListener('keydown', function(event) {
 
 
 //////////////////////////////////////
-//            VARIABLES             //
+//          LIGHT VARIABLES         //
 //////////////////////////////////////
 var set = [
   ["あ", "a"],
@@ -163,7 +163,11 @@ var streak = 0;
 var setagounlocked = false;
 var setazounlocked = false;
 
+//////////////////////////////////////
+//          HEAVY VARIABLES         //
+//////////////////////////////////////
 
+//coming soon
 
 //////////////////////////////////////
 //           CLASS CODE             //
