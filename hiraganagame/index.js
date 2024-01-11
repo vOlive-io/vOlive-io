@@ -206,7 +206,14 @@ function enterclassAGO() {
   newQu();
 }
 
-
+function enterclassAZO() {
+  set = setazo;
+  alert("Put you in A-ZO (Level 3)")
+  document.getElementById("game").style.display = "block";
+  document.getElementById("erroralerts").style.display = "none";
+  asksave();
+  newQu();
+}
 
 //////////////////////////////////////
 //            QUESTIONS             //
