@@ -1,7 +1,6 @@
 //////////////////////////////////////
 //         EVENT LISTENERS          //
 //////////////////////////////////////
-window.addEventListener("load", classcode);
 document.addEventListener('keydown', function(event) {
   if (event.code === 'Enter') {
     document.getElementById('submitAnswer').click();
