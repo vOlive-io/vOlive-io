@@ -155,7 +155,6 @@ var setano = [
   ["ね", "ne"],
   ["の", "no"],
 ];
-
 var randomIndex; 
 var hiracoins = 0;
 var correct = 0;
@@ -163,11 +162,14 @@ var streak = 0;
 var setagounlocked = false;
 var setazounlocked = false;
 
+
 //////////////////////////////////////
 //          HEAVY VARIABLES         //
 //////////////////////////////////////
 
 //coming soon
+
+
 
 //////////////////////////////////////
 //           CLASS CODE             //
