@@ -1,0 +1,21 @@
+#erroralerts {
+  display: none;
+}
+
+#game{
+  background-color: #ffc4ec;
+  display: none;
+  border: #ff6be4 10px groove;
+} 
+
+#shop {
+  display: none;
+}
+
+#yellowwall, #yellowborder {
+  display: none;
+}
+
+#owned {
+  display: none;
+}
