@@ -7,8 +7,6 @@ document.addEventListener('keydown', function(event) {
   }
 });
 
-
-
 //////////////////////////////////////
 //          LIGHT VARIABLES         //
 //////////////////////////////////////
@@ -324,8 +322,6 @@ function asksave() {
     }
   }
 }
-
-
 
 //////////////////////////////////////
 //          OLD FUNCTIONS           //
