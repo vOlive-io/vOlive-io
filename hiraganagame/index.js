@@ -111,6 +111,15 @@ function enterclass1() {
   newQu();
 }
 
+function enterclass2() {
+  set = setago;
+  alert("Put you in A-GO Level 1!")
+  document.getElementById("game").style.display = "block";
+  document.getElementById("erroralerts").style.display = "none";
+  asksave();
+  newQu();
+}
+
 
 
 //////////////////////////////////////
