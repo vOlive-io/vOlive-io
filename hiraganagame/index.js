@@ -173,13 +173,17 @@ function classcode() {
   const code = prompt("Enter class code:");
   if (code === "aoclass") {
     enterclassAO();
-  } else {
-     if (code === "classcode202") {
+    } else {
+     if (code === "agoclass") {
     enterclassAGO();
+    } else {
+    if (code === "azoclass") {
+    enterclassAZO();
     } else {
     alert("This class does not exist!");
     document.getElementById("game").style.display = "none";
     document.getElementById("erroralerts").style.display = "block";
+}
 }
 }
 }
