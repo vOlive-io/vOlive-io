@@ -89,11 +89,11 @@ var setazounlocked = false;
 //////////////////////////////////////
 function classcode() {
   const code = prompt("Enter class code:");
-  if (code === "classcode101") {
-    enterclass1();
+  if (code === "aoclass") {
+    enterclassAO();
   } else {
      if (code === "classcode202") {
-    enterclass2();
+    enterclassAGO();
     } else {
     alert("This class does not exist!");
     document.getElementById("game").style.display = "none";
@@ -102,18 +102,18 @@ function classcode() {
 }
 }
 
-function enterclass1() {
+function enterclassAO() {
   set = set;
-  alert("Put you in A-O Level 1!")
+  alert("Put you in A-O (Level 1)")
   document.getElementById("game").style.display = "block";
   document.getElementById("erroralerts").style.display = "none";
   asksave();
   newQu();
 }
 
-function enterclass2() {
+function enterclassAGO() {
   set = setago;
-  alert("Put you in A-GO Level 1!")
+  alert("Put you in A-GO (Level 2)")
   document.getElementById("game").style.display = "block";
   document.getElementById("erroralerts").style.display = "none";
   asksave();
