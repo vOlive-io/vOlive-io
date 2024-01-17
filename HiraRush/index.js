@@ -164,6 +164,8 @@ var setazounlocked = false;
 //////////////////////////////////////
 //          HEAVY VARIABLES         //
 //////////////////////////////////////
+var tut = false;
+
 
 //coming soon
 
