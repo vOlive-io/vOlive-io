@@ -183,6 +183,9 @@ function classcode() {
     if (code === "azoclass") {
     enterclassAZO();
     } else {
+    if (code === "adoclass") {
+    enterclassADO();
+    } else {
     alert("This class does not exist!");
     document.getElementById("game").style.display = "none";
     document.getElementById("erroralerts").style.display = "block";
@@ -190,10 +193,11 @@ function classcode() {
 }
 }
 }
+}
 
 function enterclassAO() {
   set = set;
-  alert("Put you in A-O (Level 1)")
+  alert("Put you in A-O (Free class)")
   document.getElementById("game").style.display = "block";
   document.getElementById("erroralerts").style.display = "none";
   asksave();
@@ -202,7 +206,7 @@ function enterclassAO() {
 
 function enterclassAGO() {
   set = setago;
-  alert("Put you in A-GO (Level 2)")
+  alert("Put you in A-GO (Free class)")
   document.getElementById("game").style.display = "block";
   document.getElementById("erroralerts").style.display = "none";
   asksave();
@@ -211,7 +215,16 @@ function enterclassAGO() {
 
 function enterclassAZO() {
   set = setazo;
-  alert("Put you in A-ZO (Level 3)")
+  alert("Put you in A-ZO (Free class)")
+  document.getElementById("game").style.display = "block";
+  document.getElementById("erroralerts").style.display = "none";
+  asksave();
+  newQu();
+}
+
+function enterclassADO() {
+  set = setazo;
+  alert("Put you in A-DO (Free class)")
   document.getElementById("game").style.display = "block";
   document.getElementById("erroralerts").style.display = "none";
   asksave();
