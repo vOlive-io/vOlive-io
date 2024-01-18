@@ -161,10 +161,13 @@ var setagounlocked = false;
 var setazounlocked = false;
 
 
+
+
 //////////////////////////////////////
 //          HEAVY VARIABLES         //
 //////////////////////////////////////
 var tut = false;
+
 
 
 
