@@ -156,7 +156,7 @@ var setano = [
 var randomIndex; 
 var hiracoins = 0;
 var correct = 0;
-var streak = 0;
+
 var setagounlocked = false;
 var setazounlocked = false;
 
@@ -167,10 +167,8 @@ var setazounlocked = false;
 //          HEAVY VARIABLES         //
 //////////////////////////////////////
 var tut = false;
-
-
-
-
+var basicWallPrice = 50;
+var basicBordPrice = 50;
 
 //////////////////////////////////////
 //           CLASS CODE             //
@@ -332,6 +330,21 @@ function pinkBord() {game.style.border = "#ff6be4 10px groove";}
 
 
 
+//////////////////////////////////////
+//              SHOP                //
+//////////////////////////////////////
+
+function buyYellowW() {
+  if (hiracoins < basicWallPrice) { alert("You dont have enough Hiracoins (You need 50!)")}
+  if (hircoins >= basicWallPrice) {
+    hircoins -= basicWallPrice;
+}
+
+
+
+
+
+
 
 //////////////////////////////////////
 //            COOKIES               //
@@ -368,6 +381,9 @@ function asksave() {
     }
   }
 }
+
+
+
 
 //////////////////////////////////////
 //          OLD FUNCTIONS           //
