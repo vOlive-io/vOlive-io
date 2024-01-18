@@ -188,9 +188,13 @@ function classcode() {
     if (code === "adoclass") {
     enterclassADO();
     } else {
+    if (code === "shoojiaoem") {
+    enterclassShoojiao();
+    } else {
     alert("This class does not exist!");
     document.getElementById("game").style.display = "none";
     document.getElementById("erroralerts").style.display = "block";
+}
 }
 }
 }
@@ -231,6 +235,15 @@ function enterclassADO() {
   document.getElementById("erroralerts").style.display = "none";
   asksave();
   newQu();
+}
+
+function enterclassShoojiao() {
+  set = setao;
+  alert("Setting up immersive class...")
+  document.getElementById("game").style.display = "block";
+  document.getElementById("erroralerts").style.display = "none";
+  asksave();
+  aotut();
 }
 
 //////////////////////////////////////
