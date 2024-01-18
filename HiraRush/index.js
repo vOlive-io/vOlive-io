@@ -344,7 +344,9 @@ function buyYellowW() {
     hircoins -= basicWallPrice;
     yellowWall = true;
     update();
+  }
 }
+  
 
 function buyYellowB() {
   if (hiracoins < basicBordPrice) { alert("You dont have enough Hiracoins (You need 50!)")}
@@ -352,6 +354,7 @@ function buyYellowB() {
     hircoins -= basicBordPrice;
     yellowBord = true;
     update();
+  }
 }
 
 
