@@ -257,6 +257,7 @@ function enterclassShoojiao() {
 //        TUTS AND IMMERSIVE        //
 //////////////////////////////////////
 function aotut() {
+  alert("Tut coming soon!")
     update();
     newQu();
 }
