@@ -170,6 +170,10 @@ var tut = false;
 var basicWallPrice = 50;
 var basicBordPrice = 50;
 
+var yellowwall = false;
+
+
+
 //////////////////////////////////////
 //           CLASS CODE             //
 //////////////////////////////////////
@@ -338,6 +342,8 @@ function buyYellowW() {
   if (hiracoins < basicWallPrice) { alert("You dont have enough Hiracoins (You need 50!)")}
   if (hircoins >= basicWallPrice) {
     hircoins -= basicWallPrice;
+    yellowwall = true;
+    update();
 }
 
 
