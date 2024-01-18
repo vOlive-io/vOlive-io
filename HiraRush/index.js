@@ -167,8 +167,6 @@ var setazounlocked = false;
 var tut = false;
 
 
-//coming soon
-
 
 
 //////////////////////////////////////
@@ -243,7 +241,11 @@ function enterclassShoojiao() {
   document.getElementById("game").style.display = "block";
   document.getElementById("erroralerts").style.display = "none";
   asksave();
+  const allowtut = prompt("Would you like a tutorial about the hiragana and how to play (type yes or no):");
+  if (code === "no") {
+  } else {
   aotut();
+  }
 }
 
 
