@@ -170,8 +170,8 @@ var tut = false;
 var basicWallPrice = 50;
 var basicBordPrice = 50;
 
-var yellowwall = false;
-
+var yellowWall = false;
+var yellowBord = false;
 
 
 //////////////////////////////////////
@@ -342,11 +342,17 @@ function buyYellowW() {
   if (hiracoins < basicWallPrice) { alert("You dont have enough Hiracoins (You need 50!)")}
   if (hircoins >= basicWallPrice) {
     hircoins -= basicWallPrice;
-    yellowwall = true;
+    yellowWall = true;
     update();
 }
 
-
+function buyYellowB() {
+  if (hiracoins < basicBordPrice) { alert("You dont have enough Hiracoins (You need 50!)")}
+  if (hircoins >= basicBordPrice) {
+    hircoins -= basicBordPrice;
+    yellowBord = true;
+    update();
+}
 
 
 
