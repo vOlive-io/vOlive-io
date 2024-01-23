@@ -345,8 +345,8 @@ function refreshCos() {}
 
 function buyYellowW() {
   if (hiracoins < basicWallPrice) { alert("You dont have enough Hiracoins (You need 50!)")}
-  if (hircoins >= basicWallPrice) {
-    hircoins -= basicWallPrice;
+  if (hiracoins >= basicWallPrice) {
+    hiracoins -= basicWallPrice;
     yellowWall = true;
     update();
   }
@@ -354,8 +354,8 @@ function buyYellowW() {
 
 function buyYellowB() {
   if (hiracoins < basicBordPrice) { alert("You dont have enough Hiracoins (You need 50!)")}
-  if (hircoins >= basicBordPrice) {
-    hircoins -= basicBordPrice;
+  if (hiracoins >= basicBordPrice) {
+    hiracoins -= basicBordPrice;
     yellowBord = true;
     update();
   }
