@@ -7,6 +7,7 @@ document.addEventListener('keydown', function(event) {
   }
 });
 
+
 //////////////////////////////////////
 //          LIGHT VARIABLES         //
 //////////////////////////////////////
@@ -335,7 +336,15 @@ function pinkBord() {game.style.border = "#ff6be4 10px groove";}
 function yellBord() {game.style.border = "#fff654 10px groove";}
 
 
-function refreshCos() {}
+function refreshCos() {
+  if (yellowWall = true) {
+    document.getElementById("yellowwallB").style.display = "none";
+    document.getElementById("yellowwall").style.display = "block";
+  }
+  if (yellowBord = true) {}
+    document.getElementById("yellowbordB").style.display = "none";
+    document.getElementById("yellowbord").style.display = "block";
+}
 
 
 //////////////////////////////////////
@@ -349,6 +358,7 @@ function buyYellowW() {
     hiracoins -= basicWallPrice;
     yellowWall = true;
     update();
+    refreshCos():
   }
 }  
 
@@ -358,6 +368,7 @@ function buyYellowB() {
     hiracoins -= basicBordPrice;
     yellowBord = true;
     update();
+    refreshCos():
   }
 }
 
