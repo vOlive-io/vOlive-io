@@ -335,7 +335,6 @@ function blueBord() {game.style.border = "#759aff 10px groove";}
 function pinkBord() {game.style.border = "#ff6be4 10px groove";}
 function yellBord() {game.style.border = "#fff654 10px groove";}
 
-
 function refreshCos() {
   if (yellowWall = true) {
     document.getElementById("yellowwallB").style.display = "none";
@@ -385,6 +384,8 @@ window.onload = function cookies() {
     hiracoins = savedData.hiracoins || 0;
     streak = savedData.streak || 0;
     correct = savedData.correct || 0;
+    yellowBord = savedData.yellowBord || false;
+    yellowWall = savedData.yellowWall || false;
   }
 };
 
