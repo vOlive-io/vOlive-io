@@ -357,7 +357,7 @@ function buyYellowW() {
     hiracoins -= basicWallPrice;
     yellowWall = true;
     update();
-    refreshCos():
+    refreshCos();
   }
 }  
 
@@ -367,7 +367,7 @@ function buyYellowB() {
     hiracoins -= basicBordPrice;
     yellowBord = true;
     update();
-    refreshCos():
+    refreshCos();
   }
 }
 
