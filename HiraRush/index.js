@@ -7,6 +7,7 @@ document.addEventListener('keydown', function(event) {
   }
 });
 
+refreshCos();
 
 //////////////////////////////////////
 //          LIGHT VARIABLES         //
