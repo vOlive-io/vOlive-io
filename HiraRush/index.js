@@ -172,8 +172,8 @@ var tut = false;
 var basicWallPrice = 50;
 var basicBordPrice = 50;
 
-var yellowWall = false;
-var yellowBord = false;
+var yellowWallUnlocked = false;
+var yellowBordUnlocked = false;
 
 
 //////////////////////////////////////
@@ -337,11 +337,11 @@ function pinkBord() {game.style.border = "#ff6be4 10px groove";}
 function yellBord() {game.style.border = "#fff654 10px groove";}
 
 function refreshCos() {
-  if (yellowWall = true) {
+  if (yellowWallUnlocked = true) {
     document.getElementById("yellowwallB").style.display = "none";
     document.getElementById("yellowwall").style.display = "block";
   }
-  if (yellowBord = true) {}
+  if (yellowBordUnlocked = true) {}
     document.getElementById("yellowbordB").style.display = "none";
     document.getElementById("yellowbord").style.display = "block";
 }
