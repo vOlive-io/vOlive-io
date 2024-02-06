@@ -7,7 +7,7 @@ document.addEventListener('keydown', function(event) {
   }
 });
 
-
+refreshCos();
 
 //////////////////////////////////////
 //          LIGHT VARIABLES         //
@@ -360,7 +360,6 @@ function buyYellowW() {
     hiracoins -= basicWallPrice;
     yellowWall = true;
     update();
-    refreshCos();
   }
 }  
 
