@@ -341,9 +341,10 @@ function refreshCos() {
     document.getElementById("yellowwallB").style.display = "none";
     document.getElementById("yellowwall").style.display = "block";
   }
-  if (yellowBordUnlocked = true) {}
+  if (yellowBordUnlocked = true) {
     document.getElementById("yellowbordB").style.display = "none";
     document.getElementById("yellowbord").style.display = "block";
+  }
 }
 
 
