@@ -276,6 +276,7 @@ function newQu() {
   var question = set[randomIndex][0];
   document.getElementById("spot").innerHTML = question;
   update();
+  refreshCos();
 }
 
 function check() {
