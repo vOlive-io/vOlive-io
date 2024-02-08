@@ -360,7 +360,7 @@ function buyYellowW() {
   if (hiracoins >= basicWallPrice) {
     hiracoins -= basicWallPrice;
     yellowWall = true;
-    update();
+    refreshCos();
   }
 }  
 
