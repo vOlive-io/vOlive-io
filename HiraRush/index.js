@@ -338,14 +338,14 @@ function pinkBord() {game.style.border = "#ff6be4 10px groove";}
 function yellBord() {game.style.border = "#fff654 10px groove";}
 
 function refreshCos() {
-  if (yellowWallUnlocked && document.getElementById("yellowwallB")) {
-    document.getElementById("yellowwallB").style.display = "none";
-    document.getElementById("yellowwall").style.display = "block";
+  if (yellowWallUnlocked = false) {
+    document.getElementById("yellowwallB").style.display = "block";
+    document.getElementById("yellowwall").style.display = "none";
   }
   
-  if (yellowBordUnlocked && document.getElementById("yellowbordB")) {
-    document.getElementById("yellowbordB").style.display = "none";
-    document.getElementById("yellowbord").style.display = "block";
+  if (yellowBordUnlocked = false) {
+    document.getElementById("yellowbordB").style.display = "block";
+    document.getElementById("yellowbord").style.display = "none";
   }
 }
 
