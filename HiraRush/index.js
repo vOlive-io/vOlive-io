@@ -341,11 +341,19 @@ function refreshCos() {
   if (yellowWallUnlocked = false) {
     document.getElementById("yellowwallB").style.display = "block";
     document.getElementById("yellowwall").style.display = "none";
+    else {
+    document.getElementById("yellowwallB").style.display = "none";
+    document.getElementById("yellowwall").style.display = "block";
+  }
   }
   
   if (yellowBordUnlocked = false) {
     document.getElementById("yellowbordB").style.display = "block";
     document.getElementById("yellowbord").style.display = "none";
+    else {
+    document.getElementById("yellowbordB").style.display = "none";
+    document.getElementById("yellowbord").style.display = "block";
+  }
   }
 }
 
@@ -360,6 +368,7 @@ function buyYellowW() {
   if (hiracoins >= basicWallPrice) {
     hiracoins -= basicWallPrice;
     yellowWall = true;
+    update();
     refreshCos();
   }
 }  
