@@ -331,32 +331,6 @@ function yellWall() {game.style.border = "#fff654 10px groove"; hiracoins -= 1;}
 function blueBord() {game.style.border = "#759aff 10px groove"; hiracoins -= 1;}
 function pinkBord() {game.style.border = "#ff6be4 10px groove"; hiracoins -= 1;}
 function yellBord() {game.style.border = "#fff654 10px groove"; hiracoins -= 1;}
-//////////////////////////////////////
-//              SHOP                //
-//////////////////////////////////////
-
-
-function buyYellowW() {
-  if (hiracoins < basicWallPrice) { alert("You dont have enough Hiracoins (You need 50!)")}
-  if (hiracoins >= basicWallPrice) {
-    hiracoins -= basicWallPrice;
-    yellowWall = true;
-    update();
-    refreshCos();
-  }
-}  
-
-function buyYellowB() {
-  if (hiracoins < basicBordPrice) { alert("You dont have enough Hiracoins (You need 50!)")}
-  if (hiracoins >= basicBordPrice) {
-    hiracoins -= basicBordPrice;
-    yellowBord = true;
-    update();
-    refreshCos();
-  }
-}
-
-
 
 //////////////////////////////////////
 //            COOKIES               //
