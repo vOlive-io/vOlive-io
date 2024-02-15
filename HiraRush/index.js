@@ -336,25 +336,6 @@ function yellWall() {game.style.border = "#fff654 10px groove";}
 function blueBord() {game.style.border = "#759aff 10px groove";}
 function pinkBord() {game.style.border = "#ff6be4 10px groove";}
 function yellBord() {game.style.border = "#fff654 10px groove";}
-
-function refreshCos() {
-  if (yellowWallUnlocked = false) {
-    document.getElementById("yellowwallB").style.display = "block";
-    document.getElementById("yellowwall").style.display = "none";
-    } else {
-    document.getElementById("yellowwallB").style.display = "none";
-    document.getElementById("yellowwall").style.display = "block";
-  }
-  if (yellowBordUnlocked = false) {
-    document.getElementById("yellowbordB").style.display = "block";
-    document.getElementById("yellowbord").style.display = "none";
-    } else {
-    document.getElementById("yellowbordB").style.display = "none";
-    document.getElementById("yellowbord").style.display = "block";
-  }
-}
-
-
 //////////////////////////////////////
 //              SHOP                //
 //////////////////////////////////////
