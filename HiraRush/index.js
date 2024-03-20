@@ -323,12 +323,12 @@ function closeowned() {
 //////////////////////////////////////
 //       EQUIPPING COSMETICS        //
 //////////////////////////////////////
-function blueWall() {game.style.backgroundColor = "#759aff"; hiracoins -= 1; update();}
-function pinkWall() {game.style.backgroundColor = " #ffc4ec"; hiracoins -= 1; update();}
-function yellWall() {game.style.border = "#fff654 10px groove"; hiracoins -= 1; update();}
-function blueBord() {game.style.border = "#759aff 10px groove"; hiracoins -= 1; update();}
-function pinkBord() {game.style.border = "#ff6be4 10px groove"; hiracoins -= 1; update();}
-function yellBord() {game.style.border = "#fff654 10px groove"; hiracoins -= 1; update();}
+function blueWall() { if (hiracoins<1) {game.style.backgroundColor = "#759aff"; hiracoins -= 1; update();}}
+function pinkWall() { if (hiracoins<1)game.style.backgroundColor = " #ffc4ec"; hiracoins -= 1; update();}}
+function yellWall() { if (hiracoins<1)game.style.border = "#fff654 10px groove"; hiracoins -= 1; update();}}
+function blueBord() { if (hiracoins<1)game.style.border = "#759aff 10px groove"; hiracoins -= 1; update();}}
+function pinkBord() { if (hiracoins<1)game.style.border = "#ff6be4 10px groove"; hiracoins -= 1; update();}}
+function yellBord() { if (hiracoins<1)game.style.border = "#fff654 10px groove"; hiracoins -= 1; update();}}
 
 //////////////////////////////////////
 //            COOKIES               //
