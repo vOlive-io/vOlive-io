@@ -297,14 +297,14 @@ function update() {
 //////////////////////////////////////
 //        OPEN/CLOSE MENUS          //
 //////////////////////////////////////
-function openshop() {
-    document.getElementById("notshop").style.display = "none";
-    document.getElementById("shop").style.display = "block";
+function openach() {
+    document.getElementById("achclick").style.display = "none";
+    document.getElementById("ach").style.display = "block";
 }
 
-function closeshop() {
-    document.getElementById("notshop").style.display = "block";
-    document.getElementById("shop").style.display = "none";
+function closeach() {
+    document.getElementById("achclick").style.display = "block";
+    document.getElementById("ach").style.display = "none";
 }
 
 function openowned() {
