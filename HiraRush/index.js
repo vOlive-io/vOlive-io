@@ -323,12 +323,12 @@ function closeowned() {
 //////////////////////////////////////
 //       EQUIPPING COSMETICS        //
 //////////////////////////////////////
-function blueWall() {game.style.backgroundColor = "#759aff"; hiracoins -= 1;}
-function pinkWall() {game.style.backgroundColor = " #ffc4ec"; hiracoins -= 1;}
-function yellWall() {game.style.border = "#fff654 10px groove"; hiracoins -= 1;}
-function blueBord() {game.style.border = "#759aff 10px groove"; hiracoins -= 1;}
-function pinkBord() {game.style.border = "#ff6be4 10px groove"; hiracoins -= 1;}
-function yellBord() {game.style.border = "#fff654 10px groove"; hiracoins -= 1;}
+function blueWall() {game.style.backgroundColor = "#759aff"; hiracoins -= 1; update();}
+function pinkWall() {game.style.backgroundColor = " #ffc4ec"; hiracoins -= 1; update();}
+function yellWall() {game.style.border = "#fff654 10px groove"; hiracoins -= 1; update();}
+function blueBord() {game.style.border = "#759aff 10px groove"; hiracoins -= 1; update();}
+function pinkBord() {game.style.border = "#ff6be4 10px groove"; hiracoins -= 1; update();}
+function yellBord() {game.style.border = "#fff654 10px groove"; hiracoins -= 1; update();}
 
 //////////////////////////////////////
 //            COOKIES               //
