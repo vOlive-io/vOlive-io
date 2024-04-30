@@ -282,6 +282,9 @@ function check() {
     correct++;
     streak++;
   } else {
+    if (userAnswer === "la"){
+  alert("slay")
+    }
     alert("Try again.");
     streak = 0;
   }
