@@ -282,7 +282,7 @@ function check() {
     correct++;
     streak++;
   } else {
-    if (userAnswer === "/admin"){
+    if (userAnswer === "admin"){
   alert("slay")
     } else {
     alert("Try again.");
@@ -343,6 +343,7 @@ function yellAchBord() { if (hiracoins>1) {ach.style.border = "#fff654 10px groo
 function blueOwnedBord() { if (hiracoins>1) {owned.style.border = "#759aff 10px groove"; hiracoins -= 1; update();} else { alert("You need more Hiracoins")}}
 function pinkOwnedBord() { if (hiracoins>1) {owned.style.border = "#ff6be4 10px groove"; hiracoins -= 1; update();} else { alert("You need more Hiracoins")}}
 function yellOwnedBord() { if (hiracoins>1) {owned.style.border = "#fff654 10px groove"; hiracoins -= 1; update();} else { alert("You need more Hiracoins")}}
+
 //////////////////////////////////////
 //            COOKIES               //
 //////////////////////////////////////
