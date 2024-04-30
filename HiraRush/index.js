@@ -282,9 +282,9 @@ function check() {
     correct++;
     streak++;
   } else {
-    if (userAnswer === "la"){
+    if (userAnswer === "/admin"){
   alert("slay")
-    }
+    } else {
     alert("Try again.");
     streak = 0;
   }
@@ -296,7 +296,7 @@ function update() {
   hiracount.innerHTML = "Hiracoins: " + hiracoins;
   streakcount.innerHTML = "Answer streak: " + streak;
 } 
-
+}
 
 //////////////////////////////////////
 //        OPEN/CLOSE MENUS          //
