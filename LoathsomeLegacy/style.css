@@ -1,0 +1,75 @@
+body {
+  background-color: #ffffff;
+}
+
+#hold {
+  display: inline-flex;
+  width: 100%;
+}
+
+#click {
+  background-color: maroon;
+  height: 100%;
+  width: 500vw;
+  font-size: 30px;
+}
+
+#split {
+  background-color: red;
+  height: 100%;
+  width: 500vw;
+}
+
+#history {
+  color: #5e0606;
+  list-style-type: none;
+  font-weight: 20px;
+}
+
+#adds {
+  list-style-type: square;
+  font-size: 15px;
+  color: #380000;
+  opacity: 1;
+  text-align: left;
+}
+
+
+.tooltip {
+  position: relative;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 250px;
+  background-color: #ffdc76;
+  border: #a57123 3px groove;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 0;
+  position: absolute;
+  bottom: 125%;
+  left: 30%;
+  color: Indigo;
+  font-size: 14px;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #c57123 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
