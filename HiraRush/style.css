@@ -13,6 +13,11 @@
   border: red 10px groove;
 }
 
+#credits {
+  display: none;
+  border: red 10px groove;
+}
+
 #ach {
   display: none;
   border: red 10px groove;
