@@ -287,8 +287,8 @@ function check() {
     streak++;
     newQu();
   } else {
-    if (userAnswer === "admin"){
-  alert("slay")
+    if (userAnswer === "hiradub"){
+  adminhiradub();
     } else {
     alert("Try again.");
     streak = 0;
@@ -300,6 +300,9 @@ function update() {
   hiracount.innerHTML = "Hiracoins: " + hiracoins;
   streakcount.innerHTML = "Answer streak: " + streak;
 } 
+}
+function adminhiradub(); {
+  hiracoins = hiracoins * 2;
 }
 
 //////////////////////////////////////
