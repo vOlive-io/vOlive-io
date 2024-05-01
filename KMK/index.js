@@ -1,4 +1,6 @@
-//slay
+chooseSet()
+
+
 
 function chooseSet() {
   const characters = ['A duck', 'A cow', 'A sheep', 'A frog', 'A fart', 'A pigeon'];;
