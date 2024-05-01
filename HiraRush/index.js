@@ -1,7 +1,7 @@
 //////////////////////////////////////
 //         EVENT LISTENERS          //
 //////////////////////////////////////
-const texts = ['Hey, Wacha doing in here!?', 'Dont be hacking in any points', 'Checking for bugs?', 'Hi Olive Here, remember not to cheat!'];;
+const texts = ['Hey, Wacha doing in here!?', 'Dont be hacking in any points', 'Checking for bugs?', 'Hi Olive Here, remember not to cheat!','imagine looking at the console];;
 text = texts[Math.floor(Math.random() * texts.length)];
 console.log(text)
 
