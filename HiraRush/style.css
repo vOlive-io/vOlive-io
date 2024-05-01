@@ -3,22 +3,22 @@
 }
 
 #game{
-  background-color: #ffc4ec;
+  background-color: #e0e0e0;
   display: none;
-  border: #ff6be4 10px groove;
+  border: #e0e0e0 10px groove;
 } 
 
 #owned {
   display: none;
-  border: red 10px groove;
+  border: #e0e0e0 10px groove;
 }
 
 #credits {
   display: none;
-  border: red 10px groove;
+  border: #e0e0e0 10px groove;
 }
 
 #ach {
   display: none;
-  border: red 10px groove;
+  border: #e0e0e0 10px groove;
 }
