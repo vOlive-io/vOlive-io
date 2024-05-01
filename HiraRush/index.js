@@ -392,11 +392,11 @@ var JackOfAllTradesAch = false; //150
 var queenOfCustomizationAch = false; //200
 
 function checkAch() {
-  if (corect >= 1 && !preschoolerAch) {
+  if (correct >= 1 && !preschoolerAch) {
     alert("put thing here")
     preschoolerAch = true;
     totalAch++;
-  } else if (corect >= 15 && !elementarySchoolerAch) {
+  } else if (correct >= 15 && !elementarySchoolerAch) {
     alert("put thing here")
     preschoolerAch = true;
     totalAch++;
