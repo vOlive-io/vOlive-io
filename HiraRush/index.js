@@ -295,12 +295,14 @@ function check() {
   }
   update();
 }
+}
+
 
 function update() {
   hiracount.innerHTML = "Hiracoins: " + hiracoins;
   streakcount.innerHTML = "Answer streak: " + streak;
-} 
 }
+
 function adminhiradub(); {
   hiracoins = hiracoins * 2;
 }
