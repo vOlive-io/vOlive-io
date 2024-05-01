@@ -17,3 +17,23 @@ function chooseSet() {
   setThreeSpot.innerHTML = setThree;
 }
 
+function kissSet() {
+    document.getElementById("kissSetOneButton").style.display = "none";
+    document.getElementById("kissSetTwoButton").style.display = "none";
+    document.getElementById("kissSetThreeButton").style.display = "none";
+  alert("Kissed")
+}
+function marySet() {
+    document.getElementById("marySetOneButton").style.display = "none";
+    document.getElementById("marySetTwoButton").style.display = "none";
+    document.getElementById("marySetThreeButton").style.display = "none";
+  alert("marred")
+}
+function killSet() {
+    document.getElementById("killSetOneButton").style.display = "none";
+    document.getElementById("killSetTwoButton").style.display = "none";
+    document.getElementById("killSetThreeButton").style.display = "none";
+  alert("killed")
+}
+
+
