@@ -1,6 +1,10 @@
 //////////////////////////////////////
 //         EVENT LISTENERS          //
 //////////////////////////////////////
+const texts = ['Hey, Wacha doing in here!?', 'Dont be hacking in some points', 'Checking for bugs?', 'Hi Olive Here, remember not to cheat!'];;
+text = texts[Math.floor(Math.random() * texts.length)];
+console.log(text)
+
 document.addEventListener('keydown', function(event) {
   if (event.code === 'Enter') {
     document.getElementById('submitAnswer').click();
@@ -381,10 +385,6 @@ function asksave() {
     }
   }
 }
-
-const texts = ['Hey, Wacha doing in here!?', 'Dont be hacking in some points', 'Checking for bugs?', 'Hi Olive Here, remember not to cheat!'];;
-text = texts[Math.floor(Math.random() * texts.length)];
-console.log(text)
 
 
 
