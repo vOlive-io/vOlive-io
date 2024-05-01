@@ -160,14 +160,14 @@ var setano = [
 ];
 var randomIndex; 
 var hiracoins = 0;
+var hiraElap = 0;
 var correct = 0;
 var streak = 0;
+var ques = 0;
 
 var setagounlocked = false;
 var setazounlocked = false;
-
-
-
+var switchCount = 0;
 
 //////////////////////////////////////
 //          HEAVY VARIABLES         //
@@ -283,6 +283,7 @@ function check() {
   if (userAnswer === correctAnswer) {
     alert("Correct!");
     hiracoins++;
+    hiraElap++;
     correct++;
     streak++;
     newQu();
@@ -295,6 +296,7 @@ function check() {
   }
   update();
 }
+  ques++;
 }
 
 
