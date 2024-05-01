@@ -281,6 +281,7 @@ function check() {
     hiracoins++;
     correct++;
     streak++;
+    newQu();
   } else {
     if (userAnswer === "admin"){
   alert("slay")
@@ -289,7 +290,6 @@ function check() {
     streak = 0;
   }
   update();
-  newQu();
 }
 
 function update() {
