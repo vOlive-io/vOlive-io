@@ -303,7 +303,7 @@ function update() {
   streakcount.innerHTML = "Answer streak: " + streak;
 }
 
-function adminhiradub(); {
+function adminhiradub() {
   hiracoins = hiracoins * 2;
 }
 
