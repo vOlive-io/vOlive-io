@@ -1,5 +1,5 @@
-chooseSet()
 
+window.addEventListener('load', chooseSet);
 
 
 function chooseSet() {
