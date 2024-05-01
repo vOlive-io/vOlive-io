@@ -368,6 +368,8 @@ function pinkBord() { if (hiracoins>1) {game.style.border = "#ff6be4 10px groove
 //            ACHEVME               //
 //////////////////////////////////////
 var totalAch = 0;
+
+//questions got right
 var preschoolerAch = false; //1
 var elementarySchoolerAch = false; //15
 var middleSchoolerAch = false; //25
@@ -377,6 +379,17 @@ var teacherAch = false; //100
 var principalAch = false; //125
 var masterAch = false; //150
 var totalCompetenceAch = false; //200
+
+//times cosmetics switched
+var wildWallpaperAndBashfulBordersAch = false; //1
+var switchAch = false; //15
+var flashyStyleAch = false; //25
+var makeoverAch = false; //50
+var bigVisionsAch = false; //75
+var visualArtistAch = false; //100
+var contentStrategistAch = false; //125
+var JackOfAllTradesAch = false; //150
+var queenOfCustomizationAch = false; //200
 
 function checkAch() {
 
