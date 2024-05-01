@@ -11,7 +11,6 @@ document.addEventListener('keydown', function(event) {
   }
 });
 
-
 //////////////////////////////////////
 //          LIGHT VARIABLES         //
 //////////////////////////////////////
