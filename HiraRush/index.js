@@ -349,9 +349,9 @@ function blueWall() { if (hiracoins>1) {game.style.backgroundColor = "#759aff"; 
 function pinkWall() { if (hiracoins>1) {game.style.backgroundColor = "#ffc4ec"; hiracoins -= 1; update();} else { alert("You need more Hiracoins")}}
 function yellWall() { if (hiracoins>1) {game.style.backgroundColor = "#fff654"; hiracoins -= 1; update();} else { alert("You need more Hiracoins")}}
 //main border
-function blueBord() { if (hiracoins>1) {game.style.border = "#759aff 10px groove"; ach.style.border = "#759aff 10px groove"; owned.style.border = "#759aff 10px groove" hiracoins -= 1; update();} else { alert("You need more Hiracoins")}}
-function pinkBord() { if (hiracoins>1) {game.style.border = "#ff6be4 10px groove"; ach.style.border = "#ff6be4 10px groove"; owned.style.border = "#ff6be4 10px groove"hiracoins -= 1; update();} else { alert("You need more Hiracoins")}}
-function yellBord() { if (hiracoins>1) {game.style.border = "#fff654 10px groove"; ach.style.border = "#fff654 10px groove"; owned.style.border = "#fff654 10px groove"hiracoins -= 1; update();} else { alert("You need more Hiracoins")}}
+function blueBord() { if (hiracoins>1) {game.style.border = "#759aff 10px groove"; ach.style.border = "#759aff 10px groove"; owned.style.border = "#759aff 10px groove"; hiracoins -= 1; update();} else { alert("You need more Hiracoins")}}
+function pinkBord() { if (hiracoins>1) {game.style.border = "#ff6be4 10px groove"; ach.style.border = "#ff6be4 10px groove"; owned.style.border = "#ff6be4 10px groove"; hiracoins -= 1; update();} else { alert("You need more Hiracoins")}}
+function yellBord() { if (hiracoins>1) {game.style.border = "#fff654 10px groove"; ach.style.border = "#fff654 10px groove"; owned.style.border = "#fff654 10px groove"; hiracoins -= 1; update();} else { alert("You need more Hiracoins")}}
 //////////////////////////////////////
 //            COOKIES               //
 //////////////////////////////////////
