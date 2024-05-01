@@ -362,6 +362,32 @@ function greeBord() { if (hiracoins>1) {game.style.border = "#039600 10px groove
 function blueBord() { if (hiracoins>1) {game.style.border = "#759aff 10px groove"; ach.style.border = "#759aff 10px groove"; owned.style.border = "#759aff 10px groove"; credits.style.border = "#759aff 10px groove"; hiracoins -= 1; switchCount++; update();} else { alert("You need more Hiracoins")}}
 function pinkBord() { if (hiracoins>1) {game.style.border = "#ff6be4 10px groove"; ach.style.border = "#ff6be4 10px groove"; owned.style.border = "#ff6be4 10px groove"; credits.style.border = "#ff6be4 10px groove"; hiracoins -= 1; switchCount++; update();} else { alert("You need more Hiracoins")}}
 
+
+
+//////////////////////////////////////
+//            ACHEVME               //
+//////////////////////////////////////
+var totalAch = 0;
+var preschoolerAch = false; //1
+var elementarySchoolerAch = false; //15
+var middleSchoolerAch = false; //25
+var hightSchoolerAch = false; //50
+var collegeStudentAch = false; //75
+var teacherAch = false; //100
+var principalAch = false; //125
+var masterAch = false; //150
+var totalCompetenceAch = false; //200
+
+function checkAch() {
+
+}
+
+function updateAch() {
+
+}
+
+
+
 //////////////////////////////////////
 //            COOKIES               //
 //////////////////////////////////////
