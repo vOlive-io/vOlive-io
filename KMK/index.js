@@ -15,4 +15,3 @@ function chooseSet() {
   setThreeSpot.innerHTML = setThree;
 }
 
-
