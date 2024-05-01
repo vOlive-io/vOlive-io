@@ -330,7 +330,15 @@ function closeowned() {
     document.getElementById("owned").style.display = "none";
 }
 
+function opencredits() {
+    document.getElementById("opencreditsclick").style.display = "none";
+    document.getElementById("credits").style.display = "block";
+}
 
+function closecredits() {
+    document.getElementById("opencreditsclick").style.display = "block";
+    document.getElementById("credits").style.display = "none";
+}
 
 
 //////////////////////////////////////
