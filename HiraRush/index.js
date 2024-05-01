@@ -380,6 +380,18 @@ var principalAch = false; //125
 var masterAch = false; //150
 var totalCompetenceAch = false; //200
 
+//question got right check
+var preschoolerAchCheck = false; 
+var elementarySchoolerAchCheck = false; 
+var middleSchoolerAchCheck = false; 
+var hightSchoolerAchCheck = false; 
+var collegeStudentAchCheck = false; 
+var teacherAchCheck = false; 
+var principalAchCheck = false; 
+var masterAchCheck = false; 
+var totalCompetenceAchCheck = false; 
+
+
 //times cosmetics switched
 var wildWallpaperAndBashfulBordersAch = false; //1
 var switchAch = false; //15
@@ -391,9 +403,22 @@ var contentStrategistAch = false; //125
 var JackOfAllTradesAch = false; //150
 var queenOfCustomizationAch = false; //200
 
+//times cosmetics switched check
+var wildWallpaperAndBashfulBordersAchCheck = false; //1
+var switchAchCheck = false;
+var flashyStyleAchCheck = false; 
+var makeoverAchCheck = false; 
+var bigVisionsAchCheck = false; 
+var visualArtistAchCheck = false; 
+var contentStrategistAchCheck = false; 
+var JackOfAllTradesAchCheck = false; 
+var queenOfCustomizationAchCheck = false; 
+
 function checkAch() {
 
 }
+
+
 
 function updateAch() {
 
