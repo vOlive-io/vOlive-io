@@ -10,7 +10,9 @@ function chooseSet() {
   console.log(setTwo)
   console.log(setThree)
   //slot input
-  slotOne.innerHTML = setOne;
-  slotTwo.innerHTML = setTwo;
-  slotThree.innerHTML = setThree;
+  setOneSpot.innerHTML = setOne;
+  setTwoSpot.innerHTML = setTwo;
+  setThreeSpot.innerHTML = setThree;
 }
+
+
