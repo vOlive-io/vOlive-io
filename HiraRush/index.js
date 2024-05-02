@@ -391,19 +391,15 @@ var JackOfAllTradesAch = false; //150
 var queenOfCustomizationAch = false; //200
 
 function checkAch() {
-    if (correct >= 1) {
-      if (preschoolerAch = false) {
-      alert("put thing here")
-      preschoolerAch = true;
-      totalAch++;
+  if (correct >= 1 && !preschoolerAch) {
+    alert("You won the Preschooler Achievement")
+    preschoolerAch = true;
+    totalAch++;
   } else { 
-    if (correct >= 15 &) {
-      if (preschoolerAch = false) {
-      alert("put thing here")
-      preschoolerAch = true;
-      totalAch++;
-      } else { 
-   }
+    if (correct >= 15 && !elementarySchoolerAch) {
+    alert("You won the Elementary Schooler Achievement")
+    elementarySchoolerAch = true;
+    totalAch++;
   }
  }
 }
