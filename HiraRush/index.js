@@ -395,17 +395,17 @@ function checkAch() {
     alert("put thing here")
     preschoolerAch = true;
     totalAch++;
-  } else if (correct >= 15 && !elementarySchoolerAch) {
+  } else { if { (correct >= 15 && !elementarySchoolerAch) {
     alert("put thing here")
     preschoolerAch = true;
     totalAch++;
+   }
   }
+ }
 }
-
 function updateAch() {
 
 }
-
 
 
 //////////////////////////////////////
