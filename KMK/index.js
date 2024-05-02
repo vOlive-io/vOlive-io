@@ -28,7 +28,7 @@ function marySet() {
     document.getElementById("marySetThreeButton").style.display = "none";
   alert("marred")
 }
-function killSet() {
+function marySet() {
     document.getElementById("killSetOneButton").style.display = "none";
     document.getElementById("killSetTwoButton").style.display = "none";
     document.getElementById("killSetThreeButton").style.display = "none";
