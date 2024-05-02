@@ -27,13 +27,13 @@ function marySet() {
     document.getElementById("marySetOneButton").style.display = "none";
     document.getElementById("marySetTwoButton").style.display = "none";
     document.getElementById("marySetThreeButton").style.display = "none";
-  alert("marred")
+  alert("Married")
 }
 function marySet() {
     document.getElementById("killSetOneButton").style.display = "none";
     document.getElementById("killSetTwoButton").style.display = "none";
     document.getElementById("killSetThreeButton").style.display = "none";
-  alert("killed")
+  alert("Killed")
 }
 
 
