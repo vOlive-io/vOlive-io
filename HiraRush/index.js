@@ -403,6 +403,7 @@ function checkAch() {
   }
  }
 }
+
 function updateAch() {
 
 }
