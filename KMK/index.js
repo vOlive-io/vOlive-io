@@ -3,7 +3,7 @@ window.addEventListener('load', chooseSet);
 
 function chooseSet() {
 //  const characters = ['A duck', 'A cow', 'A sheep', 'A frog', 'A fart', 'A pigeon'];;
-  const characters = ['Callie', 'Marrie', 'Agent 3', 'Agent 4', 'Agent 8', 'Captain 3', 'Craig Cuddlefish', 'DJ Octavio', 'Pearl', 'Pearl Drone', 'Marina', 'Acht', 'Shiver', 'Frye', 'Big Man', 'Murch', 'Mr. Coco', 'Harmoney', 'Shelldon', ' Jel La Fleur', 'Smallfry', 'Judd', 'Lil Judd', 'Mr. Grizz', 'Staff'];;
+  const characters = ['Callie', 'Marrie', 'Agent 3', 'Agent 4', 'Agent 8', 'Captain 3', 'Craig Cuddlefish', 'DJ Octavio', 'The Great Zapfish', 'O.R.C.A.', 'Pearl', 'Pearl Drone', 'Marina', 'Acht', 'Shiver', 'Frye', 'Big Man', 'Murch', 'Mr. Coco', 'Harmoney', 'Shelldon', ' Jel La Fleur', 'Smallfry', 'Judd', 'Lil Judd', 'Mr. Grizz', 'Staff'];;
   setOne = characters[Math.floor(Math.random() * characters.length)];
   setTwo = characters[Math.floor(Math.random() * characters.length)];
   setThree = characters[Math.floor(Math.random() * characters.length)];
