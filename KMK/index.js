@@ -29,7 +29,7 @@ function marySet() {
     document.getElementById("marySetThreeButton").style.display = "none";
   alert("Married")
 }
-function marySet() {
+function killSet() {
     document.getElementById("killSetOneButton").style.display = "none";
     document.getElementById("killSetTwoButton").style.display = "none";
     document.getElementById("killSetThreeButton").style.display = "none";
