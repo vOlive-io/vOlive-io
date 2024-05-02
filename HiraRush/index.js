@@ -347,7 +347,7 @@ function closecredits() {
 //////////////////////////////////////
 //basic wallpapers
  function redWall() { if (hiracoins>1) {game.style.backgroundColor = "#ed3737"; credits.style.backgroundColor = "#ed3737"; hiracoins -= 1; switchCount++; update();} else { alert("You need more Hiracoins")}}
-function oranWall() { if (hiracoins>1) {game.style.backgroundColor = "#ff8800"; credits.style.backgroundColor = "#ff8800";  hiracoins -= 1; switchCount++; update();} else { alert("You need more Hiracoins")}}
+function oranWall() { if (hiracoins>1) {game.style.backgroundColor = "#ff8800"; credits.style.backgroundColor = "#ff8800"; hiracoins -= 1; switchCount++; update();} else { alert("You need more Hiracoins")}}
 function yellWall() { if (hiracoins>1) {game.style.backgroundColor = "#fff654"; credits.style.backgroundColor = "#fff654"; hiracoins -= 1; switchCount++; update();} else { alert("You need more Hiracoins")}}
 function greeWall() { if (hiracoins>1) {game.style.backgroundColor = "#039600"; credits.style.backgroundColor = "#039600"; hiracoins -= 1; switchCount++; update();} else { alert("You need more Hiracoins")}}
 function blueWall() { if (hiracoins>1) {game.style.backgroundColor = "#759aff"; credits.style.backgroundColor = "#759aff"; hiracoins -= 1; switchCount++; update();} else { alert("You need more Hiracoins")}}
