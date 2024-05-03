@@ -433,6 +433,8 @@ window.onload = function cookies() {
     hiracoins = savedData.hiracoins || 0;
     streak = savedData.streak || 0;
     correct = savedData.correct || 0;
+    preschoolerAch = savedData.preschoolerAch || false;
+    elementarySchoolerAch = savedData.elementarySchoolerAch || false;
   }
 };
 
