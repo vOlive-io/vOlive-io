@@ -165,7 +165,6 @@ var hiraElap = 0;
 var correct = 0;
 var streak = 0;
 var ques = 0;
-
 var classJoined = false;
 
 var setagounlocked = false;
@@ -212,7 +211,6 @@ function classcode() {
 
 function enterclassAO() {
   set = set;
-  classJoined = true;
   alert("Put you in A-O (Free class)")
   document.getElementById("game").style.display = "block";
   document.getElementById("erroralerts").style.display = "none";
@@ -222,7 +220,6 @@ function enterclassAO() {
 
 function enterclassAGO() {
   set = setago;
-  classJoined = true;
   alert("Put you in A-GO (Free class)")
   document.getElementById("game").style.display = "block";
   document.getElementById("erroralerts").style.display = "none";
@@ -232,7 +229,6 @@ function enterclassAGO() {
 
 function enterclassAZO() {
   set = setazo;
-  classJoined = true;
   alert("Put you in A-ZO (Free class)")
   document.getElementById("game").style.display = "block";
   document.getElementById("erroralerts").style.display = "none";
@@ -242,7 +238,6 @@ function enterclassAZO() {
 
 function enterclassADO() {
   set = setazo;
-  classJoined = true;
   alert("Put you in A-DO (Free class)")
   document.getElementById("game").style.display = "block";
   document.getElementById("erroralerts").style.display = "none";
@@ -252,7 +247,6 @@ function enterclassADO() {
 
 function enterclassShoojiao() {
   set = setao;
-  classJoined = true;
   alert("Setting up immersive class...")
   document.getElementById("game").style.display = "block";
   document.getElementById("erroralerts").style.display = "none";
