@@ -164,6 +164,8 @@ var correct = 0;
 var streak = 0;
 var ques = 0;
 
+var classJoined = false;
+
 var setagounlocked = false;
 var setazounlocked = false;
 var switchCount = 0;
