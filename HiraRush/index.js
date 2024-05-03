@@ -11,6 +11,8 @@ document.addEventListener('keydown', function(event) {
   }
 });
 
+setInterval(checkAch, 1)
+
 //////////////////////////////////////
 //          LIGHT VARIABLES         //
 //////////////////////////////////////
