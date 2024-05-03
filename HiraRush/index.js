@@ -396,7 +396,7 @@ var JackOfAllTradesAch = false; //150
 var queenOfCustomizationAch = false; //200
 
 function checkAch() {
-  if (classJoined = true) {
+  if (classJoined = false) {
   if (correct >= 1 && !preschoolerAch) {
     alert("You won the Preschooler Achievement")
     preschoolerAch = true;
