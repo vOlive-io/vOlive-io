@@ -206,6 +206,8 @@ function classcode() {
 }
 }
 
+
+
 function enterclassAO() {
   set = set;
   classJoined = true;
@@ -398,6 +400,7 @@ var JackOfAllTradesAch = false; //150
 var queenOfCustomizationAch = false; //200
 
 function checkAch() {
+  if (classJoined = true) {
   if (correct >= 1 && !preschoolerAch) {
     alert("You won the Preschooler Achievement")
     preschoolerAch = true;
@@ -407,6 +410,7 @@ function checkAch() {
     alert("You won the Elementary Schooler Achievement")
     elementarySchoolerAch = true;
     totalAch++;
+   }
   }
  }
 }
