@@ -405,6 +405,18 @@ function checkAch() {
     alert("You won the Elementary Schooler Achievement")
     elementarySchoolerAch = true;
     totalAch++;
+    } else { 
+    if (correct >= 25 && !middleSchoolerAch) {
+    alert("You won the Middle Schooler Achievement")
+    middleSchoolerAch = true;
+    totalAch++;
+    } else { 
+    if (correct >= 50 && !hightSchoolerAch) {
+    alert("You won the High Schooler Achievement")
+    hightSchoolerAch = true;
+    totalAch++;
+    }
+   }
   }
  }
 }
