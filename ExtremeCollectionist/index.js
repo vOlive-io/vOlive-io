@@ -1,5 +1,17 @@
 const tires = ['common','uncommon','rare', 'epic','legendary','exsotic','mithic','goddly']
 
+if (Math.random() * 100 < 75) {
+  alert("common");
+} else {
+  if (Math.random() * 100 < 75) {
+  alert("uncommon");
+} else
+  if (Math.random() * 100 < 75) {
+  alert("rare");
+} 
+
+
+
 const commonItems = ['Pencil','Pen','Marker', 'Lump of cat hair','Jar of air','Atom','Water','Fire','Deck of cards','$1 bill']
 const uncommonItems = ['Earthworm (Alive)','Earthworm (Dead)','Wood','Boucey Ball','Meatballs']
 const rareItems = ['Dial-up phone','Parasol','Wild Neanderthal','Marbles','Plexiglass','Tree']
