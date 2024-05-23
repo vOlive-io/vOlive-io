@@ -1,11 +1,11 @@
-const commonItems = ['Pencil','Pen','Marker', 'cat hair','air','atom','water','fire','playing cards','$1 bill']
-const uncommonItems = ['Earthworm (Alive)','Earthworm (Dead)','Wood','Boucey Ball','Meatballs']
+const commonItems = ['pencils','pens','marker', 'cat hair','air','atom','water','fire','playing cards','$1 bill']
+const uncommonItems = ['earthworms (Alive)','earthworms (Dead)','wood','boucey balls','meatballs']
 const rareItems = ['Dial-up phone','Parasol','Wild Neanderthal','Marbles','Plexiglass','Tree','Dirty']
 const epicItems = ['Fart in a jar','Sharktooth', 'Boba Tea Maker','Alphabet blocks']
 const legendaryItems = ['Dragon Scale','Lightsaber','Red Panda Milk','1M pounds of silk']
 const exoticItems = ['Bullet Ant Milk','Golden statue','Dreams']
-const mithicItems = ['Diamond','Rhodochrosite','Real Wild Rown','ShophDaBoph']
-const goddlyItems = ['Living Raspberry','Your soul','God']
+const mithicItems = ['diamonds','rhodochrosites','Real Wild Rown','ShophDaBoph']
+const goddlyItems = ['Living Raspberry','your soul','God']
 
 commonItemsSlot = commonItems[Math.floor(Math.random() * commonItems.length)];
 uncommonItemsSlot = uncommonItems[Math.floor(Math.random() * uncommonItems.length)];
