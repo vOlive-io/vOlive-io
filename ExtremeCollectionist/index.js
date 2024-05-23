@@ -1,6 +1,6 @@
 const commonItems = ['','']
 const uncommonItems = ['','']
-const rareItems = ['','']
+const rareItems = ['Dial-up phone','']
 const epicItems = ['','']
 const legendaryItems = ['','']
 const exoticItems = ['','']
