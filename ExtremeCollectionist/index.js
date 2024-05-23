@@ -1,11 +1,11 @@
-const commonItems = ['Pencil','']
+const commonItems = ['Pencil','Pen','Marker']
 const uncommonItems = ['Earthworm (Alive)','Earthworm (Dead)']
 const rareItems = ['Dial-up phone','Parasol']
 const epicItems = ['Fart in a jar','Sharktooth', 'Boba Tea Maker']
-const legendaryItems = ['Dragon Scale','Lightsaber']
-const exoticItems = ['','']
-const mithicItems = ['','']
-const goddlyItems = ['','']
+const legendaryItems = ['Dragon Scale','Lightsaber','Red Panda Milk','1M pounds of silk']
+const exoticItems = ['Golden statue','']
+const mithicItems = ['Diamond','Rhodochrosite']
+const goddlyItems = ['Living Raspberry','']
 
 
 console.log("You earned a Common " + commonItems)
