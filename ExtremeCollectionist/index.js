@@ -1,5 +1,5 @@
 const commonItems = ['','']
-const uncommonItems = ['','']
+const uncommonItems = ['Earthworm (Alive)','Earthworm (Dead)']
 const rareItems = ['Dial-up phone','']
 const epicItems = ['','']
 const legendaryItems = ['Dragon Scale','']
