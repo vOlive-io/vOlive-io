@@ -1,7 +1,7 @@
 const commonItems = ['Pencil','']
 const uncommonItems = ['Earthworm (Alive)','Earthworm (Dead)']
 const rareItems = ['Dial-up phone','Parasol']
-const epicItems = ['Fart in a jar','Sharktooth']
+const epicItems = ['Fart in a jar','Sharktooth', 'Boba Tea Maker']
 const legendaryItems = ['Dragon Scale','Lightsaber']
 const exoticItems = ['','']
 const mithicItems = ['','']
