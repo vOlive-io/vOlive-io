@@ -4,7 +4,7 @@ const rareItems = ['Dial-up phone','Parasol']
 const epicItems = ['Fart in a jar','Sharktooth', 'Boba Tea Maker']
 const legendaryItems = ['Dragon Scale','Lightsaber','Red Panda Milk','1M pounds of silk']
 const exoticItems = ['Golden statue','Dreams in a jar']
-const mithicItems = ['Diamond','Rhodochrosite']
+const mithicItems = ['Diamond','Rhodochrosite','Real Wild Rown','ShophDaBoph']
 const goddlyItems = ['Living Raspberry','Your soul','God']
 
 commonItemsSlot = commonItems[Math.floor(Math.random() * commonItems.length)];
