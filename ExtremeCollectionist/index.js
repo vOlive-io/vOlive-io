@@ -1,15 +1,38 @@
 const tires = ['common','uncommon','rare', 'epic','legendary','exsotic','mithic','goddly']
 
-if (Math.random() * 100 < 75) {
+
+function tiers() {
+  if (Math.random() * 100 < 50) {
   alert("common");
 } else {
-  if (Math.random() * 100 < 75) {
+  if (Math.random() * 100 < 50) {
   alert("uncommon");
-} else
-  if (Math.random() * 100 < 75) {
+} else {
+  if (Math.random() * 100 < 50) {
   alert("rare");
-} 
-
+} else {
+  if (Math.random() * 100 < 50) {
+  alert("epic");
+} else {
+  if (Math.random() * 100 < 50) {
+  alert("legondary");
+} else {
+  if (Math.random() * 100 < 50) {
+  alert("exotic");
+} else {
+  if (Math.random() * 100 < 50) {
+  alert("mithic");
+} else {
+  if (Math.random() * 100 < 50) {
+  alert("goddly");
+      }
+     }
+    }
+   } 
+  } 
+ }
+}
+tiers();
 
 
 const commonItems = ['Pencil','Pen','Marker', 'Lump of cat hair','Jar of air','Atom','Water','Fire','Deck of cards','$1 bill']
