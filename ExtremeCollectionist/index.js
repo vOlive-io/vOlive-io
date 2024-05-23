@@ -1,4 +1,4 @@
-const commonItems = ['Pencil','Pen','Marker', 'Lump of cat hair','Air','Atom','Water','Fire','Deck of cards','$1 bill']
+const commonItems = ['Pencil','Pen','Marker', 'cat hair','air','atom','water','fire','playing cards','$1 bill']
 const uncommonItems = ['Earthworm (Alive)','Earthworm (Dead)','Wood','Boucey Ball','Meatballs']
 const rareItems = ['Dial-up phone','Parasol','Wild Neanderthal','Marbles','Plexiglass','Tree','Dirty']
 const epicItems = ['Fart in a jar','Sharktooth', 'Boba Tea Maker','Alphabet blocks']
