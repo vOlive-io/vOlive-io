@@ -1,4 +1,4 @@
-const commonItems = ['','']
+const commonItems = ['Pencil','']
 const uncommonItems = ['Earthworm (Alive)','Earthworm (Dead)']
 const rareItems = ['Dial-up phone','']
 const epicItems = ['','']
