@@ -1,9 +1,9 @@
-const commonItems = ['Pencil','Pen','Marker', 'Lump of cat hair']
-const uncommonItems = ['Earthworm (Alive)','Earthworm (Dead)']
-const rareItems = ['Dial-up phone','Parasol']
+const commonItems = ['Pencil','Pen','Marker', 'Lump of cat hair','Jar of air','Atom']
+const uncommonItems = ['Earthworm (Alive)','Earthworm (Dead)','Wood','Boucey Ball']
+const rareItems = ['Dial-up phone','Parasol','Wild Neanderthal','Marbles','Plexiglass','Tree']
 const epicItems = ['Fart in a jar','Sharktooth', 'Boba Tea Maker']
 const legendaryItems = ['Dragon Scale','Lightsaber','Red Panda Milk','1M pounds of silk']
-const exoticItems = ['Golden statue','Dreams in a jar']
+const exoticItems = ['Bullet Ant Milk','Golden statue','Dreams in a jar']
 const mithicItems = ['Diamond','Rhodochrosite','Real Wild Rown','ShophDaBoph']
 const goddlyItems = ['Living Raspberry','Your soul','God']
 
