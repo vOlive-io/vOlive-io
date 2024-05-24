@@ -1,4 +1,23 @@
 const tires = ['common','uncommon','rare', 'epic','legendary','exsotic','mithic','goddly']
+const commonItems = ['Pencil','Pen','Marker', 'Lump of cat hair','Jar of air','Atom','Water','Fire','Deck of cards','$1 bill']
+const uncommonItems = ['Earthworm (Alive)','Earthworm (Dead)','Wood','Boucey Ball','Meatballs']
+const rareItems = ['Dial-up phone','Parasol','Wild Neanderthal','Marbles','Plexiglass','Tree']
+const epicItems = ['Fart in a jar','Sharktooth', 'Boba Tea Maker','Alphabet blocks']
+const legendaryItems = ['Dragon Scale','Lightsaber','Red Panda Milk','1M pounds of silk']
+const exoticItems = ['Bullet Ant Milk','Golden statue','Dreams in a jar']
+const mithicItems = ['Diamond','Rhodochrosite','Real Wild Rown','ShophDaBoph']
+const goddlyItems = ['Living Raspberry','Your soul','God']
+
+var totalCommon = 0;
+var totalUncommon = 0;
+var totalRare = 0;
+var totalEpic = 0;
+var totalLegondary = 0;
+var totalExotic = 0;
+var totalMithic = 0;
+var totalGoddly = 0;
+
+
 
 
 function tiers() {
@@ -38,14 +57,6 @@ function tiers() {
 tiers();
 
 
-const commonItems = ['Pencil','Pen','Marker', 'Lump of cat hair','Jar of air','Atom','Water','Fire','Deck of cards','$1 bill']
-const uncommonItems = ['Earthworm (Alive)','Earthworm (Dead)','Wood','Boucey Ball','Meatballs']
-const rareItems = ['Dial-up phone','Parasol','Wild Neanderthal','Marbles','Plexiglass','Tree']
-const epicItems = ['Fart in a jar','Sharktooth', 'Boba Tea Maker','Alphabet blocks']
-const legendaryItems = ['Dragon Scale','Lightsaber','Red Panda Milk','1M pounds of silk']
-const exoticItems = ['Bullet Ant Milk','Golden statue','Dreams in a jar']
-const mithicItems = ['Diamond','Rhodochrosite','Real Wild Rown','ShophDaBoph']
-const goddlyItems = ['Living Raspberry','Your soul','God']
 
 commonItemsSlot = commonItems[Math.floor(Math.random() * commonItems.length)];
 uncommonItemsSlot = uncommonItems[Math.floor(Math.random() * uncommonItems.length)];
