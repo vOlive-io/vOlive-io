@@ -25,6 +25,8 @@ function tiers() {
 } else {
   if (Math.random() * 100 < 50) {
   alert("goddly");
+        }
+       }
       }
      }
     }
@@ -32,6 +34,7 @@ function tiers() {
   } 
  }
 }
+      
 tiers();
 
 
