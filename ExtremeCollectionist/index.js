@@ -33,39 +33,48 @@ var totalLegondary = 0;
 var totalExotic = 0;
 var totalMythic = 0;
 var totalGoddly = 0;
+var totalItems = 0;
 
 
 function tiers() {
   if (Math.random() * 100 < 50) {
   totalCommon++;
+  totalItems++;
   console.log("You earned a Common Item")
 } else {
   if (Math.random() * 100 < 50) {
   totalUncommon++;
+  totalItems++;
   console.log("You earned a Uncommon Item")
 } else {
   if (Math.random() * 100 < 50) {
   totalRare++;
+  totalItems++;
   console.log("You earned a Rare Item")
 } else {
   if (Math.random() * 100 < 50) {
   totalEpic++;
+  totalItems++;
   console.log("You earned a Epic Item")
 } else {
   if (Math.random() * 100 < 50) {
   totalLegondary++;
+  totalItems++;
   console.log("You earned a Legondary Item")
 } else {
   if (Math.random() * 100 < 50) {
   totalExotic++;
+  totalItems++;
   console.log("You earned a Exotic Item")
 } else {
   if (Math.random() * 100 < 50) {
   totalMythic++;
+  totalItems++;
   console.log("You earned a Mythic Item")
 } else {
   if (Math.random() * 100 < 50) {
   totalGoddly++;
+  totalItems++;
   console.log("You earned a Goddly Item")
         }
        }
@@ -87,7 +96,8 @@ function totals() {
        + totalLegondary + " Legondary Item \n"
        + totalExotic + " Exotic Items \n"
        + totalMythic + " Mythic Items \n"
-       + totalGoddly + " Goddly Items \n"
+       + totalGoddly + " Goddly Items \n" 
+       + " Coming to a grand toal of " + totalItems + " Items!"
        );
 }
 
