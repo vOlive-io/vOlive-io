@@ -78,3 +78,16 @@ function tiers() {
 }
 tiers();
 
+function totals() {
+  alert("You have earned a total of:"
+       + totalCommon + " Common Items" 
+       + totalUncommon + " Uncommon Items"
+       + totalRare + " Rare Items"
+       + totalEpic + " Epic Items"
+       + totalLegondary + " Legondary Item"
+       + totalExotic + " Exotic Items"
+       + totalMythic + " Mythic Items"
+       + totalGoddly + " Goddly Items"
+       );
+}
+
