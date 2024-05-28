@@ -29,7 +29,7 @@ console.log("You earned a Exotic " + exoticItemsSlot)
 console.log("You earned a Mithic " + mithicItemsSlot)
 console.log("You earned a Goddly " + goddlyItemsSlot)
 
-var choosenTire = none;
+var choosenTire;
 var totalCommon = 0;
 var totalUncommon = 0;
 var totalRare = 0;
