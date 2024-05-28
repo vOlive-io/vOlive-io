@@ -7,24 +7,6 @@ const exoticItems = ['Bullet Ant Milk','Golden statue','Dreams in a jar']
 const mythicItems = ['Diamond','Rhodochrosite','Real Wild Rown','ShophDaBoph']
 const goddlyItems = ['','Your soul','God']
 
-commonItemsSlot = commonItems[Math.floor(Math.random() * commonItems.length)];
-uncommonItemsSlot = uncommonItems[Math.floor(Math.random() * uncommonItems.length)];
-rareItemsSlot = rareItems[Math.floor(Math.random() * rareItems.length)];
-epicItemsSlot = epicItems[Math.floor(Math.random() * epicItems.length)];
-legendaryitemsSlot = legendaryItems[Math.floor(Math.random() * legendaryItems.length)];
-exoticItemsSlot = exoticItems[Math.floor(Math.random() * exoticItems.length)];
-mythicItemsSlot = mythicItems[Math.floor(Math.random() * mythicItems.length)];
-goddlyItemsSlot = goddlyItems[Math.floor(Math.random() * goddlyItems.length)];
-
-console.log("You earned a Common " + commonItemsSlot)
-console.log("You earned a Uncommon " + uncommonItemsSlot)
-console.log("You earned a Rare " + rareItemsSlot)
-console.log("You earned a Epic " + epicItemsSlot)
-console.log("You earned a Legendary " + legendaryitemsSlot)
-console.log("You earned a Exotic " + exoticItemsSlot)
-console.log("You earned a Mithic " + mythicItemsSlot)
-console.log("You earned a Goddly " + goddlyItemsSlot)
-
 var totalCommon = 0;
 var totalUncommon = 0;
 var totalRare = 0;
