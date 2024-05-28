@@ -16,7 +16,6 @@ exoticItemsSlot = exoticItems[Math.floor(Math.random() * exoticItems.length)];
 mythicItemsSlot = mythicItems[Math.floor(Math.random() * mythicItems.length)];
 goddlyItemsSlot = goddlyItems[Math.floor(Math.random() * goddlyItems.length)];
 
-
 console.log("You earned a Common " + commonItemsSlot)
 console.log("You earned a Uncommon " + uncommonItemsSlot)
 console.log("You earned a Rare " + rareItemsSlot)
@@ -36,38 +35,45 @@ var totalMythic = 0;
 var totalGoddly = 0;
 
 
-
 function tiers() {
   if (Math.random() * 100 < 50) {
   alert("common");
+  totalCommon++;
   console.log("You earned a Common Item")
 } else {
   if (Math.random() * 100 < 50) {
   alert("uncommon");
+  totalUncommon++;
   console.log("You earned a Uncommon Item")
 } else {
   if (Math.random() * 100 < 50) {
   alert("rare");
+  totalRare++;
   console.log("You earned a Rare Item")
 } else {
   if (Math.random() * 100 < 50) {
   alert("epic");
+  totalEpic++;
   console.log("You earned a Epic Item")
 } else {
   if (Math.random() * 100 < 50) {
   alert("legondary");
+  totalLegondary++;
   console.log("You earned a Legondary Item")
 } else {
   if (Math.random() * 100 < 50) {
   alert("exotic");
+  totalExotic++;
   console.log("You earned a Exotic Item")
 } else {
   if (Math.random() * 100 < 50) {
   alert("mythic");
+  totalMythic++;
   console.log("You earned a Mythic Item")
 } else {
   if (Math.random() * 100 < 50) {
   alert("goddly");
+  totalGoddly++;
   console.log("You earned a Goddly Item")
         }
        }
