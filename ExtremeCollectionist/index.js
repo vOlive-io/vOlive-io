@@ -19,7 +19,7 @@ mithicItemsSlot = mithicItems[Math.floor(Math.random() * mithicItems.length)];
 goddlyItemsSlot = goddlyItems[Math.floor(Math.random() * goddlyItems.length)];
 
 
-console.log("You earned a " + commonItemsSlot + " Item")
+console.log("You earned a " + choosenTire + " Item")
 console.log("You earned a Common " + commonItemsSlot)
 console.log("You earned a Uncommon " + uncommonItemsSlot)
 console.log("You earned a Rare " + rareItemsSlot)
@@ -81,6 +81,7 @@ function tiers() {
    } 
   } 
  }
+console.log("You earned a " + choosenTire + " Item")
 }
       
 tiers();
