@@ -18,6 +18,15 @@ exoticItemsSlot = exoticItems[Math.floor(Math.random() * exoticItems.length)];
 mithicItemsSlot = mithicItems[Math.floor(Math.random() * mithicItems.length)];
 goddlyItemsSlot = goddlyItems[Math.floor(Math.random() * goddlyItems.length)];
 
+console.log("You earned a Common " + commonItemsSlot)
+console.log("You earned a Uncommon " + uncommonItemsSlot)
+console.log("You earned a Rare " + rareItemsSlot)
+console.log("You earned a Epic " + epicItemsSlot)
+console.log("You earned a Legendary " + legendaryitemsSlot)
+console.log("You earned a Exotic " + exoticItemsSlot)
+console.log("You earned a Mithic " + mithicItemsSlot)
+console.log("You earned a Goddly " + goddlyItemsSlot)
+
 var totalCommon = 0;
 var totalUncommon = 0;
 var totalRare = 0;
@@ -26,7 +35,6 @@ var totalLegondary = 0;
 var totalExotic = 0;
 var totalMithic = 0;
 var totalGoddly = 0;
-
 
 
 
@@ -66,12 +74,3 @@ function tiers() {
       
 tiers();
 
-
-console.log("You earned a Common " + commonItemsSlot)
-console.log("You earned a Uncommon " + uncommonItemsSlot)
-console.log("You earned a Rare " + rareItemsSlot)
-console.log("You earned a Epic " + epicItemsSlot)
-console.log("You earned a Legendary " + legendaryitemsSlot)
-console.log("You earned a Exotic " + exoticItemsSlot)
-console.log("You earned a Mithic " + mithicItemsSlot)
-console.log("You earned a Goddly " + goddlyItemsSlot)
