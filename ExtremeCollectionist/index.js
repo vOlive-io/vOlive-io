@@ -79,15 +79,15 @@ function tiers() {
 tiers();
 
 function totals() {
-  alert("You have earned a total of:"
-       + totalCommon + " Common Items" 
-       + totalUncommon + " Uncommon Items"
-       + totalRare + " Rare Items"
-       + totalEpic + " Epic Items"
-       + totalLegondary + " Legondary Item"
-       + totalExotic + " Exotic Items"
-       + totalMythic + " Mythic Items"
-       + totalGoddly + " Goddly Items"
+  alert("You have earned a total of: \n"
+       + totalCommon + " Common Items \n" 
+       + totalUncommon + " Uncommon Items \n"
+       + totalRare + " Rare Items \n"
+       + totalEpic + " Epic Items \n"
+       + totalLegondary + " Legondary Item \n"
+       + totalExotic + " Exotic Items \n"
+       + totalMythic + " Mythic Items \n"
+       + totalGoddly + " Goddly Items \n"
        );
 }
 
