@@ -8,6 +8,8 @@ const exoticItems = ['Bullet Ant Milk','Golden statue','Dreams in a jar']
 const mithicItems = ['Diamond','Rhodochrosite','Real Wild Rown','ShophDaBoph']
 const goddlyItems = ['','Your soul','God']
 
+
+
 var totalCommon = 0;
 var totalUncommon = 0;
 var totalRare = 0;
@@ -57,7 +59,7 @@ function tiers() {
 tiers();
 
 
-
+choosenTires = tires[Math.floor(Math.random() * tires.length)];
 commonItemsSlot = commonItems[Math.floor(Math.random() * commonItems.length)];
 uncommonItemsSlot = uncommonItems[Math.floor(Math.random() * uncommonItems.length)];
 rareItemsSlot = rareItems[Math.floor(Math.random() * rareItems.length)];
