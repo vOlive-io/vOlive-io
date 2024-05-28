@@ -8,7 +8,7 @@ const exoticItems = ['Bullet Ant Milk','Golden statue','Dreams in a jar']
 const mithicItems = ['Diamond','Rhodochrosite','Real Wild Rown','ShophDaBoph']
 const goddlyItems = ['','Your soul','God']
 
-choosenTires = tires[Math.floor(Math.random() * tires.length)];
+choosenTire = tires[Math.floor(Math.random() * tires.length)];
 commonItemsSlot = commonItems[Math.floor(Math.random() * commonItems.length)];
 uncommonItemsSlot = uncommonItems[Math.floor(Math.random() * uncommonItems.length)];
 rareItemsSlot = rareItems[Math.floor(Math.random() * rareItems.length)];
@@ -18,6 +18,9 @@ exoticItemsSlot = exoticItems[Math.floor(Math.random() * exoticItems.length)];
 mithicItemsSlot = mithicItems[Math.floor(Math.random() * mithicItems.length)];
 goddlyItemsSlot = goddlyItems[Math.floor(Math.random() * goddlyItems.length)];
 
+
+
+console.log("You earned a " + choosenTire + " Item")
 console.log("You earned a Common " + commonItemsSlot)
 console.log("You earned a Uncommon " + uncommonItemsSlot)
 console.log("You earned a Rare " + rareItemsSlot)
