@@ -61,7 +61,7 @@ function tiers() {
   mythicItemsSlot = mythicItems[Math.floor(Math.random() * mythicItems.length)];
   console.log("You earned a Mithic " + mythicItemsSlot)
 } else {
-  if (Math.random() * 100 < 50) {
+  if (Math.random() * 100 < 70) {
   totalGoddly++;
   totalItems++;
   goddlyItemsSlot = goddlyItems[Math.floor(Math.random() * goddlyItems.length)];
