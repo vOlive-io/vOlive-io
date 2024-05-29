@@ -21,6 +21,74 @@ var totalItems = 0;
 var money = 5.00;
 var rollCost = 1.50;
 
+
+
+
+
+
+function rollingItem() {
+  if (money>rollCost) {
+  money = money - rollCost;
+  if (Math.random() * 100 < 50) {
+  totalCommon++;
+  totalItems++;
+  commonItemsSlot = commonItems[Math.floor(Math.random() * commonItems.length)];
+  console.log("You earned a Common " + commonItemsSlot)
+} else {
+  if (Math.random() * 100 < 50) {
+  totalUncommon++;
+  totalItems++;
+  uncommonItemsSlot = uncommonItems[Math.floor(Math.random() * uncommonItems.length)];
+  console.log("You earned a Uncommon " + uncommonItemsSlot)
+} else {
+  if (Math.random() * 100 < 50) {
+  totalRare++;
+  totalItems++;
+  rareItemsSlot = rareItems[Math.floor(Math.random() * rareItems.length)];
+  console.log("You earned a Rare " + rareItemsSlot)
+} else {
+  if (Math.random() * 100 < 50) {
+  totalEpic++;
+  totalItems++;
+  epicItemsSlot = epicItems[Math.floor(Math.random() * epicItems.length)];
+  console.log("You earned a Epic " + epicItemsSlot)
+} else {
+  if (Math.random() * 100 < 60) {
+  totalLegondary++;
+  totalItems++;
+  legendaryitemsSlot = legendaryItems[Math.floor(Math.random() * legendaryItems.length)];
+  console.log("You earned a Legendary " + legendaryitemsSlot)
+} else {
+  if (Math.random() * 100 < 70) {
+  totalExotic++;
+  totalItems++;
+  exoticItemsSlot = exoticItems[Math.floor(Math.random() * exoticItems.length)];
+  console.log("You earned a Exotic " + exoticItemsSlot)
+} else {
+  if (Math.random() * 100 < 70) {
+  totalMythic++;
+  totalItems++;
+  mythicItemsSlot = mythicItems[Math.floor(Math.random() * mythicItems.length)];
+  console.log("You earned a Mythic " + mythicItemsSlot)
+} else {
+  totalGoddly++;
+  totalItems++;
+  goddlyItemsSlot = goddlyItems[Math.floor(Math.random() * goddlyItems.length)];
+  console.log("You earned a Godly " + goddlyItemsSlot)
+    
+        } else {
+    alert("You broke, get money")
+        }
+       }
+      }
+     }
+    }
+   } 
+  } 
+ }
+}
+
+
 function tiers() {
   if (Math.random() * 100 < 50) {
   totalCommon++;
@@ -76,7 +144,7 @@ function tiers() {
   } 
  }
 }
-tiers();
+
 
 function totals() {
   alert("You have earned a total of: \n"
