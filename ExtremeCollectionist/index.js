@@ -75,9 +75,6 @@ function rollingItem() {
   totalItems++;
   goddlyItemsSlot = goddlyItems[Math.floor(Math.random() * goddlyItems.length)];
   console.log("You earned a Godly " + goddlyItemsSlot)
-    
-        } else {
-    alert("You broke, get money")
         }
        }
       }
@@ -85,7 +82,9 @@ function rollingItem() {
     }
    } 
   } 
- }
+        } else {
+ alert("You broke, get money")
+  }
 }
 
 
