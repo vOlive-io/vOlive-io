@@ -4,7 +4,7 @@ const rareItems = ['Dial-up phone','Parasol','Wild Neanderthal','Marble','Plexig
 const epicItems = ['Fart in a jar','Sharktooth', 'Boba Tea Maker','Alphabet blocks']
 const legendaryItems = ['Dragon Scale','Lightsaber','Red Panda Milk','1M pounds of silk']
 const exoticItems = ['Bullet Ant Milk','Golden statue','Dreams in a jar']
-const mythicItems = ['Diamond','Rhodochrosite','Real Wild Rown','ShophDaBoph']
+const mythicItems = ['Diamond','Rhodochrosite','Real Wild Rown','SophDaBoph','Silly alx']
 const goddlyItems = ['','Your soul','God']
 
 var totalCommon = 0;
@@ -17,6 +17,9 @@ var totalMythic = 0;
 var totalGoddly = 0;
 var totalItems = 0;
 
+
+var money = 5.00;
+var rollCost = 1.50;
 
 function tiers() {
   if (Math.random() * 100 < 50) {
