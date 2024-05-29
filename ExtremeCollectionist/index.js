@@ -65,7 +65,6 @@ function tiers() {
   totalItems++;
   goddlyItemsSlot = goddlyItems[Math.floor(Math.random() * goddlyItems.length)];
   console.log("You earned a Goddly " + goddlyItemsSlot)
-        }
        }
       }
      }
