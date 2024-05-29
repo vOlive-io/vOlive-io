@@ -49,19 +49,18 @@ function tiers() {
   legendaryitemsSlot = legendaryItems[Math.floor(Math.random() * legendaryItems.length)];
   console.log("You earned a Legendary " + legendaryitemsSlot)
 } else {
-  if (Math.random() * 100 < 60) {
+  if (Math.random() * 100 < 70) {
   totalExotic++;
   totalItems++;
   exoticItemsSlot = exoticItems[Math.floor(Math.random() * exoticItems.length)];
   console.log("You earned a Exotic " + exoticItemsSlot)
 } else {
-  if (Math.random() * 100 < 70) {
+  if (Math.random() * 100 < 80) {
   totalMythic++;
   totalItems++;
   mythicItemsSlot = mythicItems[Math.floor(Math.random() * mythicItems.length)];
   console.log("You earned a Mithic " + mythicItemsSlot)
 } else {
-  if (Math.random() * 100 < 70) {
   totalGoddly++;
   totalItems++;
   goddlyItemsSlot = goddlyItems[Math.floor(Math.random() * goddlyItems.length)];
