@@ -55,7 +55,7 @@ function tiers() {
   exoticItemsSlot = exoticItems[Math.floor(Math.random() * exoticItems.length)];
   console.log("You earned a Exotic " + exoticItemsSlot)
 } else {
-  if (Math.random() * 100 < 80) {
+  if (Math.random() * 100 < 70) {
   totalMythic++;
   totalItems++;
   mythicItemsSlot = mythicItems[Math.floor(Math.random() * mythicItems.length)];
