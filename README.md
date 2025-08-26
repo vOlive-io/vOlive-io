@@ -47,4 +47,4 @@ function getCity() {
 		</ul>
 </p>
 
-
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=vOlive-io" alt="gormes-EPIC" /> </p>
