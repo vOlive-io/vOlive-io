@@ -4,7 +4,7 @@
 
 ```javascrirpt
 info = [
-	name = "Olive",
+	fullName = "Olive Ascani",
 	current_occupation = "School :C",
 
 	pastimes = [
@@ -15,9 +15,18 @@ info = [
 		],
 	];
 
+	favFoods = [
+		"Calimari",
+		"Mac & Cheese",
+		"Pesto Pasta",
+		"Garlic Naan or Garlic Bread"
+		],
+	];
+
 function getCity() {
 	alert("Denver, Colorado, USA, North America, Earth, Milky Way Galaxy, Local Group); 
 }
+
 ```
 ## Languages I know
 <p align="left" style="display:flex;flexDirection:column">
