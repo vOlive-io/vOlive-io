@@ -32,12 +32,12 @@ function getCity() {
 ## Languages I know
 <p align="left" style="display:flex;flexDirection:column">
 </p>
-<p align="left" style = "font-size: 50px" >
-		<img src="images/lucky.svg" alt="My dog" style="vertical-align:top; width:140px">
-		<img src="images/python.svg" alt="python" style="vertical-align:top; width:140px">
-		<img src="images/html.svg" alt="HTML" style="vertical-align:top; width:140px">
-		<img src="images/javascript.svg" alt="javascript" style="vertical-align:top; width:120px">
-		<img src="images/css.svg" alt="CSS" style="vertical-align:top; width:140px">
+<p align="left" style = "font-size: 50px">
+		<img src="homeAssets/lucky.svg" alt="My dog" style="vertical-align:top; width:140px">
+		<img src="homeAssets/python.svg" alt="python" style="vertical-align:top; width:140px">
+		<img src="homeAssets/html.svg" alt="HTML" style="vertical-align:top; width:140px">
+		<img src="homeAssets/javascript.svg" alt="javascript" style="vertical-align:top; width:120px">
+		<img src="homeAssets/css.svg" alt="CSS" style="vertical-align:top; width:140px">
 		<img alt="vOlive's Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vOlive-io&theme=radical&layout=compact">
 		<ul>
 			<li><b>LUCKY SPEAK:</b> Very useful when talking to my dog, Lucky, she is an Irish doodle, and is the cutest thing on the planet, until she gets up in your face eating YOUR PASTA!</li>
