@@ -119,7 +119,7 @@ var seeds = [
 		["1.1.3.15", "Honeydew", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
 		["1.1.3.16", "Cantolope", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Rare", 4],
 		["1.1.3.17", "Ruby Roman Grapes", "Seed Description", 0, 0, 3, 0.00, 0, 3, false, "Rare", 4],
-		["1.1.3.18", "Coconut", "While often referred to as a nut in culinary contexts, it is not a nut. In contrast, the FDA classifies coconut as a tree nut for food allergen labeling purposes. But scientifically speaking, it is a fruit, specifically a drupe, which is a type of fruit with a shell covering surrounding a seed. Which begs the question, where is the coconut seed?", 0, 0, 3, 0.00, 0, 0, false, "Rare", 5]
+		["1.1.3.18", "Coconut", "While often referred to as a nut in culinary contexts, it is not a nut. In contrast, the FDA classifies coconut as a tree nut for food allergen labeling purposes. But scientifically speaking, it is a fruit, specifically a drupe, which is a type of fruit with a shell covering surrounding a seed. Which begs the question, where is the coconut seed?", 0, 0, 3, 0.00, 0, 3, false, "Rare", 5]
 	]],
 	["Epic Seeds", [
 		["1.1.4.1", "Aloe Vera", "Seed Description", 0, 0, 3, 0.00, 0, 3, false, "Epic", 0],
