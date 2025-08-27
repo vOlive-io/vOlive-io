@@ -1,0 +1,111 @@
+<head>
+	<title> In Game » Garden </title>
+	<link rel="shortcut icon" href="assets/headIcon.png" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="fullBody">
+	<div id="bodyHead">
+	</div>
+	<div class="split-l left">
+		<div id="inventoryUI">
+			<h1>Inventory</h1>
+			<div id="slots">
+				<p id="mon-spot"></p>
+				<p id="value-spot"></p>
+				<div id="seed-slots"></div>
+				<div id="super-seed-slots"></div>
+			</div>
+		</div>
+		<div id="marketUI">
+			<h1>Market</h1>
+			<div class="gallery">
+				<div id="seed-pack" onclick="buySeed(0)">
+					<h3>Seed Pack</h3>
+					<p>Give you 10x random seeds that you have unlocked.</p>
+					<p id="seed-pack-price">10$</p>
+				</div>
+				<div id="common-unlock-pack" onclick="buySeed(1)">
+					<h3>Common Seed Unlocker Pack</h3>
+					<p>Give you 5x of ONE random common seed that you have not yet unlocked.</p>
+					<p id="common-unlock-pack-price">50$</p>
+				</div>
+				<div id="uncommon-unlock-pack" onclick="buySeed(2)">
+					<h3>Uncommon Seed Unlocker Pack</h3>
+					<p>Give you 5x of ONE random uncommon seed that you have not yet unlocked.</p>
+					<p id="uncommon-unlock-pack-price">500$</p>
+				</div>
+				<div id="rare-unlock-pack" onclick="buySeed(3)">
+					<h3>Rare Seed Unlocker Pack</h3>
+					<p>Give you 5x of ONE random rare seed that you have not yet unlocked.</p>
+					<p id="rare-unlock-pack-price">5,000$</p>
+				</div>
+				<div id="epic-unlock-pack" onclick="buySeed(4)">
+					<h3>Epic Seed Unlocker Pack</h3>
+					<p>Give you 5x of ONE random epic seed that you have not yet unlocked.</p>
+				<p id="epic-unlock-pack-price">50,000$</p>
+				</div>
+				<div id="mythic-unlock-pack" onclick="buySeed(5)">
+					<h3>Mythic Seed Unlocker Pack</h3>
+					<p>Give you 5x of ONE random mythic seed that you have not yet unlocked.</p>
+					<p id="mythic-unlock-pack-price">1,000,000$</p>
+				</div>
+			</div>
+		</div>
+		<div id="achievementUI">
+			<h1>Achievement Gallery</h1>
+			<p>This is where you can look at your unlocked activities and statistics!</p>
+			<!-- ACHIEVEMENTS -->
+			
+			<ul id="achGallaryWing"> 
+				<!--
+				<li id="ach-2.1.1.1" class="lockedAch">
+					<img src="ach_2.1.1.1" alt="Image for achievement">
+					<p class="achName">Getting Started</p>
+					<p class="achText">Plant your first seed!</p>
+				</li>
+				<li id="ach-2.1.1.2" class="lockedAch">
+					<img src="ach_2.1.1.2" alt="Image for achievement">
+					<p class="achName">Humble Garden</p>
+					<p class="achText">Plant 5 seeds!</p>
+				</li>
+				-->
+			</ul>
+		
+		</div>
+	</div>
+	<div class="split-r right">
+		<div id="gardenUI">
+			<div id="alert" onclick="makeAlert(0)">
+				<h1 id="alert-h">No Alert Yet!</h1>
+				<p id="alert-p">This means nothing bad has happened yet or no errors have been triggered! This is a good sign.</p>
+			</div>
+			<h1 id="seasonName"></h1>
+			<div id="seed-stats">
+				<select id="seed-list"></select>
+				<button onclick="refreshDropdown()">Refresh Seed List</button>
+				<p id="seed-num">5x Seeds<p>
+			</div>
+			<div id="garden-slots" class="garden">
+				<!-- GARDEN BEDS -->
+				<div id="garden-slot-1">
+					<button id="garden-slot-1-button">Plant Here</button>
+					<p id="garden-slot-1-button-text"></button>
+				</div>
+				<div id="garden-slot-2">
+					<button id="garden-slot-2-button">Plant Here</button>
+					<p id="garden-slot-2-button-text"></button>
+				</div>
+				<div id="garden-slot-3">
+					<button id="garden-slot-3-button">Plant Here</button>
+					<p id="garden-slot-3-button-text"></button>
+				</div>
+				<div id="garden-slot-4">
+					<button id="garden-slot-4-button">Plant Here</button>
+					<p id="garden-slot-4-button-text"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+<script src="ingameScript.js"></script>

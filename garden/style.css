@@ -1,0 +1,93 @@
+/*  BODY STUFF */
+
+/*  ACHIVMENT STUFF */
+#achievementUI {
+  display: block;
+}
+/*  INVENTORY STUFF */
+
+.garden {
+  display: grid;
+  grid-template-columns: 80px 80px 80px 80px;
+  grid-gap: 1em;
+}
+
+.garden div {
+  border: groove 10px white;
+  aspect-ratio: 1;
+}
+
+#gardenUI {
+   transition: background-color 2s ease-in;
+}
+#seed-slots {
+  display: grid;
+  grid-template-columns: 100fr 100fr 100fr;
+}
+
+.unlockedSeedsNormal {
+  padding-left: 11px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 1px;
+  width: 80%;
+  height: 20em;
+  font-size: 10px;
+}
+
+
+.unlockedSeedsSuper {
+  padding-left: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  width: 90%;
+  height: 20em;
+}
+
+.split-l {
+  height: 100%;
+  width: 65%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.split-r {
+  height: 100%;
+  width: 35%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: white;
+}
+.left p {
+  margin-bottom: 5px;
+}
+
+.right {
+  right: 0;
+}
+
+#alert {
+  width: 600px;
+  border: black groove 10px;
+  display: none;
+}
+
+.gallery div {
+  width: 80%;
+  padding-left: 5%;
+  padding-right: 5%;
+  border: black groove 10px;
+  background: #d9c7b6;
+}
+
