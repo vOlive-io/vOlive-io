@@ -153,10 +153,10 @@ var seeds = [
 		["1.1.6.5", "Sherical Hexflower", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Alchemy", 6]
 	]],
 	["Tools Seeds/Soils", [
-		["1.1.7.1", "Soil Bed", "Seed Description", 0, 0, 3, 0.00, 0, 4, false, "Tool", 7],
-		["1.1.7.2", "Water Bed", "Seed Description", 0, 0, 3, 0.00, 0, 4, false, "Tool", 7],
-		["1.1.7.3", "Sand Bed", "Seed Description", 0, 0, 3, 0.00, 0, 4, false, "Tool", 7],
-		["1.1.7.4", "Super Soil", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Tool", 7],
+		["1.1.7.1", "Soil Bed", "Seed Description", 0, 0, 3, "soil", 0, 4, false, "Tool", 7],
+		["1.1.7.2", "Water Bed", "Seed Description", 0, 0, 3, "water", 0, 4, false, "Tool", 7],
+		["1.1.7.3", "Sand Bed", "Seed Description", 0, 0, 3, 0, "sand", 0, 4, false, "Tool", 7],
+		["1.1.7.4", "Super Soil", "Seed Description", 0, 0, 3, "super", 0, 0, false, "Tool", 7],
 		["1.1.7.5", "", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Tool", 7]
 	]]
 ];
@@ -445,7 +445,8 @@ function plantSeed(gardenBedLocation) {
 		bedData[1].style.display = "none";
 		refreshVitals();
 		if(selectedSeed[11] == 7) {
-			//document.getElementById(placement).classList.add('unlockedSeedsNormal');
+			document.getElementById(bedData[0]).classList = "";
+			document.getElementById(bedData[0]).classList.add();
 		}
 		if (seasonNum == selectedSeed[5]) {
 			bedData[0].style.border = "10px red groove";
