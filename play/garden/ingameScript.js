@@ -39,6 +39,8 @@ var rarePrice = 5000;
 var epicPrice = 50000;
 var mythicPrice = 100000;
 
+var seasonTime = 15000;
+
 var seedPackUp = 1.1;
 var commonUp = 1.2;
 var uncommonUp = 1.2;
@@ -444,10 +446,10 @@ function plantSeed(gardenBedLocation) {
 		refreshVitals();
 		if (seasonNum == selectedSeed[5]) {
 			bedData[0].style.border = "10px red groove";
-			setTimeout(harvest, 15000*(selectedSeed[4]+1), selectedSeed, bedData);
+			setTimeout(harvest, seasonTime*(selectedSeed[4]+1), selectedSeed, bedData);
 		} else {
 			bedData[0].style.border = "10px green groove";
-			setTimeout(harvest, 15000*selectedSeed[4], selectedSeed, bedData);
+			setTimeout(harvest, seasonTime*selectedSeed[4], selectedSeed, bedData);
 		}
 	} else {
 		makeAlert(1);
