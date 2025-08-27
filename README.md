@@ -1,3 +1,4 @@
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=vOlive-io&color=ff69b4" alt="olive's veiws" /> </p>
 
 ##  About me
 
@@ -47,4 +48,3 @@ function getCity() {
 		</ul>
 </p>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=vOlive-io" alt="gormes-EPIC" /> </p>
