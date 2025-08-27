@@ -498,7 +498,7 @@ function buySeed(pack) {
             } else { makeAlert(2); }
         }
     }
-    if(pack == 2) {
+    if(pack == 2) { 
         if (uncommonPrice == 0) {
             makeAlert(4);
         } else {
