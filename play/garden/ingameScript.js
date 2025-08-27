@@ -153,11 +153,11 @@ var seeds = [
 		["1.1.6.5", "Sherical Hexflower", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Alchemy", 6]
 	]],
 	["Tools Seeds/Soils", [
-		["1.1.7.1", "Soil Bed", "Seed Description", 0, 0, 3, 0.00, 0, 4, false, "Tool", 4],
-		["1.1.7.2", "Water Bed", "Seed Description", 0, 0, 3, 0.00, 0, 4, false, "Tool", 4],
-		["1.1.7.3", "Sand Bed", "Seed Description", 0, 0, 3, 0.00, 0, 4, false, "Tool", 5],
-		["1.1.7.4", "", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Tool", 5],
-		["1.1.7.5", "", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Tool", 6]
+		["1.1.7.1", "Soil Bed", "Seed Description", 0, 0, 3, 0.00, 0, 4, false, "Tool", 7],
+		["1.1.7.2", "Water Bed", "Seed Description", 0, 0, 3, 0.00, 0, 4, false, "Tool", 7],
+		["1.1.7.3", "Sand Bed", "Seed Description", 0, 0, 3, 0.00, 0, 4, false, "Tool", 7],
+		["1.1.7.4", "Super Soil", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Tool", 7],
+		["1.1.7.5", "", "Seed Description", 0, 0, 3, 0.00, 0, 0, false, "Tool", 7]
 	]]
 ];
 //ACHEVMENTS
