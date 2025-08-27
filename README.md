@@ -9,7 +9,7 @@ info = [
 
 	pastimes = [
 		"Coding :D",
-		"Running XC",
+		"Running XCountry ",
 		"Surviving School",
 		"Playing with my Dog"
 		],
