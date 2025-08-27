@@ -446,7 +446,7 @@ function plantSeed(gardenBedLocation) {
 		refreshVitals();
 		if(selectedSeed[11] == 7) {
 			document.getElementById(bedData[0]).classList = "";
-			document.getElementById(bedData[0]).classList.add();
+			document.getElementById(bedData[0]).classList.add(selectedSeed[6]);
 		}
 		if (seasonNum == selectedSeed[5]) {
 			bedData[0].style.border = "10px red groove";
