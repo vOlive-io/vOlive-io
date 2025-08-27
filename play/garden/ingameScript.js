@@ -94,7 +94,7 @@ var seeds = [
 		["1.1.2.9", "Oyster Mushroom", "Seed Description", 0, 0.5, 3, 5.00, 0, 0, false, "Uncommon", 0],
 		["1.1.2.10", "Camomile", "Seed Description", 0, 1, 3, 7.00, 0, 0, false, "Uncommon", 1],
 		["1.1.2.11", "Sugar", "Seed Description", 0, 2, 3, 15.00, 0, 0, false, "Uncommon", 1],
-		["1.1.2.12", "Lavender", "Seed Description", 0, 2, 3, 25.00, 0, 0, false, "Uncommon", 1],
+		["1.1.2.12", "Lavender", "Seed Description", 0, 2, 3, 25.00, 0, 2, false, "Uncommon", 1],
 		["1.1.2.13", "Nutmeg", "Seed Description", 0, 2, 3, 20.00, 0, 0, false, "Uncommon", 1],
 		["1.1.2.14", "Parsley", "Seed Description", 0, 1, 3, 20.00, 0, 0, false, "Uncommon", 1],
 		["1.1.2.15", "Garlic", "Seed Description", 0, 3, 3, 40.00, 0, 0, false, "Uncommon", 1],
