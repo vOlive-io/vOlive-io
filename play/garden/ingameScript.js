@@ -440,25 +440,24 @@ function plantSeed(gardenBedLocation) {
 	let bedData = [document.getElementById(([gardenBedLocation.id.substr(0, gardenBedLocation.id.length-7)])), document.getElementById(gardenBedLocation.id), document.getElementById(gardenBedLocation.id + "-text")];
 	findSeed();
 	if (selectedSeed[3] > 0) {
-		if(bedData[0].classList.contains("soil")){}
-		selectedSeed[3]--;
-		bedData[2].innerHTML = selectedSeed[1] + " is growing";
-		bedData[1].style.display = "none";
-		refreshVitals();
-		if(selectedSeed[11] == 7) {
-			document.getElementById(bedData[0]).classList = "";
-			document.getElementById(bedData[0]).classList.add(selectedSeed[6]);
-		}
-		if (seasonNum == selectedSeed[5]) {
-			bedData[0].style.border = "10px red groove";
-			setTimeout(harvest, seasonTime*(selectedSeed[4]+1), selectedSeed, bedData);
-		} else {
-			bedData[0].style.border = "10px green groove";
-			setTimeout(harvest, seasonTime*selectedSeed[4], selectedSeed, bedData);
-		}
-	} else {
-		makeAlert(1);
-	}
+		if(bedData[0].classList.contains(selectedSeed[8])||bedData[0].classList.contains("super"){
+			selectedSeed[3]--;
+			bedData[2].innerHTML = selectedSeed[1] + " is growing";
+			bedData[1].style.display = "none";
+			refreshVitals();
+			if(selectedSeed[11] == 7) {
+				document.getElementById(bedData[0]).classList = "";
+				document.getElementById(bedData[0]).classList.add(selectedSeed[6]);
+			}
+			if (seasonNum == selectedSeed[5]) {
+				bedData[0].style.border = "10px red groove";
+				setTimeout(harvest, seasonTime*(selectedSeed[4]+1), selectedSeed, bedData);
+			} else {
+				bedData[0].style.border = "10px green groove";
+				setTimeout(harvest, seasonTime*selectedSeed[4], selectedSeed, bedData);
+			}
+		} else {makeAlert(6);}
+	} else {makeAlert(1);}
 }
 function harvest(seed, bedData) {
 	bedData[1].style.display = "block";
@@ -614,13 +613,19 @@ function makeAlert(alertCode) {
 	if (alertCode == 4) {
 		document.getElementById("alert-h").innerHTML = "Sold Out!";
 		document.getElementById("alert-p").innerHTML = "This pack is sold out! You cannot buy anymore from this pack, try buying some other seeds instead.";
-		document.getElementById("alert").style.background = "#ffc9ba";
+		document.getElementById("alert").style.background = "#";
 		document.getElementById("alert").style.display = "block";
 	}
 	if (alertCode == 5) {
 		document.getElementById("alert-h").innerHTML = "NEW ACHIEVEMENT: " + newAch +"!";
-		document.getElementById("alert-p").innerHTML = "You just earned a brand new achievement: " + newAch + "! Good job!.";
+		document.getElementById("alert-p").innerHTML = "You just earned a brand new achievement: " + newAch + "! Good job!";
 		document.getElementById("alert").style.background = "#fffead";
+		document.getElementById("alert").style.display = "block";
+	}
+	if (alertCode == 6) {
+		document.getElementById("alert-h").innerHTML = "Wrong Soil";
+		document.getElementById("alert-p").innerHTML = "Try plant this plant is different soil!";
+		document.getElementById("alert").style.background = "#ffc9ba";
 		document.getElementById("alert").style.display = "block";}
 }
 ////////////////////////////////
