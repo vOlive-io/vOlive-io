@@ -22,7 +22,7 @@
 }
 #seed-slots {
   display: grid;
-  grid-template-columns: 100fr 100fr 100fr;
+  grid-template-columns: 90fr 90fr 90fr;
 }
 
 .unlockedSeedsNormal {
@@ -30,7 +30,7 @@
   margin-right: 5px;
   margin-left: 5px;
   margin-bottom: 5px;
-  width: 89%;
+  width: 87%;
   height: 20em;
   font-size: 10px;
 }
@@ -40,7 +40,6 @@
 }
 
 
-
 .unlockedSeedsSuper {
   padding-left: 10px;
   margin-right: 5px;
@@ -48,11 +47,12 @@
   margin-bottom: 10px;
   width: 95%;
   height: 20em;
+  font-size: 10px;
 }
 
 .split-l {
   height: 100%;
-  width: 60%;
+  width: 59%;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -83,7 +83,8 @@
 }
 
 #alert {
-  width: 600px;
+  width: 90%;
+  margin-left: 7px;
   border: black groove 10px;
   display: none;
 }
