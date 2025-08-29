@@ -403,6 +403,7 @@ function createNewGardenSlot() {
 	newSlot.appendChild(newButton);
 	newSlot.appendChild(newButtonText);
 	document.getElementById("garden-slots").appendChild(newSlot);
+	document.getElementById(newSlot).classList.add("soil");
 	gardenValue = gardenValue + 0.5;
 }
 function unlockTemplate() {
