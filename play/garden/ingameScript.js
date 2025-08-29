@@ -402,7 +402,7 @@ function createNewGardenSlot() {
     newButton.innerHTML = "Plant Here";
 	newSlot.appendChild(newButton);
 	newSlot.appendChild(newButtonText);
-	document.getElementById(newSlot).classList.add("soil");
+	newSlot.classList.add("soil");
 
 	document.getElementById("garden-slots").appendChild(newSlot);
 	gardenValue = gardenValue + 0.5;
