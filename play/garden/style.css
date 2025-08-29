@@ -46,7 +46,7 @@
 
 .split-l {
   height: 100%;
-  width: 65%;
+  width: 60%;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -56,7 +56,7 @@
 
 .split-r {
   height: 100%;
-  width: 35%;
+  width: 40%;
   position: fixed;
   z-index: 1;
   top: 0;
