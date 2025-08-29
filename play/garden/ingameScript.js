@@ -331,12 +331,12 @@ function unlockSeedInArray() {
 					document.getElementById("super-seed-slots").appendChild(seedContainer);
 					document.getElementById(placement).classList.add('unlockedSeedsSuper');
 					document.getElementById(placement).style.background = seeds[i][1][i3][12];
-					document.getElementById(placement).style.border = "#000000 groove 6px";
+					document.getElementById(placement).style.border = "#000000 groove 8px";
 				} else { 
 					document.getElementById("seed-slots").appendChild(seedContainer);
 					document.getElementById(placement).classList.add('unlockedSeedsNormal');
 					document.getElementById(placement).style.background = "#fff3d6";
-					document.getElementById(placement).style.border = "#5e502d groove 6px";
+					document.getElementById(placement).style.border = "#5e502d groove 8px";
   
 				}
 				
