@@ -440,7 +440,7 @@ function plantSeed(gardenBedLocation) {
 	let bedData = [document.getElementById(([gardenBedLocation.id.substr(0, gardenBedLocation.id.length-7)])), document.getElementById(gardenBedLocation.id), document.getElementById(gardenBedLocation.id + "-text")];
 	findSeed();
 	if (selectedSeed[3] > 0) {
-		if(bedData[0].classList.contains(selectedSeed[8])||bedData[0].classList.contains("super"){
+		if(bedData[0].classList.contains(selectedSeed[8])||bedData[0].classList.contains("super")){
 			selectedSeed[3]--;
 			bedData[2].innerHTML = selectedSeed[1] + " is growing";
 			bedData[1].style.display = "none";
