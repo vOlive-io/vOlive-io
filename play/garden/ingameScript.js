@@ -339,8 +339,7 @@ function unlockSeedInArray() {
 					document.getElementById(placement).style.border = "#5e502d groove 8px";
   
 				}
-				
-				
+				document.getElementById(placement).classList.add(selectedSeed[10]+"Seeds");
 			}
 		}
 	}
