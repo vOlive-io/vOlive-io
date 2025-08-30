@@ -1,4 +1,5 @@
 /*  BODY STUFF */
+@import url('https://fonts.googleapis.com/css2?family=Oregano:ital@0;1&display=swap');
 
 /*  ACHIVMENT STUFF */
 #achievementUI {
@@ -23,10 +24,12 @@
 }
 #seed-slots {
   display: grid;
+  font-family: "Oregano", cursive;
   grid-template-columns: 90fr 90fr 90fr;
 }
 #super-seed-slots {
   display: grid;
+  font-family: "Oregano", cursive;
   grid-template-columns: 90fr 90fr;
 }
 
