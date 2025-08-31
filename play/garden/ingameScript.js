@@ -68,7 +68,7 @@ var seeds = [
 		["1.1.1.5", "Cabbage", "A filling vegetable, that could probably only last me a day", 0, 1, 1, 4.00, 0, "soil", false, "Common", 0],
 		["1.1.1.6", "Cattail", "Very messy, but very pretty......", 0, 1, 3, 5.00, 0, "water", false, "Common", 0],
 		["1.1.1.7", "Mint", "A great and classic herb to grow, now don't let it get out of control.", 0, 1, 3, 3.00, 0, "soil", false, "Common", 1],
-		["1.1.1.8", "Thyme", "Great addition to and herb garden.", 0, 1, 3, 5.00, 0, "sand", false, "Common", 1],
+		["1.1.1.8", "Thyme", "Great addition to an herb garden.", 0, 1, 3, 5.00, 0, "sand", false, "Common", 1],
 		["1.1.1.9", "Basil", "Now it's time for you to make some pesto!", 0, 1, 3, 5.00, 0, "soil", false, "Common", 1],
 		["1.1.1.10", "Carrot", "Classic, never gets old..... until it does.", 0, 1, 3, 4.00, 0, "soil", false, "Common", 2],
 		["1.1.1.11", "Radish", "If you pickle it, it tastes great with sushi.", 0, 1, 1, 6.00, 0, "sand", false, "Common", 2],
@@ -130,11 +130,11 @@ var seeds = [
 
 	]],
 	["Tools Seeds/Soils", [
-		["1.1.7.1", "Soil Bed", "Seed Description", 0, 0, 3, "soil", 0, 4, false, "Tool", 7],
-		["1.1.7.2", "Water Bed", "Seed Description", 0, 0, 3, "water", 0, 4, false, "Tool", 7],
-		["1.1.7.3", "Sand Bed", "Seed Description", 0, 0, 3, 0, "sand", 0, 4, false, "Tool", 7],
-		["1.1.7.4", "Super Soil", "Seed Description", 0, 0, 3, "super", 0, 0, false, "Tool", 7],
-		["1.1.7.5", "", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Tool", 7]
+		["1.1.7.1", "Soil Bed", "Seed Description", 0, 0, 3, "soil", 0, "any", false, "Tool", 7],
+		["1.1.7.2", "Water Bed", "Seed Description", 0, 0, 3, "water", 0, "any", false, "Tool", 7],
+		["1.1.7.3", "Sand Bed", "Seed Description", 0, 0, 3, 0, "sand", 0, "any", false, "Tool", 7],
+		["1.1.7.4", "Super Soil", "Seed Description", 0, 0, 3, "super", 0, "any", false, "Tool", 7]
+		//["1.1.7.5", "", "Seed Description", 0, 0, 3, "soil", 0, "any", false, "Tool", 7]
 	]]
 ];
 //ACHEVMENTS
@@ -148,12 +148,12 @@ var achievements = [
 	//<id> <name> <what to do> <discription>, <unlocked>, <spieshal>
 	["Seeds Planted", [
 		["2.1.1.1", "Getting Started", "Plant your first seed!", "Achievement Description", false, 1],
-		["2.1.1.2", "Microsopic Garden", "Plant 5 seeds!", "Achievement Description",false, 5],
+		["2.1.1.2", "Microscopic Garden", "Plant 5 seeds!", "Achievement Description",false, 5],
 		["2.1.1.3", "Tiny Garden", "Plant 10 seeds!", "Achievement Description", false, 10],
 		["2.1.1.4", "Small Garden", "Plant 25 seeds!", "Achievement Description", false, 25],
 		["2.1.1.5", "Humble Garden", "Plant 50 seeds!", "Achievement Description", false, 50],
 		["2.1.1.6", "Average Garden", "Plant 100 seeds!", "Achievement Description", false, 100],
-		["2.1.1.7", "Mediocer Garden", "Plant 250 seeds!", "Achievement Description", false, 250],
+		["2.1.1.7", "Mediocre Garden", "Plant 250 seeds!", "Achievement Description", false, 250],
 		["2.1.1.8", "Big Garden", "Plant 500 seeds!", "Achievement Description", false, 500],
 		["2.1.1.9", "Large Garden", "Plant 1,000 seeds!", "Achievement Description", false, 1000],
 		["2.1.1.10", "Huge Garden", "Plant 2,500 seeds!", "Achievement Description", false, 2500],
