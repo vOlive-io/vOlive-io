@@ -48,6 +48,7 @@
 .unlockedSeedsNormal img {
   width: 100px;
   height: 100px;
+  image-rendering: crisp-edges;
   position: absolute; top: 0; right: 0;
 
 }
