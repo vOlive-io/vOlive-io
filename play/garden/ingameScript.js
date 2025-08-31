@@ -604,6 +604,12 @@ function makeAlert(alertCode) {
 		document.getElementById("alert-p").innerHTML = "Try plant this plant is different soil!";
 		document.getElementById("alert").style.background = "#ffc9ba";
 		document.getElementById("alert").style.display = "block";}
+	if (alertCode == 7) {
+		document.getElementById("alert-h").innerHTML = "Already There!";
+		document.getElementById("alert-p").innerHTML = "Your are trying to put some soil spot with that same kind of soil, try again somewhere else!";
+		document.getElementById("alert").style.background = "#ffc9ba";
+		document.getElementById("alert").style.display = "block";}
+
 }
 ////////////////////////////////
 ///         COOKIES          ///
