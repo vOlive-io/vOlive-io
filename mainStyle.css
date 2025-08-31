@@ -4,11 +4,25 @@
   
 }
 .gameCards {
-  border-radius: 10px;
-  border: black 10px;
+  margin-top: -10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 9.5px; 
+  border-radius: 18px;
+  border: black 2.5px solid;
+  background-color: pink;
+  width: 50%;
+
 }
+
+button {
+  border-radius: 15px;
+  width: 100%;
+  height: 5%;
+}
+
 section {
-  width: 85%;
+  width: 65%;
   margin-right: 50px;
   margin-left: 50px;
 
