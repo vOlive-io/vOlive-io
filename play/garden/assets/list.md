@@ -1,9 +1,62 @@
 This is a list of asset files needed and owned.
 
-NEEDED:
+NEEDED (Indicated by: ---)
 
-https://volive-io.github.io/Garden/play/ach_2.1.1.1
+assets/Wheat.png
+assets/Corn.png
+assets/Potato.png
+assets/Fennel.png
+assets/Cabbage.png
+assets/Cattail.png
+assets/Mint.png
+---assets/Thyme.png
+---assets/Basil.png
+assets/Carrot.png
+assets/Radish.png
+assets/Oats.png
+assets/Rice.png
+assets/Sunflower.png
+---assets/Dune Sunflower.png
+assets/Bell Pepper.png
+assets/Rhubarb.png
+---assets/Oyster Mushroom.png
+assets/Seaweed.png
+---assets/Prickly Pear.png
+---assets/Sugar.png
+---assets/Lavender.png
+---assets/Parsley.png
+---assets/Garlic.png
+---assets/Wasabi.png
+assets/White Onion.png
+---assets/Avocado.png
+---assets/Vanilla.png
+---assets/Saffron.png
+assets/Strawberry.png
+---assets/Blueberry.png
+---assets/Blackberry.png
+---assets/Lotus.png
+---assets/Watermelon.png
+---assets/Maple.png
+---assets/Cacao.png
+assets/Rose.png
+assets/Aloe Vera.png
+---assets/Coconut.png
+assets/Apple.png
+---assets/Date Palm.png
+assets/Mango.png
+assets/Cherry.png
+assets/Banana.png
+---assets/Ocotillo.png
+---assets/King Coconut.png
+---assets/Pomegranate.png
+---assets/Bamboo.png
+---assets/Deadly Nightshade.png
+---assets/Shenzhen Nongke Orchid.png
+---assets/Black Bat Flower.png
 
-https://volive-io.github.io/Garden/play/ach_2.1.1.2
+---assets/Soil Bed.png
+---assets/Water Bed.png
+---assets/Sand Bed.png
+---assets/Super Bed.png
 
-OWNED:
+
