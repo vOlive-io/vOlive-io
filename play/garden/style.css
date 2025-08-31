@@ -24,11 +24,13 @@
 }
 #seed-slots {
   display: grid;
+  position: relative;
   font-family: "Oregano", cursive;
   grid-template-columns: 90fr 90fr 90fr;
 }
 #super-seed-slots {
   display: grid;
+  position: relative;
   font-family: "Oregano", cursive;
   grid-template-columns: 90fr 90fr;
 }
@@ -46,7 +48,7 @@
 .unlockedSeedsNormal img {
   width: 100px;
   height: 100px;
-  right: 0; 
+  position: absolute; top: 0; right: 0;
 
 }
 
