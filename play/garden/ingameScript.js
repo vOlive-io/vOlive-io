@@ -104,7 +104,7 @@ var seeds = [
 	["Epic Seeds", [
 		["1.1.4.1", "Aloe Vera", "Seed Description", 0, 0, 3, 0.00, 0, "sand", false, "Epic", 0],
 		["1.1.4.2", "Coconut", "While often referred to as a nut in culinary contexts, it is not a nut. In contrast, the FDA classifies coconut as a tree nut for food allergen labeling purposes. But scientifically speaking, it is a fruit, specifically a drupe, which is a type of fruit with a shell covering surrounding a seed. Which begs the question, where is the coconut seed?", 0, 0, 3, 0.00, 0, "sand", false, "Epic", 5],
-		["1.1.4.3", "Red Apple", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 5],
+		["1.1.4.3", "Apple", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 5],
 		["1.1.4.4", "Date Palm", "Seed Description", 0, 0, 3, 0.00, 0, "sand", false, "Epic", 5],
 		["1.1.4.5", "Mango", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 5],
 		["1.1.4.6", "Cherry", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 5],
