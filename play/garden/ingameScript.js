@@ -79,7 +79,7 @@ var seeds = [
 		["1.1.2.1", "Bell Pepper", "A bell pepper is the fruit of a flowering plant, a cultivar of Capsicum annuum. While used as a vegetable in culinary.........", 0, 2, 3, 7.00, 0, "soil", false, "Uncommon", 0],
 		["1.1.2.2", "Rhubarb", "My mom makes great strawberry and rhubarb pie..... hint hint", 0, 2, 3, 8.00, 0, "soil", false, "Uncommon", 0],
 		["1.1.2.3", "Oyster Mushroom", "Seed Description", 0, 0.5, 3, 5.00, 0, "water", false, "Uncommon", 0],
-		["1.1.3.4", "Seaweed", "Seed Description", 0, 0, 3, 0.00, 0, "water", false, "Rare", 0],
+		["1.1.2.4", "Seaweed", "Seed Description", 0, 0, 3, 0.00, 0, "water", false, "Rare", 0],
 		["1.1.2.5", "Prickly Pear", "Seed Description", 0, 1, 3, 7.00, 0, "sand", false, "Uncommon", 1],
 		["1.1.2.6", "Sugar", "Seed Description", 0, 2, 3, 15.00, 0, "soil", false, "Uncommon", 1],
 		["1.1.2.7", "Lavender", "Seed Description", 0, 2, 3, 25.00, 0, "sand", false, "Uncommon", 1],
@@ -87,8 +87,7 @@ var seeds = [
 		["1.1.2.9", "Garlic", "Seed Description", 0, 3, 3, 40.00, 0, "soil", false, "Uncommon", 1],
 		["1.1.2.10", "Wasabi", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Uncommon", 2],
 		["1.1.2.11", "White Onion", "Seed Description", 0, 2, 3, 40.00, 0, "soil", false, "Uncommon", 2],
-		["1.1.2.12", "Avocado", "Seed Description", 0, 4, 3, 50.00, 0, "soil", false, "Uncommon", 5],
-		["1.1.2.13", "Coral", "Seed Description", 0, 4, 3, 100.00, 0, "water", false, "Uncommon", 6],
+		["1.1.2.12", "Avocado", "Seed Description", 0, 4, 3, 50.00, 0, "soil", false, "Uncommon", 5]
 	]],
 	["Rare Seeds", [
 		["1.1.3.1", "Vanilla", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 1],
