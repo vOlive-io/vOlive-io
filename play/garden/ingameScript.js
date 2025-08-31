@@ -76,19 +76,18 @@ var seeds = [
 		["1.1.1.13", "Rice", "It might not look nice when harvested, but rest assured, when cooked or steamed right, you will get great food.", 0, 1, 3, 6.50, 0, "water", false, "Common", 3],
 		["1.1.1.14", "Sunflower", "A pretty flower to start your garden growing journey. Looks pretty and has great seeds.", 0, 2, 3, 7.50, 0, "soil", false, "Common", 6],
 		["1.1.1.15", "DuneSunflower", "A rarer variety of a classic sunflower, in fact, this will grow even in sand.", 0, 2, 3, 7.50, 0, "sand", false, "Common", 6]
-
 	]],
 	["Uncommon Seeds", [
 		["1.1.2.1", "Bell Pepper", "A bell pepper is the fruit of a flowering plant, a cultivar of Capsicum annuum. While used as a vegetable in culinary.........", 0, 2, 3, 7.00, 0, "soil", false, "Uncommon", 0],
 		["1.1.2.2", "Rhubarb", "My mom makes great strawberry and rhubarb pie..... hint hint", 0, 2, 3, 8.00, 0, "soil", false, "Uncommon", 0],
-		["1.1.2.3", "Oyster Mushroom", "Seed Description", 0, 0.5, 3, 5.00, 0, "soil", false, "Uncommon", 0],
+		["1.1.2.3", "Oyster Mushroom", "Seed Description", 0, 0.5, 3, 5.00, 0, "water", false, "Uncommon", 0],
 		["1.1.3.4", "Seaweed", "Seed Description", 0, 0, 3, 0.00, 0, "water", false, "Rare", 0],
 		["1.1.2.5", "Prickly Pear", "Seed Description", 0, 1, 3, 7.00, 0, "sand", false, "Uncommon", 1],
 		["1.1.2.6", "Sugar", "Seed Description", 0, 2, 3, 15.00, 0, "soil", false, "Uncommon", 1],
 		["1.1.2.7", "Lavender", "Seed Description", 0, 2, 3, 25.00, 0, "sand", false, "Uncommon", 1],
 		["1.1.2.8", "Parsley", "Seed Description", 0, 1, 3, 20.00, 0, "soil", false, "Uncommon", 1],
 		["1.1.2.9", "Garlic", "Seed Description", 0, 3, 3, 40.00, 0, "soil", false, "Uncommon", 1],
-		["1.1.2.10", "Wasabi", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 2],
+		["1.1.2.10", "Wasabi", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Uncommon", 2],
 		["1.1.2.11", "White Onion", "Seed Description", 0, 2, 3, 40.00, 0, "soil", false, "Uncommon", 2],
 		["1.1.2.12", "Avocado", "Seed Description", 0, 4, 3, 50.00, 0, "soil", false, "Uncommon", 5],
 		["1.1.2.13", "Coral", "Seed Description", 0, 4, 3, 100.00, 0, "water", false, "Uncommon", 6],
@@ -101,19 +100,19 @@ var seeds = [
 		["1.1.3.5", "Blackberry", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 4],
 		["1.1.3.6", "Lotus", "Seed Description", 0, 0, 3, 0.00, 0, "water", false, "Rare", 4],
 		["1.1.3.7", "Watermelon", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 4],
-		["1.1.3.8", "Maple", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 5],
+		["1.1.3.8", "Maple", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 5],
 		["1.1.3.9", "Cacao", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 5],
 		["1.1.3.10", "Rose", "Praised for the looks and smell, but......  I don't smell anything, but they look beautiful", 0, 4, 3, 10.00, 0, "soil", false, "Rare", 6],
 	]],
 	["Epic Seeds", [
 		["1.1.4.1", "Aloe Vera", "Seed Description", 0, 0, 3, 0.00, 0, "sand", false, "Epic", 0],
-		["1.1.4.2", "Coconut", "While often referred to as a nut in culinary contexts, it is not a nut. In contrast, the FDA classifies coconut as a tree nut for food allergen labeling purposes. But scientifically speaking, it is a fruit, specifically a drupe, which is a type of fruit with a shell covering surrounding a seed. Which begs the question, where is the coconut seed?", 0, 0, 3, 0.00, 0, "sand", false, "Rare", 5]
-		["1.1.4.4", "Red Apple", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 5],
-		["1.1.4.5", "Date Palm", "Seed Description", 0, 0, 3, 0.00, 0, "sand", false, "Epic", 5],
-		["1.1.4.6", "Mango", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 5],
-		["1.1.4.7", "Cherry", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 5],
-		["1.1.4.8", "Banana", "Seed Description", 0, 2, 3, 20.00, 0, "sand", false, "Epic", 5],
-		["1.1.4.9", "Ocotillo", "Seed Description", 0, 0, 3, 0.00, 0, "sand", false, "Epic", 6]
+		["1.1.4.2", "Coconut", "While often referred to as a nut in culinary contexts, it is not a nut. In contrast, the FDA classifies coconut as a tree nut for food allergen labeling purposes. But scientifically speaking, it is a fruit, specifically a drupe, which is a type of fruit with a shell covering surrounding a seed. Which begs the question, where is the coconut seed?", 0, 0, 3, 0.00, 0, "sand", false, "Epic", 5]
+		["1.1.4.3", "Red Apple", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 5],
+		["1.1.4.4", "Date Palm", "Seed Description", 0, 0, 3, 0.00, 0, "sand", false, "Epic", 5],
+		["1.1.4.5", "Mango", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 5],
+		["1.1.4.6", "Cherry", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 5],
+		["1.1.4.7", "Banana", "Seed Description", 0, 2, 3, 20.00, 0, "sand", false, "Epic", 5],
+		["1.1.4.8", "Ocotillo", "Seed Description", 0, 0, 3, 0.00, 0, "sand", false, "Epic", 6]
 	]],
 	["Mythic Seeds", [
 		["1.1.5.1", "King Coconut", "Fiery red, passionate and powerful are the perfect words to describe the King Coconut (or me, you could say both). Primarily found in Sri Lanka, a beautiful place in South Asia, they make a name for themselves with their refreshing taste. They are commonly turned into cocktails, smoothies, and ice cream. The meat, once scooped out can added to dishes, or eaten raw. In all the king coconut is a very versatile fruit.", 0, 0, 3, 0.00, 0, "sand", false, "Mythic", 4, "#f5bc42"],
@@ -128,13 +127,12 @@ var seeds = [
 		["1.1.6.2", "Spine Vine", "Seed Description", 0, 0, 3, 0.00, 0, "sand", false, "Alchemy", 5],
 		["1.1.6.3", "Sherical Hexflower", "Seed Description", 0, 0, 3, 0.00, 0, "any", false, "Alchemy", 6]
 		["1.1.6.4", "Soulbloom Lily", "Seed Description", 0, 0, 3, 0.00, 0, "water", false, "Alchemy", 6],
-
 	]],
 	["Tools Seeds/Soils", [
-		["1.1.7.1", "Soil Bed", "Seed Description", 0, 0, 3, "soil", 0, "any", false, "Tool", 7],
-		["1.1.7.2", "Water Bed", "Seed Description", 0, 0, 3, "water", 0, "any", false, "Tool", 7],
-		["1.1.7.3", "Sand Bed", "Seed Description", 0, 0, 3, 0, "sand", 0, "any", false, "Tool", 7],
-		["1.1.7.4", "Super Soil", "Seed Description", 0, 0, 3, "super", 0, "any", false, "Tool", 7]
+		["1.1.7.1", "Soil Bed", "Sets the type of soil to garden soil, a mixture of fertilizer little bit of mulch and normal dirt.", 0, 0, 3, "soil", 0, "any", false, "Tool", 7],
+		["1.1.7.2", "Water Bed", "Sets the type of soil to water, somehow all the water is still contained in the bed will not spilling out, the water you use has a mixture of nutrients and soils and sands to let all plants get routed into the ground.", 0, 0, 3, "water", 0, "any", false, "Tool", 7],
+		["1.1.7.3", "Sand Bed", "Sets the type of soil to garden sand, straight from the deserts and sand dunes this high quality luxury sand refreshes all of your desert plants and gives them the perfect biome.", 0, 0, 3, 0, "sand", 0, "any", false, "Tool", 7],
+		["1.1.7.4", "Super Soil", "Sets the type of soil to super soil, a magic mystery mixture of soil that somehow combines all the elements of water sand and fertilize soil into one blend that'll last any kind of plant to grow inside of it.", 0, 0, 3, "super", 0, "any", false, "Tool", 7]
 		//["1.1.7.5", "", "Seed Description", 0, 0, 3, "soil", 0, "any", false, "Tool", 7]
 	]]
 ];
