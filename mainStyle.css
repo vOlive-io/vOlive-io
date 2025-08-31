@@ -7,3 +7,9 @@
   border-radius: 10px;
   border: black 10px;
 }
+section {
+  width: 85%;
+  margin-right: 50px;
+  margin-left: 50px;
+
+}
