@@ -283,7 +283,12 @@ function unlockSeedInArray() {
 				const seed_p_text_1 = document.createTextNode(p_part_1);
 				const seed_p_text_2 = document.createTextNode(p_part_2);
 				const seed_p_text_3 = document.createTextNode(p_part_3);
-
+				
+				const seedImageAsset = "assets/" + slectedSeed[1];
+				const seedImage = document.createElement("img");
+				
+				seedImage.src = seedImageAsset;
+					
                 seed_li.appendChild(seed_p_text);
                 seed_li_1.appendChild(seed_p_text_1);
                 seed_li_2.appendChild(seed_p_text_2);
@@ -297,6 +302,8 @@ function unlockSeedInArray() {
                 
 				seedContainer.appendChild(seed_h1);
 				seedContainer.appendChild(seed_p);
+				seedContainer.appendChild(seedImage);
+				
 				const placement = "seed-" + seeds[i][1][i3][0];
 				seedContainer.id = placement;
 				
