@@ -42,6 +42,14 @@
   height: 20em;
   font-size: 15px;
 }
+
+.unlockedSeedsNormal img {
+  width: 100px;
+  height: 100px;
+  right: 0; 
+
+}
+
 .unlockedSeedsNormal ul {
   margin-right: 10px;
   margin-left: -10px;
