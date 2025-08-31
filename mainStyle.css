@@ -1,1 +1,9 @@
 
+#gameCardArray {
+  grid-template-columns: 80fr 80fr 80fr;
+  
+}
+.gameCards {
+  border-radius: 10px;
+  border: black 10px;
+}
