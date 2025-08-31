@@ -95,24 +95,25 @@ var seeds = [
 	]],
 	["Rare Seeds", [
 		["1.1.3.1", "Vanilla", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 1],
-		["1.1.3.2", "Strawberry", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 4],
-		["1.1.3.3", "Blueberry", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 4],
-		["1.1.3.4", "Blackberry", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 4],
+		["1.1.3.2", "Saffron", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 1],
+		["1.1.3.3", "Strawberry", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 4],
+		["1.1.3.4", "Blueberry", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 4],
+		["1.1.3.5", "Blackberry", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 4],
 		["1.1.3.6", "Lotus", "Seed Description", 0, 0, 3, 0.00, 0, "water", false, "Rare", 4],
 		["1.1.3.7", "Watermelon", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 4],
-		["1.1.3.8", "Cacao", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 6],
-		["1.1.1.9", "Rose", "Praised for the looks and smell, but......  I don't smell anything, but they look beautiful", 0, 4, 3, 10.00, 0, "soil", false, "Rare", 6],
-		["1.1.3.10", "Coconut", "While often referred to as a nut in culinary contexts, it is not a nut. In contrast, the FDA classifies coconut as a tree nut for food allergen labeling purposes. But scientifically speaking, it is a fruit, specifically a drupe, which is a type of fruit with a shell covering surrounding a seed. Which begs the question, where is the coconut seed?", 0, 0, 3, 0.00, 0, "sand", false, "Rare", 5]
+		["1.1.3.8", "Maple", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 5],
+		["1.1.3.9", "Cacao", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 5],
+		["1.1.3.10", "Rose", "Praised for the looks and smell, but......  I don't smell anything, but they look beautiful", 0, 4, 3, 10.00, 0, "soil", false, "Rare", 6],
 	]],
 	["Epic Seeds", [
 		["1.1.4.1", "Aloe Vera", "Seed Description", 0, 0, 3, 0.00, 0, "sand", false, "Epic", 0],
-		["1.1.4.2", "Saffron", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 1],
-		["1.1.4.3", "Black Diamond Apple", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 5],
-		["1.1.4.4", "Maple", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 5],
-		["1.1.4.5", "Mango", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 5],
-		["1.1.4.6", "Cherry", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 5],
-		["1.1.4.7", "Banana", "Seed Description", 0, 2, 3, 20.00, 0, "soil", false, "Epic", 5],
-		["1.1.4.8", "Ocotillo", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 6]
+		["1.1.4.2", "Coconut", "While often referred to as a nut in culinary contexts, it is not a nut. In contrast, the FDA classifies coconut as a tree nut for food allergen labeling purposes. But scientifically speaking, it is a fruit, specifically a drupe, which is a type of fruit with a shell covering surrounding a seed. Which begs the question, where is the coconut seed?", 0, 0, 3, 0.00, 0, "sand", false, "Rare", 5]
+		["1.1.4.4", "Red Apple", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 5],
+		["1.1.4.5", "Date Palm", "Seed Description", 0, 0, 3, 0.00, 0, "sand", false, "Epic", 5],
+		["1.1.4.6", "Mango", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 5],
+		["1.1.4.7", "Cherry", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 5],
+		["1.1.4.8", "Banana", "Seed Description", 0, 2, 3, 20.00, 0, "sand", false, "Epic", 5],
+		["1.1.4.9", "Ocotillo", "Seed Description", 0, 0, 3, 0.00, 0, "sand", false, "Epic", 6]
 	]],
 	["Mythic Seeds", [
 		["1.1.5.1", "King Coconut", "Fiery red, passionate and powerful are the perfect words to describe the King Coconut (or me, you could say both). Primarily found in Sri Lanka, a beautiful place in South Asia, they make a name for themselves with their refreshing taste. They are commonly turned into cocktails, smoothies, and ice cream. The meat, once scooped out can added to dishes, or eaten raw. In all the king coconut is a very versatile fruit.", 0, 0, 3, 0.00, 0, "sand", false, "Mythic", 4, "#f5bc42"],
