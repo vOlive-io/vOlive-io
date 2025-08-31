@@ -284,7 +284,7 @@ function unlockSeedInArray() {
 				const seed_p_text_2 = document.createTextNode(p_part_2);
 				const seed_p_text_3 = document.createTextNode(p_part_3);
 				
-				const seedImageAsset = "assets/" + selectedSeed[1];
+				const seedImageAsset = "assets/" + selectedSeed[1] + ".png";
 				const seedImage = document.createElement("img");
 				
 				seedImage.src = seedImageAsset;
