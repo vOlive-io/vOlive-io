@@ -98,7 +98,7 @@ var seeds = [
 		["1.1.3.2", "Strawberry", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 4],
 		["1.1.3.3", "Blueberry", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 4],
 		["1.1.3.4", "Blackberry", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 4],
-		["1.1.3.6", "Raspberry", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 4],
+		["1.1.3.6", "Lotus", "Seed Description", 0, 0, 3, 0.00, 0, "water", false, "Rare", 4],
 		["1.1.3.7", "Watermelon", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 4],
 		["1.1.3.8", "Cacao", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 6],
 		["1.1.1.9", "Rose", "Praised for the looks and smell, but......  I don't smell anything, but they look beautiful", 0, 4, 3, 10.00, 0, "soil", false, "Rare", 6],
@@ -118,7 +118,7 @@ var seeds = [
 		["1.1.5.1", "King Coconut", "Fiery red, passionate and powerful are the perfect words to describe the King Coconut (or me, you could say both). Primarily found in Sri Lanka, a beautiful place in South Asia, they make a name for themselves with their refreshing taste. They are commonly turned into cocktails, smoothies, and ice cream. The meat, once scooped out can added to dishes, or eaten raw. In all the king coconut is a very versatile fruit.", 0, 0, 3, 0.00, 0, "sand", false, "Mythic", 4, "#f5bc42"],
 		["1.1.5.2", "Pomegranate", "My personal favorite fruit to eat, my personal least favorite to clean up. Pomegranates have tons of seeds and in various cultures, they often represent fertility, abundance, and prosperity. The red pigment inside of them, can stain almost anything and is very hard to remove. When dranken as a juice it has positive effects on cardiovascular health, cognitive function, and can even have cancer prevention!", 0, 0, 3, 0.00, 0, "soil", false, "Mythic", 4, "#9c0034"],
 		["1.1.5.3", "Bamboo", "Found primarily in warm and moist tropical and temperate climates bamboo is a strong, green, tall, delicious (to pandas) and majestic plant. It covers a total of 0.38% of the earth. ", 0, 0, 3, 0.00, 0, "soil", false, "Mythic", 5, "#c1df51"],
-		["1.1.5.4", "Moonflower", "Also known as the tropical white morning-glory, grown, this stunning flower grows annually, depending on the region.", 0, 0, 3, 0.00, 0, "soil", false, "Mythic", 5, "#d395ff"],
+		["1.1.5.4", "Deadly Nightshade", "A buituf flower, but it packs a scarry punch: berries that can cause blurred vision, headaches, hallucinations, and death. This deadly plant's berries are commonly mistaken as edible; the consequences are grave.", 0, 0, 3, 0.00, 0, "soil", false, "Mythic", 5, "#d395ff"],
 		["1.1.5.5", "Shenzhen Nongke Orchid", "Coming in hot with world fame, and an auction price higher than my salary for ten years, this orchid is renowned for its beautiful shape, stunning colors, and the fact that it only blooms once every few years.", 0, 0, 3, 0.00, 0, "soil", false, "Mythic", 6, "#ebffc7"],
 		["1.1.5.6", "Black Bat Flower", "This flower bears a stunning resemblance to a bat. The black bat flower is considered poisonous, to pets, and humans, and everything, so, don't eat it.", 0, 0, 3, 0.00, 0, "soil", false, "Mythic", 6, "#785691"]
 	]],
