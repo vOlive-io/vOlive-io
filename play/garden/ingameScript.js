@@ -66,8 +66,7 @@ var seeds = [
 		["1.1.1.3", "Potato", "P-O-T-A-T-O that spells POTATO!", 0, 1, 3, 3.00, 0, "soil", false, "Common", 0],
 		["1.1.1.4", "Zucchini", "A thick cucumber-looking vegetable, that can make some tasty muffins, look it up.", 0, 1, 3, 3.50, 0, "soil", false, "Common", 0],
 		["1.1.1.5", "Cabbage", "A filling vegetable, that could probably only last me a day", 0, 1, 1, 4.00, 0, "soil", false, "Common", 0],
-		["1.1.1.6", "Celery", "They say that it takes more calories to digest than gained by eating it.... ", 0, 1, 3, 3.00, 0, "soil", false, "Common", 0],
-		["1.1.1.7", "Cattail", "Very mess, but very pretty......", 0, 1, 3, 5.00, 0, "water", false, "Common", 0],
+		["1.1.1.7", "Cattail", "Very messy, but very pretty......", 0, 1, 3, 5.00, 0, "water", false, "Common", 0],
 		["1.1.1.8", "Mint", "A great and classic herb to grow, now don't let it get out of control.", 0, 1, 3, 3.00, 0, "soil", false, "Common", 1],
 		["1.1.1.9", "Fennel", "This reminds me of California trails, covered in fennel.", 0, 1, 3, 5.00, 0, "soil", false, "Common", 1],
 		["1.1.1.10", "Basil", "Now it's time for you to make some pesto!", 0, 1, 3, 5.00, 0, "soil", false, "Common", 1],
@@ -75,33 +74,33 @@ var seeds = [
 		["1.1.1.12", "Radish", "If you pickle it, it tastes great with sushi.", 0, 1, 1, 6.00, 0, "soil", false, "Common", 2],
 		["1.1.1.13", "Oats", "A healthy replacement to cereal, but I doubt any of us care.", 0, 1, 3, 3.00, 0, "soil", false, "Common", 3],
 		["1.1.1.14", "Rice", "It might not look nice when harvested, but rest assured, when cooked or steamed right, you will get great food.", 0, 1, 3, 6.50, 0, "soil", false, "Common", 3],
-		["1.1.1.15", "Rose", "Praised for the looks and smell, but......  I don't smell anything, but they look beautiful", 0, 4, 3, 10.00, 0, "soil", false, "Common", 6],
 		["1.1.1.16", "Sunflower", "A pretty flower to start your garden growing journey. Looks pretty and has great seeds.", 0, 2, 3, 7.50, 0, "soil", false, "Common", 6]
 	]],
 	["Uncommon Seeds", [
 		["1.1.2.1", "Bell Pepper", "A bell pepper is the fruit of a flowering plant, a cultivar of Capsicum annuum. While used as a vegetable in culinary.........", 0, 2, 3, 7.00, 0, "soil", false, "Uncommon", 0],
 		["1.1.2.2", "Rhubarb", "My mom makes great strawberry and rhubarb pie..... hint hint", 0, 2, 3, 8.00, 0, "soil", false, "Uncommon", 0],
 		["1.1.2.3", "Oyster Mushroom", "Seed Description", 0, 0.5, 3, 5.00, 0, "soil", false, "Uncommon", 0],
-		["1.1.2.4", "Camomile", "Seed Description", 0, 1, 3, 7.00, 0, "soil", false, "Uncommon", 1],
-		["1.1.2.5", "Sugar", "Seed Description", 0, 2, 3, 15.00, 0, "soil", false, "Uncommon", 1],
-		["1.1.2.6", "Lavender", "Seed Description", 0, 2, 3, 25.00, 0, "sand", false, "Uncommon", 1],
-		["1.1.2.7", "Parsley", "Seed Description", 0, 1, 3, 20.00, 0, "soil", false, "Uncommon", 1],
-		["1.1.2.8", "Garlic", "Seed Description", 0, 3, 3, 40.00, 0, "soil", false, "Uncommon", 1],
-		["1.1.2.9", "White Onion", "Seed Description", 0, 2, 3, 40.00, 0, "soil", false, "Uncommon", 2],
-		["1.1.2.10", "Avocado", "Seed Description", 0, 4, 3, 50.00, 0, "soil", false, "Uncommon", 5],
-		["1.1.2.11", "Coral", "Seed Description", 0, 4, 3, 100.00, 0, "water", false, "Uncommon", 6],
+		["1.1.3.4", "Seaweed", "Seed Description", 0, 0, 3, 0.00, 0, "water", false, "Rare", 0],
+		["1.1.2.5", "Camomile", "Seed Description", 0, 1, 3, 7.00, 0, "soil", false, "Uncommon", 1],
+		["1.1.2.6", "Sugar", "Seed Description", 0, 2, 3, 15.00, 0, "soil", false, "Uncommon", 1],
+		["1.1.2.7", "Lavender", "Seed Description", 0, 2, 3, 25.00, 0, "sand", false, "Uncommon", 1],
+		["1.1.2.8", "Parsley", "Seed Description", 0, 1, 3, 20.00, 0, "soil", false, "Uncommon", 1],
+		["1.1.2.9", "Garlic", "Seed Description", 0, 3, 3, 40.00, 0, "soil", false, "Uncommon", 1],
+		["1.1.2.10", "Wasabi", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 2],
+		["1.1.2.11", "White Onion", "Seed Description", 0, 2, 3, 40.00, 0, "soil", false, "Uncommon", 2],
+		["1.1.2.12", "Avocado", "Seed Description", 0, 4, 3, 50.00, 0, "soil", false, "Uncommon", 5],
+		["1.1.2.13", "Coral", "Seed Description", 0, 4, 3, 100.00, 0, "water", false, "Uncommon", 6],
 	]],
 	["Rare Seeds", [
-		["1.1.3.1", "Seaweed", "Seed Description", 0, 0, 3, 0.00, 0, "water", false, "Rare", 1],
-		["1.1.3.10", "Vanilla", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 1],
-		["1.1.3.2", "Wasabi", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 2],
-		["1.1.3.3", "Strawberry", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 4],
-		["1.1.3.4", "Blueberry", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 4],
-		["1.1.3.5", "Blackberry", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 4],
+		["1.1.3.1", "Vanilla", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 1],
+		["1.1.3.2", "Strawberry", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 4],
+		["1.1.3.3", "Blueberry", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 4],
+		["1.1.3.4", "Blackberry", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 4],
 		["1.1.3.6", "Raspberry", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 4],
 		["1.1.3.7", "Watermelon", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 4],
-		
-		["1.1.3.11", "Coconut", "While often referred to as a nut in culinary contexts, it is not a nut. In contrast, the FDA classifies coconut as a tree nut for food allergen labeling purposes. But scientifically speaking, it is a fruit, specifically a drupe, which is a type of fruit with a shell covering surrounding a seed. Which begs the question, where is the coconut seed?", 0, 0, 3, 0.00, 0, "sand", false, "Rare", 5]
+		["1.1.3.8", "Cacao", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 6],
+		["1.1.1.9", "Rose", "Praised for the looks and smell, but......  I don't smell anything, but they look beautiful", 0, 4, 3, 10.00, 0, "soil", false, "Rare", 6],
+		["1.1.3.10", "Coconut", "While often referred to as a nut in culinary contexts, it is not a nut. In contrast, the FDA classifies coconut as a tree nut for food allergen labeling purposes. But scientifically speaking, it is a fruit, specifically a drupe, which is a type of fruit with a shell covering surrounding a seed. Which begs the question, where is the coconut seed?", 0, 0, 3, 0.00, 0, "sand", false, "Rare", 5]
 	]],
 	["Epic Seeds", [
 		["1.1.4.1", "Aloe Vera", "Seed Description", 0, 0, 3, 0.00, 0, "sand", false, "Epic", 0],
@@ -110,10 +109,8 @@ var seeds = [
 		["1.1.4.4", "Maple", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 5],
 		["1.1.4.5", "Mango", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 5],
 		["1.1.4.6", "Cherry", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 5],
-		["1.1.4.7", "Peach", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 5],
-		["1.1.4.8", "Banana", "Seed Description", 0, 2, 3, 20.00, 0, "soil", false, "Epic", 5],
-		["1.1.4.9", "Cacao", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 6],
-		["1.1.4.10", "Ocotillo", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 6]
+		["1.1.4.7", "Banana", "Seed Description", 0, 2, 3, 20.00, 0, "soil", false, "Epic", 5],
+		["1.1.4.8", "Ocotillo", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 6]
 	]],
 	["Mythic Seeds", [
 		["1.1.5.1", "King Coconut", "Fiery red, passionate and powerful are the perfect words to describe the King Coconut (or me, you could say both). Primarily found in Sri Lanka, a beautiful place in South Asia, they make a name for themselves with their refreshing taste. They are commonly turned into cocktails, smoothies, and ice cream. The meat, once scooped out can added to dishes, or eaten raw. In all the king coconut is a very versatile fruit.", 0, 0, 3, 0.00, 0, "sand", false, "Mythic", 4, "#f5bc42"],
@@ -124,11 +121,11 @@ var seeds = [
 		["1.1.5.6", "Black Bat Flower", "This flower bears a stunning resemblance to a bat. The black bat flower is considered poisonous, to pets, and humans, and everything, so, don't eat it.", 0, 0, 3, 0.00, 0, "soil", false, "Mythic", 6, "#785691"]
 	]],
 	["Alchemy Seeds", [
-		["1.1.6.1", "Romor Vine", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Alchemy", 4],
-		["1.1.6.2", "Soulbloom Lily", "Seed Description", 0, 0, 3, 0.00, 0, "water", false, "Alchemy", 4],
-		["1.1.6.3", "Tree of Eternal Truths", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Alchemy", 5],
-		["1.1.6.4", "Queen Orcid", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Alchemy", 5],
-		["1.1.6.5", "Sherical Hexflower", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Alchemy", 6]
+		["1.1.6.1", "Tree of Eternal Truths", "Seed Description", 0, 0, 3, 0.00, 0, "super", false, "Alchemy", 5],
+		["1.1.6.2", "Spine Vine", "Seed Description", 0, 0, 3, 0.00, 0, "sand", false, "Alchemy", 5],
+		["1.1.6.3", "Sherical Hexflower", "Seed Description", 0, 0, 3, 0.00, 0, "any", false, "Alchemy", 6]
+		["1.1.6.4", "Soulbloom Lily", "Seed Description", 0, 0, 3, 0.00, 0, "water", false, "Alchemy", 6],
+
 	]],
 	["Tools Seeds/Soils", [
 		["1.1.7.1", "Soil Bed", "Seed Description", 0, 0, 3, "soil", 0, 4, false, "Tool", 7],
