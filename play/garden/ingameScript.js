@@ -102,11 +102,11 @@ var seeds = [
 		["1.1.3.7", "Watermelon", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 4],
 		["1.1.3.8", "Maple", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 5],
 		["1.1.3.9", "Cacao", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Rare", 5],
-		["1.1.3.10", "Rose", "Praised for the looks and smell, but......  I don't smell anything, but they look beautiful", 0, 4, 3, 10.00, 0, "soil", false, "Rare", 6],
+		["1.1.3.10", "Rose", "Praised for the looks and smell, but......  I don't smell anything, but they look beautiful", 0, 4, 3, 10.00, 0, "soil", false, "Rare", 6]
 	]],
 	["Epic Seeds", [
 		["1.1.4.1", "Aloe Vera", "Seed Description", 0, 0, 3, 0.00, 0, "sand", false, "Epic", 0],
-		["1.1.4.2", "Coconut", "While often referred to as a nut in culinary contexts, it is not a nut. In contrast, the FDA classifies coconut as a tree nut for food allergen labeling purposes. But scientifically speaking, it is a fruit, specifically a drupe, which is a type of fruit with a shell covering surrounding a seed. Which begs the question, where is the coconut seed?", 0, 0, 3, 0.00, 0, "sand", false, "Epic", 5]
+		["1.1.4.2", "Coconut", "While often referred to as a nut in culinary contexts, it is not a nut. In contrast, the FDA classifies coconut as a tree nut for food allergen labeling purposes. But scientifically speaking, it is a fruit, specifically a drupe, which is a type of fruit with a shell covering surrounding a seed. Which begs the question, where is the coconut seed?", 0, 0, 3, 0.00, 0, "sand", false, "Epic", 5],
 		["1.1.4.3", "Red Apple", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 5],
 		["1.1.4.4", "Date Palm", "Seed Description", 0, 0, 3, 0.00, 0, "sand", false, "Epic", 5],
 		["1.1.4.5", "Mango", "Seed Description", 0, 0, 3, 0.00, 0, "soil", false, "Epic", 5],
@@ -126,7 +126,7 @@ var seeds = [
 		["1.1.6.1", "Tree of Eternal Truths", "Seed Description", 0, 0, 3, 0.00, 0, "super", false, "Alchemy", 5],
 		["1.1.6.2", "Spine Vine", "Seed Description", 0, 0, 3, 0.00, 0, "sand", false, "Alchemy", 5],
 		["1.1.6.3", "Sherical Hexflower", "Seed Description", 0, 0, 3, 0.00, 0, "any", false, "Alchemy", 6]
-		["1.1.6.4", "Soulbloom Lily", "Seed Description", 0, 0, 3, 0.00, 0, "water", false, "Alchemy", 6],
+		["1.1.6.4", "Soulbloom Lily", "Seed Description", 0, 0, 3, 0.00, 0, "water", false, "Alchemy", 6]
 	]],
 	["Tools Seeds/Soils", [
 		["1.1.7.1", "Soil Bed", "Sets the type of soil to garden soil, a mixture of fertilizer little bit of mulch and normal dirt.", 0, 0, 3, "soil", 0, "any", false, "Tool", 7],
