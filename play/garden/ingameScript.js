@@ -17,8 +17,6 @@ function checkScreenSize() {
 
 
 
-
-
 //Seeds array counts plants AND seeds in inventory
 // ids * <number of item class type> . <number of item class > . <number of item subclass> . <item number>
 //["<Item ID>*", "Seed Name", "Seed Description", <seeds owned: int>, <time to grow (seasons): int>, <off season: int>, <base value: dub>, <total planted: int>, <unlocked: bool>, <placed: bool>, <rareity: string>, <plant type: int>, <soil type: int>],
@@ -75,7 +73,7 @@ var seeds = [
 		["1.1.1.12", "Oats", "A healthy replacement to cereal, but I doubt any of us care.", 0, 1, 3, 3.00, 0, "soil", false, "Common", 3],
 		["1.1.1.13", "Rice", "It might not look nice when harvested, but rest assured, when cooked or steamed right, you will get great food.", 0, 1, 3, 6.50, 0, "water", false, "Common", 3],
 		["1.1.1.14", "Sunflower", "A pretty flower to start your garden growing journey. Looks pretty and has great seeds.", 0, 2, 3, 7.50, 0, "soil", false, "Common", 6],
-		["1.1.1.15", "DuneSunflower", "A rarer variety of a classic sunflower, in fact, this will grow even in sand.", 0, 2, 3, 7.50, 0, "sand", false, "Common", 6]
+		["1.1.1.15", "Dune Sunflower", "A rarer variety of a classic sunflower, in fact, this will grow even in sand.", 0, 2, 3, 7.50, 0, "sand", false, "Common", 6]
 	]],
 	["Uncommon Seeds", [
 		["1.1.2.1", "Bell Pepper", "A bell pepper is the fruit of a flowering plant, a cultivar of Capsicum annuum. While used as a vegetable in culinary.........", 0, 2, 3, 7.00, 0, "soil", false, "Uncommon", 0],
