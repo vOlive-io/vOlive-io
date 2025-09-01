@@ -10,10 +10,10 @@
   padding-bottom: 9.5px; 
   border-radius: 18px;
   border: black 2.5px solid;
-  background-color: pink;
   width: 50%;
-
 }
+#gardenGameCard {background-color: #fcba03;}
+#kmkGameCard {background-color: #fc036f;}
 
 button {
   border-radius: 15px;
