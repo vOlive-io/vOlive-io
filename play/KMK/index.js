@@ -16,8 +16,6 @@ var killSetNum = 0;
 var kissSet = ["Kiss", "Hug"];
 var marySet = ["Mary", "Befrend"];
 var killSet = ["Kill", "Forget"];
-
-  }
 function assignChars() {
   for(i = 1; i <= 3; i++) {
     placePersets(("char"+i));
@@ -25,7 +23,6 @@ function assignChars() {
 }
 function placePersets(mainSpot) {
   document.getElementById(mainSpot).innerHTML = characterSet[Math.floor(Math.random() * characterSet.length)];
-
   const spot = mainSpot+"buttons";
   //Kiss
   const kissButton = document.createElement("button");
