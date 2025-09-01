@@ -5,12 +5,14 @@
 }
 .gameCards {
   margin-top: -10px;
+  margin-bottom: 20px;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 9.5px; 
   border-radius: 18px;
   border: black 2.5px solid;
   width: 50%;
+  
 }
 #gardenGameCard {background-color: #fcba03;}
 #kmkGameCard {background-color: #fc036f;}
