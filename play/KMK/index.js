@@ -1,4 +1,3 @@
-window.addEventListener('load', chooseSet);
 
 
 var characterSet = ["A duck", "A cow", "A sheep", "A frog", "A fart", "A pigeon", "Trucker", "Girl off the street", "Guy off the street", "Person off the street", "Lily thr frog queen", "A living marker", "2 BFDI", "British guy", "A fat cat sleeping on a mat"];;
