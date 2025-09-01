@@ -26,19 +26,19 @@ function placePersets(mainSpot) {
   const kissButtonText = document.createTextNode(kissSet[kissSetNum]);
   kissButton.appendChild(kissButtonText);
   kissButton.id = "kissButton";
-  spot.appendChild(kissButton);
+  document.getElementById(spot).appendChild(kissButton);
   //Mary
   const maryButton = document.createElement("button");
   const maryButtonText = document.createTextNode(marySet[marySetNum]);
   maryButton.appendChild(maryButtonText);
   maryButton.id = "maryButton";
-  spot.appendChild(kissButton);
+  document.getElementById(spot).appendChild(kissButton);
   //Kill
   const killButton = document.createElement("button");
   const killButtonText = document.createTextNode(killSet[killSetNum]);
   killButton.appendChild(killButtonText);
   killButton.id = "killButton";
-  spot.appendChild(killButton);
+  document.getElementById(spot).appendChild(killButton);
 
 }
 
