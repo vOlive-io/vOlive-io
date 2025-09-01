@@ -200,25 +200,22 @@ function unlockAchievements() {
 }
 function displayAchievements() {
 	document.getElementById("achGallaryWing").innerHTML = "";	
-	for(i = 1; i < achievements.length; i++) {
+	for(i = 0; i < achievements[1][1].length; i++) {
 		if (achievements[1][1][i][4] == true) {
 			const achContainer = document.createElement("div");
 			const ach_h1 = document.createElement("h1");
 			const ach_p = document.createElement("p");
 			const ach_h1_text = document.createTextNode(achievements[1][1][i][1]);
-			const ach_1_text = document.createTextNode(achievements[1][1][i][3]);
+			const ach_p_text = document.createTextNode(achievements[1][1][i][3]);
 			ach_h1.appendChild(ach_h1_text);
 			ach_p.appendChild(ach_p_text);
 			achContainer.appendChild(ach_h1);
 			achContainer.appendChild(ach_p);
 			document.getElementById("achGallaryWing").appendChild(achContainer);
-		} else {
-
-	
-		}
+		} 
 	}
-	
 }	
+
 
 ////////////////////////////////
 ///       BOOT-UP GAME       ///
