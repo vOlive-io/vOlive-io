@@ -166,17 +166,17 @@ var achievements = [
 	]],
 	["Seed Recipes", [
 		["2.1.2.1", "Strawberry Rhubarb Pie", "Grow: 5 Strawberries, 3 Rhubarb, 3 Sugar, 2 Wheat, and 1 Vanilla.", "Achievement Description", false, false],
-		["2.1.2.2", "Fruit Cup", "Grow: 5 Strawberries, 4 Blueberries, 3 Mangos, 2 Watermelons, and 1 Ruby Roman Grape", "Achievement Description", false, false],
-	 	["2.1.2.3", "Banana Foster Waffles", "Grow: 5 Wheat, 4 Sugar, 4 Bananas, 3 Maple, (put more here)", "Achievement Description", false, false],
-		["2.1.2.4", "Pancake", "Grow: 5 Wheat, 4 Sugar, 4 Maple, 3 Vanilla, 2 Strawberries, and 1 ....", "Achievement Description", false, false],
-		["2.1.2.5", "Pancake Stack", "Grow: 25 Wheat, 20 Sugar, 20 Maple, 15 Vanilla, 10 Strawberries, and 5 ....", "Achievement Description", false, false],
-		["2.1.2.6", "Pancake Tower", "Grow: 50 Wheat, 40 Sugar, 40 Maple, 30 Vanilla, 20 Strawberries, and 10....", "Achievement Description", false, false],
+		["2.1.2.2", "Fruit Cup", "Grow: 5 Strawberries, 4 Blueberries, 3 Mangos, 2 Apples, and 1 Watermelon.", "Achievement Description", false, false],
+	 	["2.1.2.3", "Banana Foster Waffles", "Grow: 5 Wheat, 4 Sugar, 4 Bananas, 3 Maple, (put more here).", "Achievement Description", false, false],
+		["2.1.2.4", "Pancake", "Grow: 5 Wheat, 4 Sugar, 4 Maple, 3 Vanilla, 2 Strawberries, and 1 Cacao." "Achievement Description", false, false],
+		["2.1.2.5", "Pancake Stack", "Grow: 25 Wheat, 20 Sugar, 20 Maple, 15 Vanilla, 10 Strawberries, and 5 Cacao.", "Achievement Description", false, false],
+		["2.1.2.6", "Pancake Tower", "Grow: 50 Wheat, 40 Sugar, 40 Maple, 30 Vanilla, 20 Strawberries, and 10 Cacao.", "Achievement Description", false, false],
 		["2.1.2.7", "Apple Crisp", "Grow: 5 Red Apple, 5 Green Apple, 5 Black Diamond Apple, and 4 Sugar.", "Achievement Description", false, false],
 		["2.1.2.8", "Golden Apple Crisp", "Grow: 10 Golden Apple, 10 Red Apple, 10 Green Apple, 10 Black Diamond Apple, and 8 Sugar.", "Achievement Description", false, false],
 		["2.1.2.9", "Pesto Pasta", "Grow: 5 Wheat, 4 Basil, 2 Garlic, 1 Sugar.", "Achievement Description", false, false],
-		["2.1.2.10", "Vegetable Soup", "Grow: 3 Carrot (Orange), 3 Celery, 3 Cabbage, 3 Potato, and 1 Onion.", "Achievement Description", false, false],
-		["2.1.2.11", "Sushi", "Grow: 10 Rice, 8 Seaweed, 4 Avocado and 1 Wasabi.", "Achievement Description", false, false],
-		["2.1.2.12", "Avocado Toast", "Grow: 5 Wheat, 4 Avocado, 2 Onion and 1 Sugar.", "Achievement Description", false, false]
+		["2.1.2.10", "Vegetable Soup", "Grow: 3 Carrot, 3 Cabbage, 3 Potato, and 1 Onion.", "Achievement Description", false, false],
+		["2.1.2.11", "Sushi", "Grow: 10 Rice, 8 Seaweed, 4 Avocado, and 1 Wasabi.", "Achievement Description", false, false],
+		["2.1.2.12", "Avocado Toast", "Grow: 5 Wheat, 4 Avocado, 2 Onion, and 1 Sugar.", "Achievement Description", false, false]
 
 
 	]]
