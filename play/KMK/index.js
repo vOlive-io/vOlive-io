@@ -20,26 +20,27 @@ function assignChars() {
 }
 function placePersets(mainSpot) {
   document.getElementById(mainSpot).innerHTML = characterSet[Math.floor(Math.random() * characterSet.length)];
-  const spot = mainSpot+"buttons";
+  const spot = document.getElementById(mainSpot+"buttons");
+  spot.innerHTML = "";
   //Kiss
   const kissButton = document.createElement("button");
   const kissButtonText = document.createTextNode(kissSet[kissSetNum]);
   kissButton.appendChild(kissButtonText);
   kissButton.id = "kissButton";
-  document.getElementById(spot).appendChild(kissButton);
+  spot.appendChild(kissButton);
   //Mary
   const maryButton = document.createElement("button");
   const maryButtonText = document.createTextNode(marySet[marySetNum]);
   maryButton.appendChild(maryButtonText);
   maryButton.id = "maryButton";
-  document.getElementById(spot).appendChild(kissButton);
+  spot.appendChild(maryButton);
   //Kill
   const killButton = document.createElement("button");
   const killButtonText = document.createTextNode(killSet[killSetNum]);
   killButton.appendChild(killButtonText);
   killButton.id = "killButton";
-  document.getElementById(spot).appendChild(killButton);
-
+  spot.appendChild(killButton);
+  
 }
 
 
