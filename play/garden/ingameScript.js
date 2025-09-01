@@ -197,6 +197,7 @@ function unlockAchievements() {
 	//seeds unlocked
 	//recipes
 	//
+	displayAchievements()
 }
 function displayAchievements() {
 	document.getElementById("achGallaryWing").innerHTML = "";	
