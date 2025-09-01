@@ -3,18 +3,12 @@ window.addEventListener('load', chooseSet);
 
 function chooseSet() {
 //const characters = ['A duck', 'A cow', 'A sheep', 'A frog', 'A fart', 'A pigeon', 'Trucker', 'Girl off the street', 'Guy off the street', 'Person off the street', 'Lily thr frog queen', 'A living marker', '2 BFDI', 'British guy', 'A fat cat sleeping on a mat'];;
-const characters = ['Callie', 'Marrie', 'Agent 3', 'Agent 4', 'Agent 8', 'Captain 3', 'Craig Cuddlefish', 'Smallfry', 'Hugefry', 'DJ Octavio', 'The Great Zapfish', 'O.R.C.A.', 'Commander Tartar', 'Pearl', 'Pearl Drone', 'Marina', 'Acht', 'Shiver', 'Frye', 'Big Man', 'Frye\'s eels', 'Master Mega', 'Murch', 'Spyke', 'Mr. Coco', 'Gnarly Eddy', 'Harmony', 'Shelldon', ' Jel La Fleur', 'Judd', 'Lil Judd', 'Mr. Grizz', 'Staff', '(All Of) Deep Cut', '(All Of) Off The Hook', '(All Of) The Squid Sisters', '(All Of) The staff members', 'A random Octarian'];;
-  setOne = characters[Math.floor(Math.random() * characters.length)];
-  setTwo = characters[Math.floor(Math.random() * characters.length)];
-  setThree = characters[Math.floor(Math.random() * characters.length)];
-  //logs
-  console.log(setOne)
-  console.log(setTwo)
-  console.log(setThree)
+var characterSet = ['Callie', 'Marrie', 'Agent 3', 'Agent 4', 'Agent 8', 'Captain 3', 'Craig Cuddlefish', 'Smallfry', 'Hugefry', 'DJ Octavio', 'The Great Zapfish', 'O.R.C.A.', 'Commander Tartar', 'Pearl', 'Pearl Drone', 'Marina', 'Acht', 'Shiver', 'Frye', 'Big Man', 'Frye\'s eels', 'Master Mega', 'Murch', 'Spyke', 'Mr. Coco', 'Gnarly Eddy', 'Harmony', 'Shelldon', ' Jel La Fleur', 'Judd', 'Lil Judd', 'Mr. Grizz', 'Staff', '(All Of) Deep Cut', '(All Of) Off The Hook', '(All Of) The Squid Sisters', '(All Of) The staff members', 'A random Octarian'];;
+
   //slot input
-  setOneSpot.innerHTML = setOne;
-  setTwoSpot.innerHTML = setTwo;
-  setThreeSpot.innerHTML = setThree;
+//  setOneSpot.innerHTML = setOne;
+ // setTwoSpot.innerHTML = setTwo;
+ // setThreeSpot.innerHTML = setThree;
 }
 var kissSetNum = 0;
 var marySetNum = 0;
@@ -24,7 +18,15 @@ var marySet = ["Mary", "Befrend"];
 var killSet = ["Kill", "Forget"];
 
   }
-function basekmk(spot) {
+function assignChars() {
+  for(i = 1; i <= 3; i++) {
+    placePersets(("char"+i));
+  }
+}
+function placePersets(mainSpot) {
+  document.getElementById(mainSpot).innerHTML = characterSet[Math.floor(Math.random() * characterSet.length)];
+
+  const spot = mainSpot+"buttons";
   //Kiss
   const kissButton = document.createElement("button");
   const kissButtonText = document.createTextNode(kissSet[kissSetNum]);
