@@ -168,7 +168,7 @@ var achievements = [
 		["2.1.2.1", "Strawberry Rhubarb Pie", "Grow: 5 Strawberries, 3 Rhubarb, 3 Sugar, 2 Wheat, and 1 Vanilla.", "Achievement Description", false, false],
 		["2.1.2.2", "Fruit Cup", "Grow: 5 Strawberries, 4 Blueberries, 3 Mangos, 2 Apples, and 1 Watermelon.", "Achievement Description", false, false],
 	 	["2.1.2.3", "Banana Foster Waffles", "Grow: 5 Wheat, 4 Sugar, 4 Bananas, 3 Maple, (put more here).", "Achievement Description", false, false],
-		["2.1.2.4", "Pancake", "Grow: 5 Wheat, 4 Sugar, 4 Maple, 3 Vanilla, 2 Strawberries, and 1 Cacao." "Achievement Description", false, false],
+		["2.1.2.4", "Pancake", "Grow: 5 Wheat, 4 Sugar, 4 Maple, 3 Vanilla, 2 Strawberries, and 1 Cacao.", "Achievement Description", false, false],
 		["2.1.2.5", "Pancake Stack", "Grow: 25 Wheat, 20 Sugar, 20 Maple, 15 Vanilla, 10 Strawberries, and 5 Cacao.", "Achievement Description", false, false],
 		["2.1.2.6", "Pancake Tower", "Grow: 50 Wheat, 40 Sugar, 40 Maple, 30 Vanilla, 20 Strawberries, and 10 Cacao.", "Achievement Description", false, false],
 		["2.1.2.7", "Apple Crisp", "Grow: 5 Red Apple, 5 Green Apple, 5 Black Diamond Apple, and 4 Sugar.", "Achievement Description", false, false],
