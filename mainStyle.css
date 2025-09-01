@@ -14,8 +14,11 @@
   width: 50%;
   
 }
+
 #gardenGameCard {background-color: #fcba03;}
 #kmkGameCard {background-color: #fc036f;}
+#loatheGameCard {background-color: #ff9b87;}
+#colectGameCard {background-color: #a987ff;}
 
 button {
   border-radius: 15px;
