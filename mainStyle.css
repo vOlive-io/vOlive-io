@@ -17,7 +17,7 @@
 
 #gardenGameCard {background-color: #fcba03;}
 #kmkGameCard {background-color: #fc036f;}
-#loatheGameCard {background-color: #ff9b87;}
+#loatheGameCard {background-color: #c4a484;}
 #colectGameCard {background-color: #a987ff;}
 #randomGameCard {background: linear-gradient(90deg, #ffd1d9, #ff8080, #ffd383, #ffff83, #8eff8e, #9a9aff, #ff84ff, #ffd1d9, #ff8080);animation: gradient 2s linear infinite;background-size: 800% 100%;}
    @keyframes gradient {
