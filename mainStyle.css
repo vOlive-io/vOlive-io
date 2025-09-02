@@ -19,6 +19,12 @@
 #kmkGameCard {background-color: #fc036f;}
 #loatheGameCard {background-color: #ff9b87;}
 #colectGameCard {background-color: #a987ff;}
+#randomGameCard {background: linear-gradient(-45deg, red, orange, yellow, green, blue, purple, pink);animation: gradient 5s ease infinite;}
+@keyframes gradient {
+	0% {background-position: 0% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 0% 50%;}
+}
 
 button {
   border-radius: 15px;
