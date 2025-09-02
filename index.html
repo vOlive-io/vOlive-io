@@ -37,6 +37,6 @@
         <button onclick="play("LoathsomeLegacy")">Play Now!</button>
       </div>
     </div>
-    <script>function play(game){if(game=="random"){}else{window.location.href = "https://volive-io.github.io/vOlive-io/play/" + game;}}</script>
+    <script>var games=["garden","KMK","ExtremeCollectionist","LoathsomeLegacy"]; function play(game){if(game=="random"){game=games[Math.floor(Math.random() * games.length)];}window.location.href = "https://volive-io.github.io/vOlive-io/play/" + game;}</script>
   </section>
 </body>
