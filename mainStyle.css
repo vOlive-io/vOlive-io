@@ -19,12 +19,10 @@
 #kmkGameCard {background-color: #fc036f;}
 #loatheGameCard {background-color: #ff9b87;}
 #colectGameCard {background-color: #a987ff;}
-#randomGameCard {background: linear-gradient(-45deg, red, orange, yellow, green, blue, purple, pink);animation: gradient 5s ease infinite;}
-@keyframes gradient {
-	0% {background-position: 0% 50%;}
-	50% {background-position: 100% 50%;}
-	100% {background-position: 0% 50%;}
-}
+#randomGameCard {background: linear-gradient(90deg, pink, red, orange, yellow, green, blue, purple, pink, red);animation: gradient 5s linear infinite;background-size: 800% 100%;}
+   @keyframes gradient {
+        from {background-position: 0% 0%;}
+        to {background-position: 100% 0%; /* Moves the gradient fully to the right */}}
 
 button {
   border-radius: 15px;
