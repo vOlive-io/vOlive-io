@@ -36,11 +36,13 @@
         <p>A game full of rage and loathing, as the name implies, builds your horrid reputation by worshiping the all-mighty god of hellfire and hatred: Silly Boop!  Each time you click Silly Boop's face, he'll give me one Legacy point. Spend these on devices that will help you and your mission to become the most hated being of all!</p>
         <button onclick="play("LoathsomeLegacy")">Play Now!</button>
       </div>
+    </div>
+    <div id="randomGameSelection">
       <div id="randomGameCard" class="gameCards">
         <h2>Random Game?</h2>
         <img scr="randomMain.png">
         <p>Feeling adventurous? Test your luck, play a random game!</p>
-        <button onclick="play("random")">Play Now!</button>
+        <button onclick="play("random")">Play Random Game!</button>
       </div>
     </div>
     <script>var games=["garden","KMK","ExtremeCollectionist","LoathsomeLegacy"]; function play(game){if(game=="random"){game=games[Math.floor(Math.random() * games.length)];}window.location.href = "https://volive-io.github.io/vOlive-io/play/" + game;}</script>
