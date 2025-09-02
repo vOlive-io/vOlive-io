@@ -16,25 +16,25 @@
         <h2>Garden (UNDER CONSTRUCTION! PHASE 6/10)</h2>
         <img scr="gardenMain.png">
         <p>A relaxed gardening game, with tons of achievements, 4 seasons, and 50+ plants! Look in wonder as you grow your own oacis, and maybe even build a semi-illegal bio experimental gardening lab.</p>
-        <button onclick="play("garden")">Play Now!</button>
+        <button onclick="play('garden')">Play Now!</button>
       </div>
       <div id="kmkGameCard" class="gameCards">
         <h2>Kiss, Mary, Kill (UNDER CONSTRUCTION! PHASE 4/10)</h2>
         <img scr="kmkMain.png">
         <p>The classic game of kiss, marry, kill, where you have to pick one character to kiss, one character to marry, and one to kill. This low-stakes, silly, "wait, can I redo?" kind of game will leave you wanting to know how a simple game got so fun!</p>
-        <button onclick="play("KMK")">Play Now!</button>
+        <button onclick="play('KMK')">Play Now!</button>
       </div>
       <div id="colectGameCard" class="gameCards">
         <h2>Extreme Collectionist (UNDER CONSTRUCTION! PHASE 1/10)</h2>
         <img scr="colectMain.png">
         <p>Have you ever been in a store and gone: "Oh my God, I want that", and: "What about that one?", and: "I want this one too, but I can't get them all, I wish they were free", right? Well, in this game, you can have it all, and for free! The goal of extreme collecting is to gather as many items as possible. You do this by clicking "The Big Bag" How much can you collect?</p>
-        <button onclick="play("ExtremeCollectionist")">Play Now!</button>
+        <button onclick="play('ExtremeCollectionist')">Play Now!</button>
       </div>
        <div id="loatheGameCard" class="gameCards">
         <h2>Loathsome Legacy (UNDER CONSTRUCTION! PHASE 3/10)</h2>
         <img scr="loatheMain.png">
         <p>A game full of rage and loathing, as the name implies, builds your horrid reputation by worshiping the all-mighty god of hellfire and hatred: Silly Boop!  Each time you click Silly Boop's face, he'll give me one Legacy point. Spend these on devices that will help you and your mission to become the most hated being of all!</p>
-        <button onclick="play("LoathsomeLegacy")">Play Now!</button>
+        <button onclick="play('LoathsomeLegacy')">Play Now!</button>
       </div>
     </div>
     <div id="randomGameSelection">
@@ -42,7 +42,7 @@
         <h2>Random Game?</h2>
         <img scr="randomMain.png">
         <p>Feeling adventurous? Test your luck, play a random game!</p>
-        <button onclick="play("random")">Play Random Game!</button>
+        <button onclick="play('random')">Play Random Game!</button>
       </div>
     </div>
     <script>var games=["garden","KMK","ExtremeCollectionist","LoathsomeLegacy"]; function play(game){if(game=="random"){game=games[Math.floor(Math.random() * games.length)];}window.location.href = "https://volive-io.github.io/vOlive-io/play/" + game;}</script>
