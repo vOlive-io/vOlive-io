@@ -21,7 +21,7 @@
 #kmkGameCard {background-color: #fc036f;}
 #loatheGameCard {background-color: #c4a484;}
 #colectGameCard {background-color: #a987ff;}
-#randomGameCard {background: linear-gradient(90deg, #ffd1d9, #ff8080, #ffd383, #ffff83, #8eff8e, #9a9aff, #ff84ff, #ffd1d9, #ff8080);animation: gradient 2s linear infinite;background-size: 800% 100%;}
+#randomGameCard {background: linear-gradient(90deg, #ffd1d9, #ff8080, #ffd383, #ffff83, #8eff8e, #9a9aff, #ff84ff, #ffd1d9, #ff8080);animation: gradient 2s linear infinite;background-size: 800% 100%;width: 62%;}
    @keyframes gradient {
         from {background-position: 0% 0%;}
         to {background-position: 100% 0%; /* Moves the gradient fully to the right */}}
@@ -38,4 +38,3 @@ button {
   margin-right: 50px;
   margin-left: 50px;
 }
-
