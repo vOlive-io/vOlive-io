@@ -1,6 +1,7 @@
 
 #gameCardArray {
   grid-template-columns: 80fr 80fr;
+  display: grid;
   
 }
 .gameCards {
@@ -12,7 +13,7 @@
   border-radius: 18px;
   border: black 2.5px solid;
   width: 50%;
-  display: grid;
+
 }
 
 #gardenGameCard {background-color: #fcba03;}
