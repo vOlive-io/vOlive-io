@@ -64,17 +64,17 @@ function placePersets(spot, remove) {
 function kmkChoice(c) {
   if(c == "kissButton") {
 	 for(i = 1; i <= 3; i++) {
-		placePersets(("char"+i), 1);
+		placePersets(("char"+i+"buttons"), 1);
 	}
   }
   if(c == "marryButton") {
 	  for(i = 1; i <= 3; i++) {
-		placePersets(("char"+i), 2);
+		placePersets(("char"+i+"buttons"), 2);
 	}
   }
   if(c == "killButton") {
 	  for(i = 1; i <= 3; i++) {
-		placePersets(("char"+i), 3);
+		placePersets(("char"+i+"buttons"), 3);
 	}
   }
 }
