@@ -80,7 +80,7 @@ function kmkChoice(c) {
 	}
   }
 }
-assignChars()
+assignChars();
 document.getElementById("game").addEventListener('click', function(event) {
 	if (event.target.tagName === 'BUTTON') { 
 		const choice = event.target; 
