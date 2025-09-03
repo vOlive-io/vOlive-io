@@ -51,6 +51,12 @@ button {
 }
 
 
-#about {
+#about, #gameDev {
   width: 100%;
+}
+
+.phase {
+  width: 50%;
+  border: black 2.5px solid;
+  border-radius: 18px;
 }
