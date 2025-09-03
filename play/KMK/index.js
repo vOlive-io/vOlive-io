@@ -32,7 +32,7 @@ function assignChars() {
 	
 }
 
-function placePersets(mainSpot, remove) {
+function placePersets(spot, remove) {
   
   spot.innerHTML = "";
   //Kiss
