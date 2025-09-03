@@ -22,19 +22,18 @@ var setChar1;
 var setChar2;
 var setChar3;
 function assignChars() {
-	setChar1 = characterSet[Math.floor(Math.random() * characterSet.length)];
-	setChar2 = characterSet[Math.floor(Math.random() * characterSet.length)];
-	setChar3 = characterSet[Math.floor(Math.random() * characterSet.length)];
-	document.getElementById(mainSpot).innerHTML = setChar1;
-	document.getElementById(mainSpot).innerHTML = setChar2;
-	document.getElementById(mainSpot).innerHTML = setChar3;
+
 	for(i = 1; i <= 3; i++) {
-		placePersets(("char"+i), 0);
+		const spot = document.getElementById("char"+i);
+		document.getElementById(spot).innerHTML = characterSet[Math.floor(Math.random() * characterSet.length)];;
+		placePersets((spot+"buttons"), 0);
+		
 	}
+	
 }
 
 function placePersets(mainSpot, remove) {
-  const spot = document.getElementById(mainSpot+"buttons");
+  
   spot.innerHTML = "";
   //Kiss
 	if (remove != 1) {
