@@ -18,13 +18,22 @@ var killSetNum = 0;
 var kissSet = ["Kiss", "Hug"];
 var marrySet = ["marry", "Befrend"];
 var killSet = ["Kill", "Forget"];
+var setChar1;
+var setChar2;
+var setChar3;
 function assignChars() {
-  for(i = 1; i <= 3; i++) {
-    placePersets(("char"+i));
-  }
+	setChar1 = characterSet[Math.floor(Math.random() * characterSet.length)];
+	setChar2 = characterSet[Math.floor(Math.random() * characterSet.length)];
+	setChar3 = characterSet[Math.floor(Math.random() * characterSet.length)];
+	document.getElementById(mainSpot).innerHTML = setChar1;
+	document.getElementById(mainSpot).innerHTML = setChar2;
+	document.getElementById(mainSpot).innerHTML = setChar3;
+	for(i = 1; i <= 3; i++) {
+		placePersets(("char"+i), 0);
+	}
 }
+
 function placePersets(mainSpot, remove) {
-  document.getElementById(mainSpot).innerHTML = characterSet[Math.floor(Math.random() * characterSet.length)];
   const spot = document.getElementById(mainSpot+"buttons");
   spot.innerHTML = "";
   //Kiss
@@ -55,11 +64,19 @@ function placePersets(mainSpot, remove) {
 
 function kmkChoice(c) {
   if(c == "kissButton") {
-	  
+	 for(i = 1; i <= 3; i++) {
+		placePersets(("char"+i), 1);
+	}
   }
   if(c == "marryButton") {
+	  for(i = 1; i <= 3; i++) {
+		placePersets(("char"+i), 2);
+	}
   }
   if(c == "killButton") {
+	  for(i = 1; i <= 3; i++) {
+		placePersets(("char"+i), 3);
+	}
   }
 }
 
