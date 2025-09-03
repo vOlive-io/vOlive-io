@@ -12,6 +12,10 @@ document.getElementById("game").addEventListener('click', function(event) {
 //  setOneSpot.innerHTML = setOne;
  // setTwoSpot.innerHTML = setTwo;
  // setThreeSpot.innerHTML = setThree;
+var kissTrue = true;
+var marryTrue = true;
+var killTrue = true;
+
 var kissSetNum = 0;
 var marrySetNum = 0;
 var killSetNum = 0;
@@ -26,17 +30,17 @@ function assignChars() {
 	for(i = 1; i <= 3; i++) {
 		const spot = ("char"+i);
 		document.getElementById(spot).innerHTML = characterSet[Math.floor(Math.random() * characterSet.length)];;
-		placePersets((spot+"buttons"), 0);
+		placePersets((spot+"buttons"));
 		
 	}
 	
 }
 
-function placePersets(spot, remove) {
+function placePersets(spot) {
   spot = document.getElementById(spot);
   spot.innerHTML = "";
   //Kiss
-	if (remove != 1) {
+	if (kissTrue) {
 		const kissButton = document.createElement("button");
 		const kissButtonText = document.createTextNode(kissSet[kissSetNum]);
 		kissButton.appendChild(kissButtonText);
@@ -44,7 +48,7 @@ function placePersets(spot, remove) {
 		spot.appendChild(kissButton);
 	}
   //marry
-	if (remove != 2) {
+	if (marryTrue) {
 		const marryButton = document.createElement("button");
 		const marryButtonText = document.createTextNode(marrySet[marrySetNum]);
 		marryButton.appendChild(marryButtonText);
@@ -52,7 +56,7 @@ function placePersets(spot, remove) {
 		spot.appendChild(marryButton);
 	}
   //Kill
-	if (remove != 3) {
+	if (killTrue) {
 		const killButton = document.createElement("button");
 		const killButtonText = document.createTextNode(killSet[killSetNum]);
 		killButton.appendChild(killButtonText);
@@ -62,19 +66,22 @@ function placePersets(spot, remove) {
 }
 
 function kmkChoice(c) {
-  if(c == "kissButton") {
+  if(c.id == "kissButton") {
 	 for(i = 1; i <= 3; i++) {
-		placePersets(("char"+i+"buttons"), 1);
+		 kissTrue = false;
+		 placePersets(("char"+i+"buttons"));
 	}
   }
-  if(c == "marryButton") {
+  if(c.id == "marryButton") {
 	  for(i = 1; i <= 3; i++) {
-		placePersets(("char"+i+"buttons"), 2);
+		  marryTrue = false;
+		  placePersets(("char"+i+"buttons"));
 	}
   }
-  if(c == "killButton") {
+  if(c.id == "killButton") {
 	  for(i = 1; i <= 3; i++) {
-		placePersets(("char"+i+"buttons"), 3);
+		  killTrue = false;
+		  placePersets(("char"+i+"buttons"));
 	}
   }
 }
