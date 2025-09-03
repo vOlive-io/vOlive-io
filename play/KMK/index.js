@@ -2,16 +2,21 @@
 
 var characterSet = ["A duck", "A cow", "A sheep", "A frog", "A fart", "A pigeon", "Trucker", "Girl off the street", "Guy off the street", "Person off the street", "Lily thr frog queen", "A living marker", "2 BFDI", "British guy", "A fat cat sleeping on a mat"];;
 var charactersSplatoon = ["Callie", "Marrie", "Agent 3", "Agent 4", "Agent 8", "Captain 3", "Craig Cuddlefish", "Smallfry", "Hugefry", "DJ Octavio", "The Great Zapfish", "O.R.C.A.", "Commander Tartar", "Pearl", "Pearl Drone", "Marina", "Acht", "Shiver", "Frye", "Big Man", "Frye\'s eels", "Master Mega", "Murch", "Spyke", "Mr. Coco", "Gnarly Eddy", "Harmony", "Shelldon", " Jel La Fleur", "Judd", "Lil Judd", "Mr. Grizz", "Staff", "(All Of) Deep Cut", "(All Of) Off The Hook", "(All Of) The Squid Sisters", "(All Of) The staff members", "A random Octarian"];;
-
+document.getElementById("game").addEventListener('click', function(event) {
+	if (event.target.tagName === 'BUTTON') { 
+		const choice = event.target; 
+		kmkChoice(choice);
+	}
+});
   //slot input
 //  setOneSpot.innerHTML = setOne;
  // setTwoSpot.innerHTML = setTwo;
  // setThreeSpot.innerHTML = setThree;
 var kissSetNum = 0;
-var marySetNum = 0;
+var marrySetNum = 0;
 var killSetNum = 0;
 var kissSet = ["Kiss", "Hug"];
-var marySet = ["Mary", "Befrend"];
+var marrySet = ["marry", "Befrend"];
 var killSet = ["Kill", "Forget"];
 function assignChars() {
   for(i = 1; i <= 3; i++) {
@@ -28,12 +33,12 @@ function placePersets(mainSpot) {
   kissButton.appendChild(kissButtonText);
   kissButton.id = "kissButton";
   spot.appendChild(kissButton);
-  //Mary
-  const maryButton = document.createElement("button");
-  const maryButtonText = document.createTextNode(marySet[marySetNum]);
-  maryButton.appendChild(maryButtonText);
-  maryButton.id = "maryButton";
-  spot.appendChild(maryButton);
+  //marry
+  const marryButton = document.createElement("button");
+  const marryButtonText = document.createTextNode(marrySet[marrySetNum]);
+  marryButton.appendChild(marryButtonText);
+  marryButton.id = "marryButton";
+  spot.appendChild(marryButton);
   //Kill
   const killButton = document.createElement("button");
   const killButtonText = document.createTextNode(killSet[killSetNum]);
@@ -43,7 +48,14 @@ function placePersets(mainSpot) {
   
 }
 
-
+function kmkChoice(c) {
+  if(c == "kissButton") {
+  }
+  if(c == "marryButton") {
+  }
+  if(c == "killButton") {
+  }
+}
 
 function kissSet() {
     document.getElementById("kissSetOneButton").style.display = "none";
@@ -51,10 +63,10 @@ function kissSet() {
     document.getElementById("kissSetThreeButton").style.display = "none";
   alert("Kissed")
 }
-function marySet() {
-    document.getElementById("marySetOneButton").style.display = "none";
-    document.getElementById("marySetTwoButton").style.display = "none";
-    document.getElementById("marySetThreeButton").style.display = "none";
+function marrySet() {
+    document.getElementById("marrySetOneButton").style.display = "none";
+    document.getElementById("marrySetTwoButton").style.display = "none";
+    document.getElementById("marrySetThreeButton").style.display = "none";
   alert("Married")
 }
 function killSet() {
