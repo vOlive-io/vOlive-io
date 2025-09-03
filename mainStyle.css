@@ -2,14 +2,14 @@
   border-radius: 20px;
   text-align: center;
   align-content: center;
-  background-color: ##ffc9f2;
+  background-color: white;
   margin-left: auto;
   margin-right: auto;
   display: block;
   width: 75%;
 }
 body {
-  background-color: #69002a;
+  background-color: black;
 }
 #gameCardArray {
   grid-template-columns: 100fr 100fr;
@@ -34,7 +34,12 @@ body {
 #kmkGameCard {background-color: #fc036f;}
 #loatheGameCard {background-color: #c4a484;}
 #colectGameCard {background-color: #a987ff;}
-#randomGameCard {background: linear-gradient(90deg, #ffd1d9, #ff8080, #ffd383, #ffff83, #8eff8e, #9a9aff, #ff84ff, #ffd1d9, #ff8080);animation: gradient 2s linear infinite;background-size: 800% 100%;width: 62%;}
+#randomGameCard {background: linear-gradient(90deg, #ffd1d9, #ff8080, #ffd383, #ffff83, #8eff8e, #9a9aff, #ff84ff, #ffd1d9, #ff8080);
+                 animation: gradient 2s linear infinite;
+                 background-size: 800% 100%;width: 62%;
+                 width: 95%;
+                 margin-left: 1%;
+                }
    @keyframes gradient {
         from {background-position: 0% 0%;}
         to {background-position: 100% 0%; /* Moves the gradient fully to the right */}}
