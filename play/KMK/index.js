@@ -16,7 +16,7 @@ var kissSetNum = 0;
 var marrySetNum = 0;
 var killSetNum = 0;
 var kissSet = ["Kiss", "Hug"];
-var marrySet = ["marry", "Befrend"];
+var marrySet = ["Marry", "Befrend"];
 var killSet = ["Kill", "Forget"];
 var setChar1;
 var setChar2;
@@ -33,7 +33,7 @@ function assignChars() {
 }
 
 function placePersets(spot, remove) {
-  
+  spot = document.getElementById(spot);
   spot.innerHTML = "";
   //Kiss
 	if (remove != 1) {
@@ -78,24 +78,3 @@ function kmkChoice(c) {
 	}
   }
 }
-
-function kissSet() {
-    document.getElementById("kissSetOneButton").style.display = "none";
-    document.getElementById("kissSetTwoButton").style.display = "none";
-    document.getElementById("kissSetThreeButton").style.display = "none";
-  alert("Kissed")
-}
-function marrySet() {
-    document.getElementById("marrySetOneButton").style.display = "none";
-    document.getElementById("marrySetTwoButton").style.display = "none";
-    document.getElementById("marrySetThreeButton").style.display = "none";
-  alert("Married")
-}
-function killSet() {
-    document.getElementById("killSetOneButton").style.display = "none";
-    document.getElementById("killSetTwoButton").style.display = "none";
-    document.getElementById("killSetThreeButton").style.display = "none";
-  alert("Killed")
-}
-
-
