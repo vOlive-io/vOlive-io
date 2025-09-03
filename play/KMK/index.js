@@ -24,7 +24,7 @@ var setChar3;
 function assignChars() {
 
 	for(i = 1; i <= 3; i++) {
-		const spot = document.getElementById("char"+i);
+		const spot = ("char"+i);
 		document.getElementById(spot).innerHTML = characterSet[Math.floor(Math.random() * characterSet.length)];;
 		placePersets((spot+"buttons"), 0);
 		
