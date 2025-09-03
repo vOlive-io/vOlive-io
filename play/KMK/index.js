@@ -23,33 +23,39 @@ function assignChars() {
     placePersets(("char"+i));
   }
 }
-function placePersets(mainSpot) {
+function placePersets(mainSpot, remove) {
   document.getElementById(mainSpot).innerHTML = characterSet[Math.floor(Math.random() * characterSet.length)];
   const spot = document.getElementById(mainSpot+"buttons");
   spot.innerHTML = "";
   //Kiss
-  const kissButton = document.createElement("button");
-  const kissButtonText = document.createTextNode(kissSet[kissSetNum]);
-  kissButton.appendChild(kissButtonText);
-  kissButton.id = "kissButton";
-  spot.appendChild(kissButton);
+	if (remove != 1) {
+		const kissButton = document.createElement("button");
+		const kissButtonText = document.createTextNode(kissSet[kissSetNum]);
+		kissButton.appendChild(kissButtonText);
+		kissButton.id = "kissButton";
+		spot.appendChild(kissButton);
+	}
   //marry
-  const marryButton = document.createElement("button");
-  const marryButtonText = document.createTextNode(marrySet[marrySetNum]);
-  marryButton.appendChild(marryButtonText);
-  marryButton.id = "marryButton";
-  spot.appendChild(marryButton);
+	if (remove != 2) {
+		const marryButton = document.createElement("button");
+		const marryButtonText = document.createTextNode(marrySet[marrySetNum]);
+		marryButton.appendChild(marryButtonText);
+		marryButton.id = "marryButton";
+		spot.appendChild(marryButton);
+	}
   //Kill
-  const killButton = document.createElement("button");
-  const killButtonText = document.createTextNode(killSet[killSetNum]);
-  killButton.appendChild(killButtonText);
-  killButton.id = "killButton";
-  spot.appendChild(killButton);
-  
+	if (remove != 3) {
+		const killButton = document.createElement("button");
+		const killButtonText = document.createTextNode(killSet[killSetNum]);
+		killButton.appendChild(killButtonText);
+		killButton.id = "killButton";
+		spot.appendChild(killButton);
+	}
 }
 
 function kmkChoice(c) {
   if(c == "kissButton") {
+	  
   }
   if(c == "marryButton") {
   }
