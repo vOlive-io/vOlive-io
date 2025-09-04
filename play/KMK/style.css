@@ -1,3 +1,13 @@
 body {
-  background-color: #9effec;
+    background-color: #9effec;
+}
+
+#game {
+    align-content: center;
+    grid-template-columns: 100fr 100fr;
+}
+
+#char1container, #char2container, #char3container {
+    border-radius: 18px;
+    border: black 2.5px solid;
 }
