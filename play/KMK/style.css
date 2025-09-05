@@ -4,11 +4,21 @@ body {
 
 #game {
     align-content: center;
-    grid-template-columns: 100fr 100fr;
+    display: grid;
+    grid-template-columns: 100fr 100fr 100fr;
 }
 
 #char1container, #char2container, #char3container {
     border-radius: 18px;
     border: black 2.5px solid;
-    width: 30%;
+    width: 85%;
+    height: 150%;
+    padding-left: 10px;
+    background-color: white;
+}
+#char1buttons, #char2buttons, #char3buttons {
+    display: center;
+    border-radius: 12px;
+    border: 1px black soild;
+    
 }
