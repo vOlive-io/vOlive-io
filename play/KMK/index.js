@@ -40,7 +40,7 @@ function placePersets(spot) {
 		const kissButtonText = document.createTextNode(kissSet[kissSetNum]);
 		kissButton.appendChild(kissButtonText);
 		kissButton.id = "kissButton";
-		kisButton.classList.add(spot.id+"button");
+		kissButton.classList.add(spot.id+"button");
 		spot.appendChild(kissButton);
 	}
   //marry
