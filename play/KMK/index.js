@@ -40,6 +40,7 @@ function placePersets(spot) {
 		const kissButtonText = document.createTextNode(kissSet[kissSetNum]);
 		kissButton.appendChild(kissButtonText);
 		kissButton.id = "kissButton";
+		kisButton.classList.add(spot.id+"button");
 		spot.appendChild(kissButton);
 	}
   //marry
@@ -48,6 +49,7 @@ function placePersets(spot) {
 		const marryButtonText = document.createTextNode(marrySet[marrySetNum]);
 		marryButton.appendChild(marryButtonText);
 		marryButton.id = "marryButton";
+		marryButton.classList.add(spot.id+"button");
 		spot.appendChild(marryButton);
 	}
   //Kill
@@ -56,6 +58,7 @@ function placePersets(spot) {
 		const killButtonText = document.createTextNode(killSet[killSetNum]);
 		killButton.appendChild(killButtonText);
 		killButton.id = "killButton";
+		killButton.classList.add(spot.id+"button");
 		spot.appendChild(killButton);
 	}
 }
@@ -78,8 +81,11 @@ function kmkChoice(c) {
 		  killTrue = false;
 		  placePersets(("char"+i+"buttons"));
 	}
+	
   }
-	document.getElementById(c.parentElement.id.substring(0, 5)).innerHTML = " ";
+	if(c.classList.contains("char1button")) {document.getElementById("char1container").style.display = "none";}
+	if(c.classList.contains("char2button")) {document.getElementById("char2container").style.display = "none";}
+	if(c.classList.contains("char3button")) {document.getElementById("char3container").style.display = "none";}							
 }
 assignChars();
 document.getElementById("game").addEventListener('click', function(event) {
