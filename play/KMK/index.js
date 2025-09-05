@@ -79,7 +79,7 @@ function kmkChoice(c) {
 		  placePersets(("char"+i+"buttons"));
 	}
   }
-	document.getElementById((c.parrentElement.id).substring(0, 6)).innerHTML = "";
+	document.getElementById(c.parentElement.id.substring(0, 5)).innerHTML = " ";
 }
 assignChars();
 document.getElementById("game").addEventListener('click', function(event) {
