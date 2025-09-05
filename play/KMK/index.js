@@ -83,9 +83,9 @@ function kmkChoice(c) {
 	}
 	
   }
-	if(c.classList.contains("char1button")) {document.getElementById("char1container").style.display = "none";}
-	if(c.classList.contains("char2button")) {document.getElementById("char2container").style.display = "none";}
-	if(c.classList.contains("char3button")) {document.getElementById("char3container").style.display = "none";}							
+	if(c.classList.contains("char1buttons")) {document.getElementById("char1container").style.display = "none";}
+	if(c.classList.contains("char2buttons")) {document.getElementById("char2container").style.display = "none";}
+	if(c.classList.contains("char3buttons")) {document.getElementById("char3container").style.display = "none";}							
 }
 assignChars();
 document.getElementById("game").addEventListener('click', function(event) {
