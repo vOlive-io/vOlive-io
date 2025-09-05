@@ -40,7 +40,7 @@ function placePersets(spot) {
 		const kissButtonText = document.createTextNode(kissSet[kissSetNum]);
 		kissButton.appendChild(kissButtonText);
 		kissButton.id = "kissButton";
-		kissButton.classList.add(spot.id+"button");
+		kissButton.classList.add(spot.id);
 		spot.appendChild(kissButton);
 	}
   //marry
@@ -49,7 +49,7 @@ function placePersets(spot) {
 		const marryButtonText = document.createTextNode(marrySet[marrySetNum]);
 		marryButton.appendChild(marryButtonText);
 		marryButton.id = "marryButton";
-		marryButton.classList.add(spot.id+"button");
+		marryButton.classList.add(spot.id);
 		spot.appendChild(marryButton);
 	}
   //Kill
@@ -58,7 +58,7 @@ function placePersets(spot) {
 		const killButtonText = document.createTextNode(killSet[killSetNum]);
 		killButton.appendChild(killButtonText);
 		killButton.id = "killButton";
-		killButton.classList.add(spot.id+"button");
+		killButton.classList.add(spot.id);
 		spot.appendChild(killButton);
 	}
 }
