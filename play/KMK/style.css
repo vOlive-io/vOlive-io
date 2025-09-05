@@ -11,14 +11,15 @@ body {
 #char1container, #char2container, #char3container {
     border-radius: 18px;
     border: black 2.5px solid;
-    width: 85%;
-    height: 150%;
-    padding-left: 10px;
+    width: 80%;
+    height: 100%;
+    text-align: center;
     background-color: white;
 }
-#char1buttons, #char2buttons, #char3buttons {
+.char1buttons, .char2buttons, .char3buttons {
     display: center;
+    width: 80%;
+    margin: 1px; 
     border-radius: 12px;
-    border: 1px black soild;
-    
+    border: 2px black solid;
 }
