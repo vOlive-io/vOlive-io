@@ -10,4 +10,5 @@ body {
 #char1container, #char2container, #char3container {
     border-radius: 18px;
     border: black 2.5px solid;
+    width: 30%;
 }
