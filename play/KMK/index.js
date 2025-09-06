@@ -11,12 +11,12 @@ var kissTrue = true;
 var marryTrue = true;
 var killTrue = true;
 
-var kissSetNum = 3;
-var marrySetNum = 3;
-var killSetNum = 3;
-var kissSet = ["Have kid with", "Make out with", "Kiss", "Hug", "Acknowledge Existence"];
-var marrySet = [ "Grow old with", "Honeymoon", "Marry", "Date", "Befriend"];
-var killSet = ["Murder all family", "Slow Kill", "Kill", "Kidnap", "Beat up"];
+var kissSetNum = 2;
+var marrySetNum = 2;
+var killSetNum = 2;
+var kissSet = ["Acknowledge Existence", "Hug", "Kiss", "Make out with", "Have kids with"];
+var marrySet = [ "Befriend", "Date", "Marry", "Honeymoon", "Grow old with"];
+var killSet = ["Beat-up", "Kidnap", "Kill", "Slow Kill", "Murder all family"];
 var setChar1;
 var setChar2;
 var setChar3;
