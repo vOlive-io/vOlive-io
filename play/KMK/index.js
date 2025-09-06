@@ -14,6 +14,14 @@ var killTrue = true;
 var kissSetNum = 2;
 var marrySetNum = 2;
 var killSetNum = 2;
+var slider = document.getElementById("intensitySlider");
+
+
+slider.oninput = function() {
+	kissSetNum = this.value;
+	marrySetNum = this.value;
+	killSetNum = this.value;
+}
 var kissSet = ["Acknowledge Existence", "Hug", "Kiss", "Make out with", "Have kids with"];
 var marrySet = [ "Befriend", "Date", "Marry", "Honeymoon", "Grow old with"];
 var killSet = ["Beat-up", "Kidnap", "Kill", "Slow Kill", "Murder all family"];
