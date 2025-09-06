@@ -29,7 +29,9 @@ var setChar1;
 var setChar2;
 var setChar3;
 function assignChars() {
-
+	kissTrue = true;
+	marryTrue = true;
+	killTrue = true;
 	for(i = 1; i <= 3; i++) {
 		const spot = ("char"+i);
 		document.getElementById(spot).innerHTML = characterSet[Math.floor(Math.random() * characterSet.length)];;
