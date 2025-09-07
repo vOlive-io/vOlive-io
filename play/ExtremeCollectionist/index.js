@@ -1,14 +1,18 @@
-var collections = ["",
+var collections = ["", 0,
                   "Food", 1, 
-                  "Office Supplies", 2, 
+                  "Toys", 2,
                   "In a Jar", 3,
-                  "Money", 4,
-                  "Collection Name", 5,
-                  "Lucky Charms", 6,
-                  "Materials", 7,
-                  "Toys", 8,
-                  "Tools", 9,
-                  "Animals", 10
+                  "Office Supplies", 4, 
+                  "Tools", 5,
+                  "Materials", 6,
+                  "Animals", 7,
+                  "Money", 8,
+                  "Gems", 9,
+                  "Liquids", 10,
+                  "Technology", 11,
+                  "Lucky Charms", 12,
+                  "Spiritual", 13,
+                  "Exclusive", 14
                 ];
 var commonItems = [
   ["1.1.1.1", 1, "Apple", "Item Description", 0],
