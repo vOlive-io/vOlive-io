@@ -1,9 +1,25 @@
 const commonItems = ["Pencil","Pen","Marker", "Lump of cat hair","Jar of air","Atom","Water","Fire","Deck of cards","$1 bill","Flyswatter","Snowglobe","toilet"]
+var commonItems = [
+  ["Pencil", "Item Description", 0],
+  ["Pen", "Item Description", 0],
+  ["Marker", "Item Description", 0],
+  ["Lump of cat hair", "Item Description", 0],
+  ["Jar of air", "Item Description", 0],
+  ["Atom", "Item Description", 0],
+  ["Water", "Item Description", 0],
+  ["Fire", "Item Description", 0],
+  ["Deck of cards", "Item Description", 0],
+  ["$1 bill", "Item Description", 0],
+  ["Flyswatter", "Item Description", 0],
+  ["Snowglobe", "Item Description", 0],
+  ["toilet", "Item Description", 0]
+];
+
+];
 const uncommonItems = ["Earthworm (Alive)","Earthworm (Dead)","Wood","Boucey Ball","Meatballs","Rubber Duck","Mouse Pad","Salt Shaker","Pepper Shaker"]
 const rareItems = ["Dial-up phone","Parasol","Wild Neanderthal","Marble","Plexiglass","Tree"]
 const epicItems = ["Fart in a jar","Sharktooth", "Boba Tea Maker","Alphabet blocks"]
 const legendaryItems = ["Dragon Scale","Lightsaber","Red Panda Milk","1M pounds of silk"]
-const exoticItems = ["Bullet Ant Milk","Golden statue","Dreams in a jar"]
 const mythicItems = ["Diamond","Rhodochrosite"]
 const goddlyItems = ["","Your soul","God"]
 
@@ -15,7 +31,6 @@ var totalUncommon = 0;
 var totalRare = 0;
 var totalEpic = 0;
 var totalLegendary = 0;
-var totalExotic = 0;
 var totalMythic = 0;
 var totalGoddly = 0;
 var totalItems = 0;
@@ -44,13 +59,14 @@ function totals() {
        + totalUncommon + " Uncommon Items \n"
        + totalRare + " Rare Items \n"
        + totalEpic + " Epic Items \n"
-       + totalLegondary + " Legondary Item \n"
+       + totalLegendary + " Legondary Item \n"
        + totalExotic + " Exotic Items \n"
        + totalMythic + " Mythic Items \n"
        + totalGoddly + " Goddly Items \n" 
-       + " Coming to a grand toal of " + totalItems + " Items!"
+       + " Coming to a grand total of " + totalItems + " Items!"
        );
 }
+
 
 /* --- IGNORE --- will be removed in next update! ---
 function rollingItem() {
