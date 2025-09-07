@@ -1,4 +1,3 @@
-const commonItems = ["Pencil","Pen","Marker", "Lump of cat hair","Jar of air","Atom","Water","Fire","Deck of cards","$1 bill","Flyswatter","Snowglobe","toilet"]
 var commonItems = [
   ["Pencil", "Item Description", 0],
   ["Pen", "Item Description", 0],
@@ -12,10 +11,9 @@ var commonItems = [
   ["$1 bill", "Item Description", 0],
   ["Flyswatter", "Item Description", 0],
   ["Snowglobe", "Item Description", 0],
-  ["toilet", "Item Description", 0]
+  ["Toilet", "Item Description", 0]
 ];
 
-];
 const uncommonItems = ["Earthworm (Alive)","Earthworm (Dead)","Wood","Boucey Ball","Meatballs","Rubber Duck","Mouse Pad","Salt Shaker","Pepper Shaker"]
 const rareItems = ["Dial-up phone","Parasol","Wild Neanderthal","Marble","Plexiglass","Tree"]
 const epicItems = ["Fart in a jar","Sharktooth", "Boba Tea Maker","Alphabet blocks"]
