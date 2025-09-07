@@ -23,7 +23,8 @@ info = [
 		"Calimari",
 		"Mac & Cheese",
 		"Pesto Pasta",
-		"Garlic Naan or Garlic Bread"
+		"Garlic Naan or Garlic Bread",
+		"Cake :P",
 		],
 	];
 
