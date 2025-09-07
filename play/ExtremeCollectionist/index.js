@@ -39,10 +39,21 @@ function rollingItem() {
       totalCommon++;
     }
 }
+function totals() {
+  alert("You have earned a total of: \n"
+       + totalCommon + " Common Items \n" 
+       + totalUncommon + " Uncommon Items \n"
+       + totalRare + " Rare Items \n"
+       + totalEpic + " Epic Items \n"
+       + totalLegondary + " Legondary Item \n"
+       + totalExotic + " Exotic Items \n"
+       + totalMythic + " Mythic Items \n"
+       + totalGoddly + " Goddly Items \n" 
+       + " Coming to a grand toal of " + totalItems + " Items!"
+       );
+}
 
-
-
-/*
+/* --- IGNORE --- will be removed in next update! ---
 function rollingItem() {
   if (money>rollCost) {
   money = money - rollCost;
@@ -103,7 +114,7 @@ function rollingItem() {
  alert("You broke, get money")
   }
 }
-*/
+
 
 function tiers() {
   if (Math.random() * 100 < 50) {
@@ -160,19 +171,4 @@ function tiers() {
   } 
  }
 }
-
-
-function totals() {
-  alert("You have earned a total of: \n"
-       + totalCommon + " Common Items \n" 
-       + totalUncommon + " Uncommon Items \n"
-       + totalRare + " Rare Items \n"
-       + totalEpic + " Epic Items \n"
-       + totalLegondary + " Legondary Item \n"
-       + totalExotic + " Exotic Items \n"
-       + totalMythic + " Mythic Items \n"
-       + totalGoddly + " Goddly Items \n" 
-       + " Coming to a grand toal of " + totalItems + " Items!"
-       );
-}
-
+*/
