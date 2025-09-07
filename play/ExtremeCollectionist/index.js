@@ -4,7 +4,11 @@ var collections = ["",
                   "In a Jar", 3,
                   "Money", 4,
                   "Collection Name", 5,
-                  "Lucky Charms", 6
+                  "Lucky Charms", 6,
+                  "Materials", 7,
+                  "Toys", 8,
+                  "Tools", 9,
+                  "Animals", 10
                 ];
 var commonItems = [
   ["1.1.1.1", 1, "Apple", "Item Description", 0],
