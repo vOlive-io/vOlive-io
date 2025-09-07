@@ -11,7 +11,7 @@ var totalCommon = 0;
 var totalUncommon = 0;
 var totalRare = 0;
 var totalEpic = 0;
-var totalLegondary = 0;
+var totalLegendary = 0;
 var totalExotic = 0;
 var totalMythic = 0;
 var totalGoddly = 0;
@@ -21,11 +21,28 @@ var totalItems = 0;
 var money = 5.00;
 var rollCost = 1.50;
 
+function rollingItem() {
+  const roll = Math.random() * 100000; 
+    if (roll > 99995) {
+      totalGoddly++;
+    } else if (roll > 99500) {
+      totalMythic++;
+    } else if (roll > 95000) {
+      totalLegendary++;
+    } else if (roll > 90000) {
+      totalEpic++;
+    } else if (roll > 75000) {
+      totalRare++;
+    } else if (roll > 50000) {
+      totalUncommon++;
+    } else {
+      totalCommon++;
+    }
+}
 
 
 
-
-
+/*
 function rollingItem() {
   if (money>rollCost) {
   money = money - rollCost;
@@ -86,7 +103,7 @@ function rollingItem() {
  alert("You broke, get money")
   }
 }
-
+*/
 
 function tiers() {
   if (Math.random() * 100 < 50) {
