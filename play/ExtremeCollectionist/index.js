@@ -7,6 +7,9 @@ const exoticItems = ["Bullet Ant Milk","Golden statue","Dreams in a jar"]
 const mythicItems = ["Diamond","Rhodochrosite"]
 const goddlyItems = ["","Your soul","God"]
 
+var money = 5.00;
+var rollCost = 1.50;
+
 var totalCommon = 0;
 var totalUncommon = 0;
 var totalRare = 0;
@@ -16,10 +19,6 @@ var totalExotic = 0;
 var totalMythic = 0;
 var totalGoddly = 0;
 var totalItems = 0;
-
-
-var money = 5.00;
-var rollCost = 1.50;
 
 function rollingItem() {
   const roll = Math.random() * 100000; 
