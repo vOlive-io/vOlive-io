@@ -1,4 +1,3 @@
-
 var collections = ["",
                   "Food", 
                   "School Supplies", 
@@ -26,7 +25,6 @@ var commonItems = [
   ["1.1.1.16", "Three Ringed Paper", "Item Description", 2, 0],
   ["1.1.1.17", "Three Ringed Folder", "Item Description", 2, 0],
   ["1.1.1.18", "Three Ringed Binder", "Item Description", "Collection Name", 0],
-
   ["1.1.1.22", "Item name", "Item Description", 0, 0],
   ["1.1.1.23", "Item name", "Item Description", 0, 0],
   ["1.1.1.24", "Item name", "Item Description", 0, 0],
