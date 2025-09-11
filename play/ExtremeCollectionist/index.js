@@ -57,10 +57,10 @@ var commonItems = [
   ["1.1.1.43", 4, "Item name", "Item Description", 0],
   ["1.1.1.45", 4, "Item name", "Item Description", 0],
   ["1.1.1.46", 7, "Rusty Horseshoe", "Item Description", 0],
-  ["1.1.1.47", 5, "Flyswatter", "Item Description", "Collection Name", 0],
-  ["1.1.1.48", 4, "Snowglobe", "Item Description", "Collection Name", 0],
-  ["1.1.1.49", 4, "Snowglobe", "Item Description", "Collection Name", 0],
-  ["1.1.1.50", 4, "Toilet", "Item Description", "Collection Name", 0]
+  ["1.1.1.47", 5, "Flyswatter", "Item Description", 0],
+  ["1.1.1.48", 4, "Snowglobe", "Item Description", 0],
+  ["1.1.1.49", 4, "Snowglobe", "Item Description", 0],
+  ["1.1.1.50", 4, "Toilet", "Item Description", 0]
 ];
 var uncommonItems = [
   ["1.1.2.1", "Earthworm (Alive)", "Item Description", "Collection Name", 0],
