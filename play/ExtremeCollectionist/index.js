@@ -60,52 +60,52 @@ var commonItems = [
   ["1.1.1.47", 5, "Flyswatter", "Item Description", 0],
   ["1.1.1.48", 4, "Snowglobe", "Item Description", 0],
   ["1.1.1.49", 4, "Snowglobe", "Item Description", 0],
-  ["1.1.1.50", 4, "Toilet", "Item Description", 0]
+  ["1.1.1.50", 5, "Toilet", "Item Description", 0]
 ];
 var uncommonItems = [
-  ["1.1.2.1", "Earthworm (Alive)", "Item Description", "Collection Name", 0],
-  ["1.1.2.1", "Earthworm (Alive)", "Item Description", "Collection Name", 0],
-  ["1.1.2.2", "Earthworm (Dead)", "Item Description", "Collection Name", 0],
-  ["1.1.2.3", "Wood", "Item Description", "Collection Name", 0],
-  ["1.1.2.4", "Boucey Ball", "Item Description", "Collection Name", 0],
-  ["1.1.2.5", "Meatballs", "Item Description", "Collection Name", 0],
-  ["1.1.2.6", "Rubber Duck", "Item Description", "Collection Name", 0],
-  ["1.1.2.7", "Mouse Pad", "Item Description", "Collection Name", 0],
-  ["1.1.2.8", "Salt Shaker", "Item Description", "Collection Name", 0],
-  ["1.1.2.9", "Pepper Shaker", "Item Description", "Collection Name", 0]
+  ["1.1.2.1", "Earthworm (Alive)", "Item Description", 0],
+  ["1.1.2.1", "Earthworm (Alive)", "Item Description", 0],
+  ["1.1.2.2", "Earthworm (Dead)", "Item Description", 0],
+  ["1.1.2.3", "Wood", "Item Description", 0],
+  ["1.1.2.4", "Boucey Ball", "Item Description", 0],
+  ["1.1.2.5", "Meatballs", "Item Description", 0],
+  ["1.1.2.6", "Rubber Duck", "Item Description", 0],
+  ["1.1.2.7", "Mouse Pad", "Item Description", 0],
+  ["1.1.2.8", "Salt Shaker", "Item Description", 0],
+  ["1.1.2.9", "Pepper Shaker", "Item Description", 0]
 ];
 var rareItems = [
-  ["1.1.3.1", "$5 Bill", "Item Description", "Money", 0],
-  ["1.1.3.1", "Dial-up phone", "Item Description", "Collection Name", 0],
-  ["1.1.3.2", "Parasol", "Item Description", "Collection Name", 0],
-  ["1.1.3.3", "Wild Neanderthal", "Item Description", "Collection Name", 0],
-  ["1.1.3.4", "Marble", "Item Description", "Collection Name", 0],
-  ["1.1.3.5", "Plexiglass", "Item Description", "Collection Name", 0],
-  ["1.1.3.6", "Tree", "Item Description", "Collection Name", 0]
+  ["1.1.3.1", "$5 Bill", "Item Description", 0],
+  ["1.1.3.1", "Dial-up phone", "Item Description", 0],
+  ["1.1.3.2", "Parasol", "Item Description", 0],
+  ["1.1.3.3", "Wild Neanderthal", "Item Description", 0],
+  ["1.1.3.4", "Marble", "Item Description", 0],
+  ["1.1.3.5", "Plexiglass", "Item Description", 0],
+  ["1.1.3.6", "Tree", "Item Description", 0]
 ];
 var epicItems = [
-  ["1.1.4.1", "$10 Bill", "Item Description", "Money", 0],
-  ["1.1.4.1", "Fart in a jar", "Item Description", "Collection Name", 0],
-  ["1.1.4.2", "Sharktooth", "Item Description", "Collection Name", 0],
-  ["1.1.4.3", "Boba Tea Maker", "Item Description", "Collection Name", 0],
-  ["1.1.4.4", "Alphabet blocks", "Item Description", "Collection Name", 0]
+  ["1.1.4.1", "$10 Bill", "Item Description", 0],
+  ["1.1.4.1", "Fart in a jar", "Item Description", 0],
+  ["1.1.4.2", "Sharktooth", "Item Description", 0],
+  ["1.1.4.3", "Boba Tea Maker", "Item Description", 0],
+  ["1.1.4.4", "Alphabet blocks", "Item Description", 0]
 ];
 var legendaryItems = [
-  ["1.1.5.1", "$50 Bill", "Item Description", "Money", 0],
-  ["1.1.5.1", "Dragon Scale", "Item Description", "Collection Name", 0],
-  ["1.1.5.2", "Lightsaber", "Item Description", "Collection Name", 0],
-  ["1.1.5.3", "Red Panda Milk", "Item Description", "Collection Name", 0],
-  ["1.1.5.4", "1M pounds of silk", "Item Description", "Collection Name", 0]
+  ["1.1.5.1", "$50 Bill", "Item Description", 0],
+  ["1.1.5.1", "Dragon Scale", "Item Description", 0],
+  ["1.1.5.2", "Lightsaber", "Item Description", 0],
+  ["1.1.5.3", "Red Panda Milk", "Item Description", 0],
+  ["1.1.5.4", "1M pounds of silk", "Item Description", 0]
 ];
 var mythicItems = [
-  ["1.1.6.1", "$100 Bill", "Item Description", "Money", 0],
-  ["1.1.6.1", "Diamond", "Item Description", "Collection Name", 0],
-  ["1.1.6.2", "Rhodochrosite", "Item Description", "Collection Name", 0]
+  ["1.1.6.1", "$100 Bill", "Item Description", 0],
+  ["1.1.6.1", "Diamond", "Item Description", 0],
+  ["1.1.6.2", "Rhodochrosite", "Item Description", 0]
 ];
 var goddlyItems = [
-  ["1.1.7.1", "$∞ Dollar Bill", "Collection Name", 0],
-  ["1.1.7.2", "Your soul", "Item Description", "Collection Name", 0],
-  ["1.1.7.3", "God", "Item Description", "Collection Name", 0]
+  ["1.1.7.1", "$∞ Dollar Bill", 0],
+  ["1.1.7.2", "Your soul", "Item Description", 0],
+  ["1.1.7.3", "God", "Item Description", 0]
 ];
 
 var money = 5.00;
