@@ -4,9 +4,9 @@ var collections = [
                   "In a Jar", 3,
                   "Toys", 4, 
                   "Tools", 5,
-                  "Animals", 6,
-                  "Money", 7,
-                  "Lucky Charms", 8,
+                  "Money", 6,
+                  "Lucky Charms", 7,
+                  "Animals", 8,
                   "Spiritual", 9,
                   "Exclusive", 10
                 ];
@@ -56,8 +56,8 @@ var commonItems = [
   ["1.1.1.43", 4, "Item name", "Item Description", 0],
   ["1.1.1.43", 4, "Item name", "Item Description", 0],
   ["1.1.1.45", 4, "Item name", "Item Description", 0],
-  ["1.1.1.46", 4, "Rusty Horseshoe", "Item Description", 6, 0],
-  ["1.1.1.47", 4, "Flyswatter", "Item Description", "Collection Name", 0],
+  ["1.1.1.46", 7, "Rusty Horseshoe", "Item Description", 0],
+  ["1.1.1.47", 5, "Flyswatter", "Item Description", "Collection Name", 0],
   ["1.1.1.48", 4, "Snowglobe", "Item Description", "Collection Name", 0],
   ["1.1.1.49", 4, "Snowglobe", "Item Description", "Collection Name", 0],
   ["1.1.1.50", 4, "Toilet", "Item Description", "Collection Name", 0]
