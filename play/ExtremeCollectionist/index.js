@@ -7,8 +7,9 @@ var collections = [
                   "Money", 6,
                   "Lucky Charms", 7,
                   "Animals", 8,
-                  "Spiritual", 9,
-                  "Exclusive", 10
+                  "Material", 9,
+                  "Spiritual", 10,
+                  "Exclusive", 11
                 ];
 var commonItems = [
   ["1.1.1.1", 1, "Apple", "Item Description", 0],
@@ -63,29 +64,29 @@ var commonItems = [
   ["1.1.1.50", 5, "Toilet", "Item Description", 0]
 ];
 var uncommonItems = [
-  ["1.1.2.1", "Earthworm (Alive)", "Item Description", 0],
-  ["1.1.2.1", "Earthworm (Alive)", "Item Description", 0],
-  ["1.1.2.2", "Earthworm (Dead)", "Item Description", 0],
-  ["1.1.2.3", "Wood", "Item Description", 0],
-  ["1.1.2.4", "Boucey Ball", "Item Description", 0],
-  ["1.1.2.5", "Meatballs", "Item Description", 0],
-  ["1.1.2.6", "Rubber Duck", "Item Description", 0],
-  ["1.1.2.7", "Mouse Pad", "Item Description", 0],
-  ["1.1.2.8", "Salt Shaker", "Item Description", 0],
-  ["1.1.2.9", "Pepper Shaker", "Item Description", 0]
+  ["1.1.2.1", 8, "Earthworm (Alive)", "Item Description", 0],
+  ["1.1.2.1", 8, "Earthworm (Alive)", "Item Description", 0],
+  ["1.1.2.2", 8, "Earthworm (Dead)", "Item Description", 0],
+  ["1.1.2.3", 9, "Wood", "Item Description", 0],
+  ["1.1.2.4", 4, "Boucey Ball", "Item Description", 0],
+  ["1.1.2.5", 2, "Meatballs", "Item Description", 0],
+  ["1.1.2.6", 4, "Rubber Duck", "Item Description", 0],
+  ["1.1.2.7", 4, "Mouse Pad", "Item Description", 0],
+  ["1.1.2.8", 5, "Salt Shaker", "Item Description", 0],
+  ["1.1.2.9", 5, "Pepper Shaker", "Item Description", 0]
 ];
 var rareItems = [
-  ["1.1.3.1", "$5 Bill", "Item Description", 0],
-  ["1.1.3.1", "Dial-up phone", "Item Description", 0],
+  ["1.1.3.1", 6, "$5 Bill", "Item Description", 0],
+  ["1.1.3.1", 4, "Dial-up phone", "Item Description", 0],
   ["1.1.3.2", "Parasol", "Item Description", 0],
-  ["1.1.3.3", "Wild Neanderthal", "Item Description", 0],
-  ["1.1.3.4", "Marble", "Item Description", 0],
-  ["1.1.3.5", "Plexiglass", "Item Description", 0],
-  ["1.1.3.6", "Tree", "Item Description", 0]
+  ["1.1.3.3", 8, "Wild Neanderthal", "Item Description", 0],
+  ["1.1.3.4", 4, "Marble", "Item Description", 0],
+  ["1.1.3.5", 9, "Plexiglass", "Item Description", 0],
+  ["1.1.3.6", 9, "Tree", "Item Description", 0]
 ];
 var epicItems = [
-  ["1.1.4.1", "$10 Bill", "Item Description", 0],
-  ["1.1.4.1", "Fart in a jar", "Item Description", 0],
+  ["1.1.4.1", 6, "$10 Bill", "Item Description", 0],
+  ["1.1.4.1", 3, "Fart in a jar", "Item Description", 0],
   ["1.1.4.2", "Sharktooth", "Item Description", 0],
   ["1.1.4.3", "Boba Tea Maker", "Item Description", 0],
   ["1.1.4.4", "Alphabet blocks", "Item Description", 0]
