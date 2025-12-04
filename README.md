@@ -2,7 +2,6 @@
 <p>Want to see my games? <a href="https://volive-io.github.io/vOlive-io/">Click Here</a></p>
 
 ##  About me
-
 ```javascrirpt
 info = [
 	fullName = "Olive Ascani",
@@ -25,10 +24,9 @@ info = [
 		],
 	];
 
-function getCity() {
-	alert("Denver, Colorado, USA, North America, Earth, Milky Way Galaxy, Local Group); 
-}
-
+	function getCity() {
+		alert("Denver, Colorado, USA, North America, Earth, Milky Way Galaxy, Local Group); 
+	}
 ```
 
 ## Languages I know
@@ -46,5 +44,6 @@ function getCity() {
    			<li><a href="https://en.wikipedia.org/wiki/CSS"><b>CSS:</b></a> Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML.</li>
 			<li><a href="https://en.wikipedia.org/wiki/JavaScript"><b>JAVASCRIPT:</b></a> JavaScript is a programming language and core technology of the web platform, alongside HTML and CSS. Ninety-nine percent of websites on the World Wide Web use JavaScript on the client side for webpage behavior </li>
 		</ul>
+		
 </p>
 
