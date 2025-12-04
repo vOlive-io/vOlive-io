@@ -32,6 +32,7 @@ function getCity() {
 ```
 
 ## Languages I know
+<img alt="vOlive's Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vOlive-io&theme=radical&layout=compact">
 <p align="left" style="display:flex;flexDirection:column">
 </p>
 <p align="left" style = "font-size: 50px">
@@ -39,7 +40,6 @@ function getCity() {
 		<img src="homeAssets/html.svg" alt="HTML" style="vertical-align:top; width:140px">
 		<img src="homeAssets/javascript.svg" alt="javascript" style="vertical-align:top; width:120px">
 		<img src="homeAssets/css.svg" alt="CSS" style="vertical-align:top; width:140px">
-		<img alt="vOlive's Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vOlive-io&theme=radical&layout=compact">
 		<ul>
 			<li><a href="https://www.python.org/doc/"><b>PYTHON:</b></a> Python is a programming language that lets you work quickly and integrate systems more effectively. </li>
 			<li><a href="https://en.wikipedia.org/wiki/HTML"><b>HTML:</b></a> Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser. </li>
