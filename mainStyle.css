@@ -36,6 +36,9 @@ body {
 #kmkGameCard {background-color: #fc036f;}
 #loatheGameCard {background-color: #c4a484;}
 #colectGameCard {background-color: #a987ff;}
+#kitchenGameCard {background-color: #ffe7a3;}
+#QQGameCard {background-color: #d4a6ff;}
+
 #randomGameCard {background: linear-gradient(90deg, #ffd1d9, #ff8080, #ffd383, #ffff83, #8eff8e, #9a9aff, #ff84ff, #ffd1d9, #ff8080);
                  animation: gradient 2s linear infinite;
                  background-size: 800% 100%;width: 62%;
