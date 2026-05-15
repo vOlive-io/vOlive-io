@@ -112,7 +112,10 @@
   display: none;
 }
 
-.gallery div {
+
+
+/*  SHOP  */
+.seedPack {
   width: 80%;
   padding-left: 5%;
   padding-right: 5%;
@@ -120,3 +123,9 @@
   background: #d9c7b6;
 }
 
+#gallery {
+  display: grid;
+  grid-template-columns: 80fr 80fr;
+  aline-items: center;
+  grid-gap: 1%;
+}
