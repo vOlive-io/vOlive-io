@@ -117,10 +117,11 @@
 /*  SHOP  */
 .seedPack {
   width: 80%;
+  height: 15em;
   padding-left: 5%;
   padding-right: 5%;
-  border: black groove 10px;
-  background: #d9c7b6;
+  border: rgb(104, 42, 0) groove 10px;
+  background: #5fcb47;
 }
 
 #gallery {
