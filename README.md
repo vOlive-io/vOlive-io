@@ -12,15 +12,14 @@ info = [
 		"Running XCountry ",
 		"Surviving School",
 		"Playing with my Dog"
-		],
-	];
+	],
 
 	favFoods = [
 		"Calimari",
 		"Garlic Naan or Garlic Bread",
 		"Cake :P",
-		],
-	];
+	],
+];
 
 	function getCity() {
 		alert("Denver, Colorado, USA, North America, Earth, Milky Way Galaxy, Local Group); 
