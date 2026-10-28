@@ -17,8 +17,6 @@ info = [
 
 	favFoods = [
 		"Calimari",
-		"Mac & Cheese",
-		"Pesto Pasta",
 		"Garlic Naan or Garlic Bread",
 		"Cake :P",
 		],
